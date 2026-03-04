@@ -142,6 +142,7 @@ export default function Home() {
     description: "",
   });
   const [detailsOpen, setDetailsOpen] = useState(false);
+  const [linkLoading, setLinkLoading] = useState(false);
 
   const showPopupForTree = (tree: Tree) => {
     if (!map.current) return;
@@ -340,8 +341,8 @@ export default function Home() {
     }
   };
 
-  const placePreviewFromManual = () => {
-    if (!hasValidCoords) return;
+  const placePreviewAt = (lat: number, lng: number) => {
+    if (!map.current) return;
 
     if (previewMarkerRef.current) {
       previewMarkerRef.current.remove();
@@ -353,12 +354,54 @@ export default function Home() {
       "width:28px;height:28px;font-size:24px;cursor:pointer;line-height:1;text-align:center;animation:dropIn 0.3s ease-out;";
     el.textContent = "\u{1F333}";
     const marker = new mapboxgl.Marker(el)
-      .setLngLat([parsedLng!, parsedLat!])
-      .addTo(map.current!);
+      .setLngLat([lng, lat])
+      .addTo(map.current);
     previewMarkerRef.current = marker;
 
-    map.current?.flyTo({ center: [parsedLng!, parsedLat!], zoom: Math.max(map.current.getZoom(), 10) });
-    setClickLngLat([parsedLng!, parsedLat!]);
+    map.current.flyTo({ center: [lng, lat], zoom: Math.max(map.current.getZoom(), 10) });
+    setClickLngLat([lng, lat]);
+  };
+
+  const placePreviewFromManual = () => {
+    if (!hasValidCoords) return;
+    placePreviewAt(parsedLat!, parsedLng!);
+  };
+
+  const handleMapsLink = async (value: string) => {
+    const trimmed = value.trim();
+    if (!trimmed) return;
+
+    // Try parsing coords directly from the URL first
+    const direct = parseMapsUrl(trimmed);
+    if (direct) {
+      setManualLat(direct.lat.toString());
+      setManualLng(direct.lng.toString());
+      placePreviewAt(direct.lat, direct.lng);
+      return;
+    }
+
+    // If it looks like a short link, resolve it server-side
+    if (trimmed.includes("goo.gl/") || trimmed.includes("maps.app")) {
+      setLinkLoading(true);
+      try {
+        const res = await fetch("/api/resolve-url", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ url: trimmed }),
+        });
+        if (res.ok) {
+          const { resolved } = await res.json();
+          const result = parseMapsUrl(resolved);
+          if (result) {
+            setManualLat(result.lat.toString());
+            setManualLng(result.lng.toString());
+            placePreviewAt(result.lat, result.lng);
+          }
+        }
+      } finally {
+        setLinkLoading(false);
+      }
+    }
   };
 
   return (
@@ -448,16 +491,24 @@ export default function Home() {
 
           <input
             type="text"
-            placeholder="Paste Google Maps link"
+            placeholder={linkLoading ? "Resolving link..." : "Paste Google Maps link"}
+            disabled={linkLoading}
+            onPaste={(e) => {
+              const pasted = e.clipboardData.getData("text");
+              if (pasted) {
+                e.preventDefault();
+                (e.target as HTMLInputElement).value = "";
+                handleMapsLink(pasted);
+              }
+            }}
             onChange={(e) => {
-              const result = parseMapsUrl(e.target.value);
-              if (result) {
-                setManualLat(result.lat.toString());
-                setManualLng(result.lng.toString());
+              const val = e.target.value;
+              if (val) {
+                handleMapsLink(val);
                 e.target.value = "";
               }
             }}
-            style={{ ...inputStyle, marginBottom: 8 }}
+            style={{ ...inputStyle, marginBottom: 8, opacity: linkLoading ? 0.6 : 1 }}
           />
 
           <div style={{ display: "flex", gap: 8, marginBottom: 8 }}>
