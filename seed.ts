@@ -10368,6 +10368,2940 @@ const trees = [
     description:
       "Trunk diameter: 112cm. Height: 47m. Family: Oleaceae. Recorded in the Tallo global tree database. Location: 48.2674, 23.6226 (Europe).",
   },
+
+  // === PORTLAND PARKS TREES (Portland Parks & Recreation inventory) ===
+  {
+    name: "Giant Sequoia in Mt Tabor Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5111,
+    lng: -122.5987,
+    height: 42.1,
+    circumference: 7.9,
+    description:
+      "Trunk diameter: 99 inches (251cm) Height: 42.1m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Lair Hill Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5013,
+    lng: -122.6807,
+    height: 50.3,
+    circumference: 7.3,
+    description:
+      "Trunk diameter: 92 inches (234cm) Height: 50.3m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Pendleton Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4802,
+    lng: -122.7326,
+    height: 27.1,
+    circumference: 7.3,
+    description:
+      "Trunk diameter: 91 inches (231cm) Height: 27.1m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Council Crest Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4982,
+    lng: -122.7076,
+    height: 40.5,
+    circumference: 7.2,
+    description:
+      "Trunk diameter: 90 inches (228cm) Height: 40.5m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Laurelhurst Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5208,
+    lng: -122.6297,
+    height: 46.0,
+    circumference: 7.0,
+    description:
+      "Trunk diameter: 88 inches (224cm) Height: 46.0m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Washington Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5222,
+    lng: -122.7036,
+    height: 48.8,
+    circumference: 7.0,
+    description:
+      "Trunk diameter: 88 inches (222cm) Height: 48.8m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Holladay Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5305,
+    lng: -122.6534,
+    height: 32.0,
+    circumference: 6.9,
+    description:
+      "Trunk diameter: 87 inches (221cm) Height: 32.0m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Pier Park",
+    species: "Acer macrophyllum",
+    lat: 45.6027,
+    lng: -122.7596,
+    height: 21.0,
+    circumference: 6.7,
+    description:
+      "Trunk diameter: 84 inches (215cm) Height: 21.0m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Columbia Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5794,
+    lng: -122.7081,
+    height: 41.1,
+    circumference: 6.7,
+    description:
+      "Trunk diameter: 84 inches (213cm) Height: 41.1m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Pier Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.6049,
+    lng: -122.7574,
+    height: 39.0,
+    circumference: 6.6,
+    description:
+      "Trunk diameter: 83 inches (211cm) Height: 39.0m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Westmoreland Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4707,
+    lng: -122.6411,
+    height: 35.4,
+    circumference: 6.5,
+    description:
+      "Trunk diameter: 82 inches (207cm) Height: 35.4m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Thompson Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5404,
+    lng: -122.5173,
+    height: 20.7,
+    circumference: 6.4,
+    description:
+      "Trunk diameter: 80 inches (204cm) Height: 20.7m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Montavilla Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5269,
+    lng: -122.5774,
+    height: 33.2,
+    circumference: 6.4,
+    description:
+      "Trunk diameter: 80 inches (203cm) Height: 33.2m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Cottonwood in Kelley Point Park",
+    species: "Populus trichocarpa",
+    lat: 45.6487,
+    lng: -122.764,
+    height: 35.1,
+    circumference: 6.4,
+    description:
+      "Trunk diameter: 80 inches (203cm) Height: 35.1m Condition: Poor Native species Simple leaves are 3\" to 6\" long, green above and white below, sometimes with rusty markings. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Hillsdale Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4811,
+    lng: -122.7043,
+    height: 35.7,
+    circumference: 6.3,
+    description:
+      "Trunk diameter: 80 inches (202cm) Height: 35.7m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Cottonwood in Willamette Park",
+    species: "Populus trichocarpa",
+    lat: 45.4729,
+    lng: -122.6701,
+    height: 44.8,
+    circumference: 6.3,
+    description:
+      "Trunk diameter: 79 inches (200cm) Height: 44.8m Condition: Fair Native species Simple leaves are 3\" to 6\" long, green above and white below, sometimes with rusty markings. Portland Parks, Oregon.",
+  },
+  {
+    name: "London Plane Tree in Laurelhurst Park",
+    species: "Platanus x acerifolia",
+    lat: 45.5212,
+    lng: -122.6275,
+    height: 30.5,
+    circumference: 6.1,
+    description:
+      "Trunk diameter: 77 inches (196cm) Height: 30.5m Condition: Fair Older trees develop bumps on their trunk that look make the bark look like dripping candle wax. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Gabriel Park",
+    species: "Thuja plicata",
+    lat: 45.4706,
+    lng: -122.7222,
+    height: 25.9,
+    circumference: 6.1,
+    description:
+      "Trunk diameter: 76 inches (194cm) Height: 25.9m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Colonel Summers Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5157,
+    lng: -122.6484,
+    height: 31.1,
+    circumference: 6.0,
+    description:
+      "Trunk diameter: 76 inches (192cm) Height: 31.1m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Harrison Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5079,
+    lng: -122.5757,
+    height: 23.8,
+    circumference: 6.0,
+    description:
+      "Trunk diameter: 75 inches (192cm) Height: 23.8m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Grant Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5399,
+    lng: -122.6305,
+    height: 36.0,
+    circumference: 6.0,
+    description:
+      "Trunk diameter: 75 inches (191cm) Height: 36.0m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Trenton Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5873,
+    lng: -122.7022,
+    height: 34.7,
+    circumference: 5.9,
+    description:
+      "Trunk diameter: 74 inches (187cm) Height: 34.7m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in East Delta Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5988,
+    lng: -122.6813,
+    height: 23.8,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 73 inches (186cm) Height: 23.8m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Coast Redwood in Laurelhurst Park",
+    species: "Sequoia sempervirens",
+    lat: 45.5211,
+    lng: -122.6247,
+    height: 36.6,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 73 inches (186cm) Height: 36.6m Condition: Fair Tallest tree in the world and can be over 2,000 years old and 330' tall. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Holladay Park",
+    species: "Acer macrophyllum",
+    lat: 45.5305,
+    lng: -122.6544,
+    height: 19.2,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 73 inches (185cm) Height: 19.2m Condition: Poor Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Plaza Blocks",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5162,
+    lng: -122.6776,
+    height: 41.5,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 72 inches (184cm) Height: 41.5m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Gabriel Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4743,
+    lng: -122.7159,
+    height: 26.2,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 72 inches (183cm) Height: 26.2m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Custer Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4698,
+    lng: -122.701,
+    height: 32.9,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 72 inches (183cm) Height: 32.9m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Oregon White Oak in Portland Heights Park",
+    species: "Quercus garryana",
+    lat: 45.5045,
+    lng: -122.7081,
+    height: 30.8,
+    circumference: 5.6,
+    description:
+      "Trunk diameter: 70 inches (178cm) Height: 30.8m Condition: Good Native species Look for galls on the underside of leaves, which are the home of little wasps. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Mt Tabor Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5133,
+    lng: -122.5961,
+    height: 49.1,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 70 inches (177cm) Height: 49.1m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Argay Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5513,
+    lng: -122.518,
+    height: 23.2,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 69 inches (176cm) Height: 23.2m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Hamilton Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4916,
+    lng: -122.7217,
+    height: 27.7,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 69 inches (176cm) Height: 27.7m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Irving Park",
+    species: "Quercus rubra",
+    lat: 45.5468,
+    lng: -122.6564,
+    height: 40.8,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 69 inches (176cm) Height: 40.8m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Powell Park",
+    species: "Quercus rubra",
+    lat: 45.4976,
+    lng: -122.6426,
+    height: 32.6,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 68 inches (173cm) Height: 32.6m Condition: Good Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Patton Square Park",
+    species: "Quercus rubra",
+    lat: 45.5615,
+    lng: -122.6812,
+    height: 39.6,
+    circumference: 5.4,
+    description:
+      "Trunk diameter: 68 inches (172cm) Height: 39.6m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Coast Redwood in Fernhill Park",
+    species: "Sequoia sempervirens",
+    lat: 45.568,
+    lng: -122.6227,
+    height: 27.4,
+    circumference: 5.4,
+    description:
+      "Trunk diameter: 68 inches (172cm) Height: 27.4m Condition: Fair Tallest tree in the world and can be over 2,000 years old and 330' tall. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in April Hill Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4711,
+    lng: -122.7357,
+    height: 21.9,
+    circumference: 5.4,
+    description:
+      "Trunk diameter: 68 inches (172cm) Height: 21.9m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Mt Tabor Park",
+    species: "Acer macrophyllum",
+    lat: 45.515,
+    lng: -122.5899,
+    height: 20.4,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 67 inches (169cm) Height: 20.4m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in University Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5867,
+    lng: -122.7085,
+    height: 23.2,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 66 inches (168cm) Height: 23.2m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Chimney Park",
+    species: "Acer macrophyllum",
+    lat: 45.6062,
+    lng: -122.7572,
+    height: 19.8,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 66 inches (167cm) Height: 19.8m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "London Plane Tree in Grant Park",
+    species: "Platanus x acerifolia",
+    lat: 45.5394,
+    lng: -122.6291,
+    height: 27.7,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 66 inches (167cm) Height: 27.7m Condition: Fair Older trees develop bumps on their trunk that look make the bark look like dripping candle wax. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Woodlawn Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5735,
+    lng: -122.6518,
+    height: 31.1,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 65 inches (166cm) Height: 31.1m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Duniway Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5032,
+    lng: -122.6848,
+    height: 44.2,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 65 inches (165cm) Height: 44.2m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Farragut Park",
+    species: "Acer macrophyllum",
+    lat: 45.5806,
+    lng: -122.6708,
+    height: 29.9,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 65 inches (165cm) Height: 29.9m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Johnswood Property",
+    species: "Pseudotsuga menziesii",
+    lat: 45.6007,
+    lng: -122.7445,
+    height: 50.6,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 65 inches (165cm) Height: 50.6m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Woodstock Park",
+    species: "Quercus rubra",
+    lat: 45.4828,
+    lng: -122.6142,
+    height: 34.7,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 65 inches (164cm) Height: 34.7m Condition: Good Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Silver Linden in Mt Tabor Park",
+    species: "Tilia tomentosa",
+    lat: 45.51,
+    lng: -122.5984,
+    height: 25.0,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 64 inches (162cm) Height: 25.0m Condition: Fair Leaves 4\" to 5\" long with a drip tip are dark green above and bright silver and fuzzy below. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Couch Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5269,
+    lng: -122.6909,
+    height: 41.5,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 64 inches (162cm) Height: 41.5m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Irving Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5475,
+    lng: -122.6569,
+    height: 29.3,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 64 inches (162cm) Height: 29.3m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Brentwood Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4747,
+    lng: -122.6017,
+    height: 19.8,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 64 inches (161cm) Height: 19.8m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Coast Redwood in Hillside Park",
+    species: "Sequoia sempervirens",
+    lat: 45.5278,
+    lng: -122.7093,
+    height: 38.4,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 63 inches (161cm) Height: 38.4m Condition: Fair Tallest tree in the world and can be over 2,000 years old and 330' tall. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Oregon Park",
+    species: "Quercus rubra",
+    lat: 45.5285,
+    lng: -122.6352,
+    height: 36.6,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 63 inches (160cm) Height: 36.6m Condition: Good Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Fernhill Park",
+    species: "Acer macrophyllum",
+    lat: 45.5661,
+    lng: -122.6223,
+    height: 22.9,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 63 inches (160cm) Height: 22.9m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Locust in North Park Blocks",
+    species: "Robinia pseudoacacia",
+    lat: 45.5253,
+    lng: -122.679,
+    height: 35.7,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 63 inches (159cm) Height: 35.7m Condition: Good Portland Parks, Oregon.",
+  },
+  {
+    name: "American Sycamore in Kenilworth Park",
+    species: "Platanus occidentalis",
+    lat: 45.4921,
+    lng: -122.6308,
+    height: 32.9,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 62 inches (158cm) Height: 32.9m Condition: Good Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Washington Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5189,
+    lng: -122.7054,
+    height: 38.7,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 62 inches (158cm) Height: 38.7m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Columbia Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5784,
+    lng: -122.7125,
+    height: 50.0,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 62 inches (158cm) Height: 50.0m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Northgate Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.591,
+    lng: -122.7244,
+    height: 33.2,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 61 inches (155cm) Height: 33.2m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Oregon White Oak in Willamette Park",
+    species: "Quercus garryana",
+    lat: 45.4745,
+    lng: -122.671,
+    height: 25.9,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 61 inches (155cm) Height: 25.9m Condition: Fair Native species Look for galls on the underside of leaves, which are the home of little wasps. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Peninsula Park",
+    species: "Quercus rubra",
+    lat: 45.5679,
+    lng: -122.6739,
+    height: 27.4,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (154cm) Height: 27.4m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Cucumber Magnolia in Couch Park",
+    species: "Magnolia acuminata",
+    lat: 45.5265,
+    lng: -122.6905,
+    height: 28.3,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (153cm) Height: 28.3m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Peninsula Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5682,
+    lng: -122.6743,
+    height: 40.2,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (152cm) Height: 40.2m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Kenilworth Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4913,
+    lng: -122.6315,
+    height: 38.4,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (152cm) Height: 38.4m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "London Plane Tree in McCoy Park",
+    species: "Platanus x acerifolia",
+    lat: 45.5911,
+    lng: -122.7167,
+    height: 27.7,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (152cm) Height: 27.7m Condition: Fair Older trees develop bumps on their trunk that look make the bark look like dripping candle wax. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Glenfair Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5232,
+    lng: -122.5048,
+    height: 38.1,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (152cm) Height: 38.1m Condition: Good Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Rose City Park",
+    species: "Quercus rubra",
+    lat: 45.5393,
+    lng: -122.5992,
+    height: 29.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 59 inches (151cm) Height: 29.0m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Westmoreland Park",
+    species: "Quercus rubra",
+    lat: 45.4677,
+    lng: -122.6391,
+    height: 39.9,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 59 inches (151cm) Height: 39.9m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Council Crest Park",
+    species: "Acer macrophyllum",
+    lat: 45.499,
+    lng: -122.7091,
+    height: 28.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 59 inches (151cm) Height: 28.0m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Oregon White Oak in Heritage Tree Park",
+    species: "Quercus garryana",
+    lat: 45.4957,
+    lng: -122.6763,
+    height: 28.7,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 59 inches (150cm) Height: 28.7m Condition: Fair Native species Look for galls on the underside of leaves, which are the home of little wasps. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Creston Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4964,
+    lng: -122.617,
+    height: 43.3,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 59 inches (149cm) Height: 43.3m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Sweetgum in Sellwood Park",
+    species: "Liquidambar styraciflua",
+    lat: 45.4688,
+    lng: -122.6593,
+    height: 32.3,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 59 inches (149cm) Height: 32.3m Condition: Fair Fruits are sticky, spiky, spherical balls about 1\" in diameter nicknamed “gumballs.” Portland Parks, Oregon.",
+  },
+  {
+    name: "American Elm in Couch Park",
+    species: "Ulmus americana",
+    lat: 45.5269,
+    lng: -122.6912,
+    height: 35.4,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 59 inches (149cm) Height: 35.4m Condition: Fair Doubly serrate margins on leaves 3\" to 6\" long. Yellow fall color. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Woodstock Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4832,
+    lng: -122.6121,
+    height: 39.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 59 inches (149cm) Height: 39.0m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Montavilla Park",
+    species: "Quercus rubra",
+    lat: 45.5275,
+    lng: -122.5785,
+    height: 31.7,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 58 inches (149cm) Height: 31.7m Condition: Good Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Washington Park",
+    species: "Thuja plicata",
+    lat: 45.5234,
+    lng: -122.7039,
+    height: 41.1,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 58 inches (148cm) Height: 41.1m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Pier Park",
+    species: "Thuja plicata",
+    lat: 45.6004,
+    lng: -122.7499,
+    height: 29.6,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 58 inches (148cm) Height: 29.6m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Joseph Wood Hill Park",
+    species: "Thuja plicata",
+    lat: 45.5458,
+    lng: -122.5664,
+    height: 26.2,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 58 inches (148cm) Height: 26.2m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Sellwood Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.467,
+    lng: -122.6595,
+    height: 42.7,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 58 inches (148cm) Height: 42.7m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in University Park",
+    species: "Thuja plicata",
+    lat: 45.5865,
+    lng: -122.7088,
+    height: 25.6,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 58 inches (148cm) Height: 25.6m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Eastern Cotonwood in Columbia Childrens Arboretum",
+    species: "Populus deltoides",
+    lat: 45.5939,
+    lng: -122.6606,
+    height: 31.1,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 58 inches (148cm) Height: 31.1m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Laurelhurst Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5209,
+    lng: -122.6293,
+    height: 46.6,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 58 inches (147cm) Height: 46.6m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Silver Linden in Laurelhurst Park",
+    species: "Tilia tomentosa",
+    lat: 45.5225,
+    lng: -122.6248,
+    height: 37.2,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 58 inches (146cm) Height: 37.2m Condition: Fair Leaves 4\" to 5\" long with a drip tip are dark green above and bright silver and fuzzy below. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in McKenna Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5815,
+    lng: -122.7334,
+    height: 30.5,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 57 inches (146cm) Height: 30.5m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Locust in Pier Park",
+    species: "Robinia pseudoacacia",
+    lat: 45.6023,
+    lng: -122.7635,
+    height: 30.2,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 57 inches (146cm) Height: 30.2m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Burlingame Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4667,
+    lng: -122.6916,
+    height: 18.6,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 57 inches (145cm) Height: 18.6m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Blue Atlas Cedar in Multnomah Arts Center",
+    species: "Cedrus atlantica 'Glauca'",
+    lat: 45.4685,
+    lng: -122.7092,
+    height: 27.7,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 57 inches (145cm) Height: 27.7m Condition: Fair Blue-green needles; light brown, rounded cones 3 ½” long sit atop branches and disintegrate while still attached. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Argay Park",
+    species: "Thuja plicata",
+    lat: 45.5512,
+    lng: -122.5179,
+    height: 18.9,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 57 inches (144cm) Height: 18.9m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Laurelhurst Park",
+    species: "Quercus rubra",
+    lat: 45.5222,
+    lng: -122.6239,
+    height: 38.4,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 57 inches (144cm) Height: 38.4m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Walnut in Trenton Park",
+    species: "Juglans nigra",
+    lat: 45.5884,
+    lng: -122.7019,
+    height: 22.6,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 56 inches (144cm) Height: 22.6m Condition: Fair Prized for its deep chocolate-brown wood. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Mt Tabor Park",
+    species: "Quercus rubra",
+    lat: 45.5079,
+    lng: -122.5905,
+    height: 27.4,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 56 inches (143cm) Height: 27.4m Condition: Good Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Coast Redwood in Columbia Childrens Arboretum",
+    species: "Sequoia sempervirens",
+    lat: 45.594,
+    lng: -122.6602,
+    height: 25.6,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 56 inches (143cm) Height: 25.6m Condition: Fair Tallest tree in the world and can be over 2,000 years old and 330' tall. Portland Parks, Oregon.",
+  },
+  {
+    name: "Paulownia, Empress Tree, Foxglove Tree in University Park",
+    species: "Paulownia tomentosa",
+    lat: 45.5879,
+    lng: -122.7117,
+    height: 17.1,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 56 inches (143cm) Height: 17.1m Condition: Fair Pale purple, trumpet-shaped flowers in spring. Large, hairy ovate leaves up to 16\" long by 12\" wide. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Cherry Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5096,
+    lng: -122.5501,
+    height: 34.4,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 56 inches (143cm) Height: 34.4m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Incense Cedar in Westmoreland Park",
+    species: "Calocedrus decurrens",
+    lat: 45.469,
+    lng: -122.6417,
+    height: 32.0,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 56 inches (142cm) Height: 32.0m Condition: Fair Native species Reddish-brown bark is fibrous on older trees. Needles are in flat sprays. Cones are oblong. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Poplar, Lombardy Poplar in East Delta Park",
+    species: "Populus nigra",
+    lat: 45.5976,
+    lng: -122.6764,
+    height: 35.1,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 56 inches (142cm) Height: 35.1m Condition: Poor Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Lents Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4877,
+    lng: -122.569,
+    height: 19.8,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 56 inches (141cm) Height: 19.8m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Spanish Chestnut in Fernhill Park",
+    species: "Castanea sativa",
+    lat: 45.567,
+    lng: -122.6246,
+    height: 23.2,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 56 inches (141cm) Height: 23.2m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "Silver Linden in Columbia Park",
+    species: "Tilia tomentosa",
+    lat: 45.5791,
+    lng: -122.7091,
+    height: 37.5,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 56 inches (141cm) Height: 37.5m Condition: Fair Leaves 4\" to 5\" long with a drip tip are dark green above and bright silver and fuzzy below. Portland Parks, Oregon.",
+  },
+  {
+    name: "Deodar Cedar in Washington Park",
+    species: "Cedrus deodara",
+    lat: 45.5217,
+    lng: -122.7047,
+    height: 31.7,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 55 inches (141cm) Height: 31.7m Condition: Fair Evergreen tree averaging between 40–70' in height; straight trunk and swooping horizontal branches. Portland Parks, Oregon.",
+  },
+  {
+    name: "Oregon White Oak in N Crawford St and N Polk Ave Property",
+    species: "Quercus garryana",
+    lat: 45.5822,
+    lng: -122.7489,
+    height: 33.8,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 55 inches (140cm) Height: 33.8m Condition: Fair Native species Look for galls on the underside of leaves, which are the home of little wasps. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Khunamokwst Park",
+    species: "Acer macrophyllum",
+    lat: 45.559,
+    lng: -122.6086,
+    height: 19.8,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 55 inches (140cm) Height: 19.8m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Silver Maple in Grant Park",
+    species: "Acer saccharinum",
+    lat: 45.5406,
+    lng: -122.6267,
+    height: 26.8,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 55 inches (139cm) Height: 26.8m Condition: Fair The back side of the leaves is a silver gray. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Brooklyn Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4988,
+    lng: -122.6556,
+    height: 31.1,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 55 inches (139cm) Height: 31.1m Condition: Poor Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Holladay Park",
+    species: "Quercus rubra",
+    lat: 45.5309,
+    lng: -122.6544,
+    height: 34.4,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 55 inches (139cm) Height: 34.4m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "European Beech in Couch Park",
+    species: "Fagus sylvatica",
+    lat: 45.5265,
+    lng: -122.6913,
+    height: 30.2,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (138cm) Height: 30.2m Condition: Fair Older trees have prominent folding in the bark, which some people say resembles elephant legs. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Kenton Park",
+    species: "Quercus rubra",
+    lat: 45.5836,
+    lng: -122.6892,
+    height: 32.3,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (138cm) Height: 32.3m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in John Luby Park",
+    species: "Acer macrophyllum",
+    lat: 45.5407,
+    lng: -122.5322,
+    height: 22.9,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (138cm) Height: 22.9m Condition: Poor Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Kenton Park",
+    species: "Acer macrophyllum",
+    lat: 45.5844,
+    lng: -122.6918,
+    height: 25.6,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (137cm) Height: 25.6m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "American Elm in North Park Blocks",
+    species: "Ulmus americana",
+    lat: 45.5265,
+    lng: -122.6791,
+    height: 30.2,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (137cm) Height: 30.2m Condition: Good Doubly serrate margins on leaves 3\" to 6\" long. Yellow fall color. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in North Park Blocks",
+    species: "Acer macrophyllum",
+    lat: 45.5258,
+    lng: -122.679,
+    height: 24.1,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (137cm) Height: 24.1m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Creston Park",
+    species: "Quercus rubra",
+    lat: 45.497,
+    lng: -122.6156,
+    height: 43.9,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (137cm) Height: 43.9m Condition: Poor Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Sellwood Park",
+    species: "Acer macrophyllum",
+    lat: 45.4667,
+    lng: -122.6601,
+    height: 27.1,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (136cm) Height: 27.1m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Normandale Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.531,
+    lng: -122.6068,
+    height: 36.0,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (136cm) Height: 36.0m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Silver Maple in East Delta Park",
+    species: "Acer saccharinum",
+    lat: 45.6025,
+    lng: -122.6807,
+    height: 25.9,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (136cm) Height: 25.9m Condition: Fair The back side of the leaves is a silver gray. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Midland Park",
+    species: "Acer macrophyllum",
+    lat: 45.5168,
+    lng: -122.5394,
+    height: 23.8,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (136cm) Height: 23.8m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "American Elm in Peninsula Park",
+    species: "Ulmus americana",
+    lat: 45.5677,
+    lng: -122.673,
+    height: 30.5,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (136cm) Height: 30.5m Condition: Fair Doubly serrate margins on leaves 3\" to 6\" long. Yellow fall color. Portland Parks, Oregon.",
+  },
+  {
+    name: "Unknown (Dead) in Laurelhurst Park",
+    species: "Unknown (dead)",
+    lat: 45.5212,
+    lng: -122.6302,
+    height: 13.1,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 54 inches (136cm) Height: 13.1m Condition: Dead NA Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Lents Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4877,
+    lng: -122.572,
+    height: 33.8,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 53 inches (136cm) Height: 33.8m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "American Elm in Plaza Blocks",
+    species: "Ulmus americana",
+    lat: 45.5151,
+    lng: -122.6775,
+    height: 35.1,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 53 inches (135cm) Height: 35.1m Condition: Fair Doubly serrate margins on leaves 3\" to 6\" long. Yellow fall color. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Walnut in Overlook Park",
+    species: "Juglans nigra",
+    lat: 45.548,
+    lng: -122.6825,
+    height: 26.5,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 53 inches (135cm) Height: 26.5m Condition: Fair Prized for its deep chocolate-brown wood. Portland Parks, Oregon.",
+  },
+  {
+    name: "Unknown (Dead) in East Delta Park",
+    species: "Unknown (dead)",
+    lat: 45.5977,
+    lng: -122.6833,
+    height: 10.1,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 53 inches (135cm) Height: 10.1m Condition: Dead NA Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Berkeley Park",
+    species: "Acer macrophyllum",
+    lat: 45.4728,
+    lng: -122.6246,
+    height: 28.3,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 53 inches (135cm) Height: 28.3m Condition: Poor Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Alberta Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5629,
+    lng: -122.6442,
+    height: 39.0,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 53 inches (135cm) Height: 39.0m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Weeping Willow in East Delta Park",
+    species: "Salix babylonica",
+    lat: 45.5967,
+    lng: -122.6793,
+    height: 18.9,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 53 inches (135cm) Height: 18.9m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Farragut Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5799,
+    lng: -122.6699,
+    height: 36.6,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 53 inches (134cm) Height: 36.6m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Ponderosa Pine in McKenna Park",
+    species: "Pinus ponderosa",
+    lat: 45.5817,
+    lng: -122.7321,
+    height: 21.0,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 53 inches (134cm) Height: 21.0m Condition: Fair Native species Needles are 5-10\" long and grow in bundles of three. Portland Parks, Oregon.",
+  },
+  {
+    name: "Paulownia, Empress Tree, Foxglove Tree in Creston Park",
+    species: "Paulownia tomentosa",
+    lat: 45.4954,
+    lng: -122.6161,
+    height: 31.7,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 52 inches (133cm) Height: 31.7m Condition: Fair Pale purple, trumpet-shaped flowers in spring. Large, hairy ovate leaves up to 16\" long by 12\" wide. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Berkeley Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4732,
+    lng: -122.6248,
+    height: 37.2,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 52 inches (133cm) Height: 37.2m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Hancock Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5365,
+    lng: -122.573,
+    height: 37.8,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 52 inches (133cm) Height: 37.8m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Grant Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5405,
+    lng: -122.6304,
+    height: 41.1,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 52 inches (133cm) Height: 41.1m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Walnut in Buckman Field",
+    species: "Juglans nigra",
+    lat: 45.5247,
+    lng: -122.6504,
+    height: 17.4,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 52 inches (132cm) Height: 17.4m Condition: Fair Prized for its deep chocolate-brown wood. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in George Park",
+    species: "Quercus rubra",
+    lat: 45.5931,
+    lng: -122.7396,
+    height: 33.8,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 52 inches (132cm) Height: 33.8m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Blue Atlas Cedar in Chimney Park",
+    species: "Cedrus atlantica 'Glauca'",
+    lat: 45.6071,
+    lng: -122.7592,
+    height: 35.1,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 52 inches (132cm) Height: 35.1m Condition: Fair Blue-green needles; light brown, rounded cones 3 ½” long sit atop branches and disintegrate while still attached. Portland Parks, Oregon.",
+  },
+  {
+    name: "Silver Linden in Peninsula Park",
+    species: "Tilia tomentosa",
+    lat: 45.5697,
+    lng: -122.6728,
+    height: 25.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 52 inches (132cm) Height: 25.0m Condition: Good Leaves 4\" to 5\" long with a drip tip are dark green above and bright silver and fuzzy below. Portland Parks, Oregon.",
+  },
+  {
+    name: "Oregon Myrtle in Chimney Park",
+    species: "Umbellularia californica",
+    lat: 45.6068,
+    lng: -122.7589,
+    height: 19.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 52 inches (132cm) Height: 19.5m Condition: Fair Native species Extremely pungent leaves that smell like bay leaves. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Cathedral Park",
+    species: "Acer macrophyllum",
+    lat: 45.588,
+    lng: -122.7583,
+    height: 24.4,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 52 inches (131cm) Height: 24.4m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Alberta Park",
+    species: "Quercus rubra",
+    lat: 45.563,
+    lng: -122.644,
+    height: 35.7,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 52 inches (131cm) Height: 35.7m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Butternut in University Park",
+    species: "Juglans cinerea",
+    lat: 45.5875,
+    lng: -122.7107,
+    height: 19.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 52 inches (131cm) Height: 19.5m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "Blue Atlas Cedar in Sewallcrest Park",
+    species: "Cedrus atlantica 'Glauca'",
+    lat: 45.5092,
+    lng: -122.6328,
+    height: 25.3,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 52 inches (131cm) Height: 25.3m Condition: Fair Blue-green needles; light brown, rounded cones 3 ½” long sit atop branches and disintegrate while still attached. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Catalpa in Grant Park",
+    species: "Catalpa speciosa",
+    lat: 45.5394,
+    lng: -122.6305,
+    height: 22.3,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 51 inches (130cm) Height: 22.3m Condition: Fair 12” long, whorled or opposite. Trumpet-shaped white flowers have yellow and brown throat. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Council Crest Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4991,
+    lng: -122.709,
+    height: 41.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 51 inches (130cm) Height: 41.5m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "American Sycamore in Irving Park",
+    species: "Platanus occidentalis",
+    lat: 45.5464,
+    lng: -122.6567,
+    height: 34.4,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 51 inches (130cm) Height: 34.4m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "Deodar Cedar in Gabriel Park",
+    species: "Cedrus deodara",
+    lat: 45.4749,
+    lng: -122.7202,
+    height: 21.9,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 51 inches (130cm) Height: 21.9m Condition: Fair Evergreen tree averaging between 40–70' in height; straight trunk and swooping horizontal branches. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Washington Park",
+    species: "Acer macrophyllum",
+    lat: 45.5144,
+    lng: -122.7051,
+    height: 28.7,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 51 inches (130cm) Height: 28.7m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in George Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5931,
+    lng: -122.7393,
+    height: 36.9,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 51 inches (129cm) Height: 36.9m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Cottonwood in Cathedral Park",
+    species: "Populus trichocarpa",
+    lat: 45.5876,
+    lng: -122.7618,
+    height: 36.6,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 51 inches (129cm) Height: 36.6m Condition: Fair Native species Simple leaves are 3\" to 6\" long, green above and white below, sometimes with rusty markings. Portland Parks, Oregon.",
+  },
+  {
+    name: "Common Horsechestnut in Overlook Park",
+    species: "Aesculus hippocastanum",
+    lat: 45.5477,
+    lng: -122.683,
+    height: 22.3,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 51 inches (129cm) Height: 22.3m Condition: Fair Inedible nuts are popular for playing \"conkers\" game in the UK. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Wilshire Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5533,
+    lng: -122.6276,
+    height: 42.7,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 51 inches (129cm) Height: 42.7m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Albert Kelly Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4852,
+    lng: -122.715,
+    height: 36.6,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 51 inches (129cm) Height: 36.6m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Spanish Chestnut in Frazer Park",
+    species: "Castanea sativa",
+    lat: 45.5303,
+    lng: -122.6119,
+    height: 21.0,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (128cm) Height: 21.0m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Brooklyn School Park",
+    species: "Sequoiadendron giganteum",
+    lat: 45.4953,
+    lng: -122.6501,
+    height: 24.1,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (128cm) Height: 24.1m Condition: Good World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Kenilworth Park",
+    species: "Quercus rubra",
+    lat: 45.4921,
+    lng: -122.6319,
+    height: 21.3,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (128cm) Height: 21.3m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Gilbert Primary Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4788,
+    lng: -122.527,
+    height: 46.0,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (128cm) Height: 46.0m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Northgate Park",
+    species: "Acer macrophyllum",
+    lat: 45.5911,
+    lng: -122.7246,
+    height: 29.3,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (127cm) Height: 29.3m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "European Beech in Lair Hill Park",
+    species: "Fagus sylvatica",
+    lat: 45.5022,
+    lng: -122.68,
+    height: 29.3,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (127cm) Height: 29.3m Condition: Good Older trees have prominent folding in the bark, which some people say resembles elephant legs. Portland Parks, Oregon.",
+  },
+  {
+    name: "London Plane Tree in Buckman Field",
+    species: "Platanus x acerifolia",
+    lat: 45.5257,
+    lng: -122.6532,
+    height: 24.1,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (127cm) Height: 24.1m Condition: Fair Older trees develop bumps on their trunk that look make the bark look like dripping candle wax. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Thompson Park",
+    species: "Thuja plicata",
+    lat: 45.5394,
+    lng: -122.5168,
+    height: 21.6,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (127cm) Height: 21.6m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Knott Park",
+    species: "Acer macrophyllum",
+    lat: 45.5408,
+    lng: -122.5445,
+    height: 18.9,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (127cm) Height: 18.9m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Midland Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5166,
+    lng: -122.54,
+    height: 38.1,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 38.1m Condition: Good Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Common Horsechestnut in Powell Park",
+    species: "Aesculus hippocastanum",
+    lat: 45.4974,
+    lng: -122.64,
+    height: 24.4,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 24.4m Condition: Fair Inedible nuts are popular for playing \"conkers\" game in the UK. Portland Parks, Oregon.",
+  },
+  {
+    name: "Scarlet Oak in Woodstock Park",
+    species: "Quercus coccinea",
+    lat: 45.4829,
+    lng: -122.6128,
+    height: 32.3,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 32.3m Condition: Fair Trees seldom exceed 80', but can live over 400 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Cottonwood in Gabriel Park",
+    species: "Populus trichocarpa",
+    lat: 45.4733,
+    lng: -122.7223,
+    height: 26.5,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 26.5m Condition: Fair Native species Simple leaves are 3\" to 6\" long, green above and white below, sometimes with rusty markings. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Lair Hill Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5016,
+    lng: -122.681,
+    height: 43.6,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 43.6m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Tuliptree in Columbia Park",
+    species: "Liriodendron tulipifera",
+    lat: 45.5787,
+    lng: -122.7093,
+    height: 32.6,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 32.6m Condition: Fair The flowers are 2.5\" long and consist of six pale-green petals arranged like a tulip. Portland Parks, Oregon.",
+  },
+  {
+    name: "Common Horsechestnut in Columbia Park",
+    species: "Aesculus hippocastanum",
+    lat: 45.5789,
+    lng: -122.7132,
+    height: 27.4,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 27.4m Condition: Fair Inedible nuts are popular for playing \"conkers\" game in the UK. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Fernhill Park",
+    species: "Quercus rubra",
+    lat: 45.5656,
+    lng: -122.6206,
+    height: 16.5,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 16.5m Condition: Fair Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "American Yellowwood in Columbia Park",
+    species: "Cladrastis kentukea",
+    lat: 45.5787,
+    lng: -122.7128,
+    height: 23.8,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 23.8m Condition: Fair Portland Parks, Oregon.",
+  },
+  {
+    name: "American Elm in Overlook Park",
+    species: "Ulmus americana",
+    lat: 45.5483,
+    lng: -122.6825,
+    height: 23.2,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 23.2m Condition: Good Doubly serrate margins on leaves 3\" to 6\" long. Yellow fall color. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Johnswood Property",
+    species: "Thuja plicata",
+    lat: 45.6011,
+    lng: -122.7441,
+    height: 30.2,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 30.2m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Oregon Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5277,
+    lng: -122.6347,
+    height: 42.7,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 50 inches (126cm) Height: 42.7m Condition: Good Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Kenton Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5834,
+    lng: -122.692,
+    height: 30.8,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (125cm) Height: 30.8m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Johnson Creek Park",
+    species: "Thuja plicata",
+    lat: 45.4603,
+    lng: -122.6429,
+    height: 26.5,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (125cm) Height: 26.5m Condition: Fair Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Mill Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5097,
+    lng: -122.5399,
+    height: 36.6,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (125cm) Height: 36.6m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "American Elm in South Park Blocks",
+    species: "Ulmus americana",
+    lat: 45.5111,
+    lng: -122.6854,
+    height: 28.3,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (125cm) Height: 28.3m Condition: Fair Doubly serrate margins on leaves 3\" to 6\" long. Yellow fall color. Portland Parks, Oregon.",
+  },
+  {
+    name: "Incense Cedar in Grant Park",
+    species: "Calocedrus decurrens",
+    lat: 45.5409,
+    lng: -122.6283,
+    height: 24.7,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (124cm) Height: 24.7m Condition: Fair Native species Reddish-brown bark is fibrous on older trees. Needles are in flat sprays. Cones are oblong. Portland Parks, Oregon.",
+  },
+  {
+    name: "Siberian Elm in Pier Park",
+    species: "Ulmus pumila",
+    lat: 45.6033,
+    lng: -122.7606,
+    height: 26.2,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (124cm) Height: 26.2m Condition: Fair Resistant to Dutch elm disease, and cross bred with other elm species to produce resistant hybrid trees. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Ed Benedict Park",
+    species: "Acer macrophyllum",
+    lat: 45.4957,
+    lng: -122.5563,
+    height: 18.6,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (124cm) Height: 18.6m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "American Elm in Portsmouth Park",
+    species: "Ulmus americana",
+    lat: 45.5791,
+    lng: -122.7234,
+    height: 32.3,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (124cm) Height: 32.3m Condition: Fair Doubly serrate margins on leaves 3\" to 6\" long. Yellow fall color. Portland Parks, Oregon.",
+  },
+  {
+    name: "Giant Sequoia in Vera Katz Eastbank Esplanade",
+    species: "Sequoiadendron giganteum",
+    lat: 45.5129,
+    lng: -122.6684,
+    height: 32.6,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (124cm) Height: 32.6m Condition: Fair World's largest tree by volume. Can live over 2,000 years. Portland Parks, Oregon.",
+  },
+  {
+    name: "Deodar Cedar in Westmoreland Park",
+    species: "Cedrus deodara",
+    lat: 45.4679,
+    lng: -122.6393,
+    height: 31.7,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (123cm) Height: 31.7m Condition: Fair Evergreen tree averaging between 40–70' in height; straight trunk and swooping horizontal branches. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Mt Scott Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.4816,
+    lng: -122.5878,
+    height: 44.5,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 49 inches (123cm) Height: 44.5m Condition: Good Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Siberian Elm in Brooklyn Park",
+    species: "Ulmus pumila",
+    lat: 45.4982,
+    lng: -122.6547,
+    height: 29.3,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 48 inches (123cm) Height: 29.3m Condition: Fair Resistant to Dutch elm disease, and cross bred with other elm species to produce resistant hybrid trees. Portland Parks, Oregon.",
+  },
+  {
+    name: "Common Horsechestnut in Dawson Park",
+    species: "Aesculus hippocastanum",
+    lat: 45.544,
+    lng: -122.6679,
+    height: 25.6,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 48 inches (123cm) Height: 25.6m Condition: Poor Inedible nuts are popular for playing \"conkers\" game in the UK. Portland Parks, Oregon.",
+  },
+  {
+    name: "Deodar Cedar in Chimney Park",
+    species: "Cedrus deodara",
+    lat: 45.6074,
+    lng: -122.7593,
+    height: 33.2,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 48 inches (123cm) Height: 33.2m Condition: Fair Evergreen tree averaging between 40–70' in height; straight trunk and swooping horizontal branches. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Glenhaven Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5429,
+    lng: -122.5818,
+    height: 36.9,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 48 inches (123cm) Height: 36.9m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Blue Atlas Cedar in Pier Park",
+    species: "Cedrus atlantica 'Glauca'",
+    lat: 45.6034,
+    lng: -122.7578,
+    height: 29.6,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 48 inches (123cm) Height: 29.6m Condition: Fair Blue-green needles; light brown, rounded cones 3 ½” long sit atop branches and disintegrate while still attached. Portland Parks, Oregon.",
+  },
+  {
+    name: "Oregon White Oak in Sellwood Park",
+    species: "Quercus garryana",
+    lat: 45.4699,
+    lng: -122.6592,
+    height: 27.7,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 48 inches (123cm) Height: 27.7m Condition: Fair Native species Look for galls on the underside of leaves, which are the home of little wasps. Portland Parks, Oregon.",
+  },
+  {
+    name: "Bigleaf Maple in Hillsdale Park",
+    species: "Acer macrophyllum",
+    lat: 45.4811,
+    lng: -122.7046,
+    height: 23.8,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 23.8m Condition: Fair Native species Name comes from the large five-lobed leaves, much larger than any other maple species. Portland Parks, Oregon.",
+  },
+  {
+    name: "European Beech in Creston Park",
+    species: "Fagus sylvatica",
+    lat: 45.4965,
+    lng: -122.6151,
+    height: 33.2,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 33.2m Condition: Fair Older trees have prominent folding in the bark, which some people say resembles elephant legs. Portland Parks, Oregon.",
+  },
+  {
+    name: "Oregon Myrtle in Fernhill Park",
+    species: "Umbellularia californica",
+    lat: 45.568,
+    lng: -122.6238,
+    height: 20.1,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 20.1m Condition: Fair Native species Extremely pungent leaves that smell like bay leaves. Portland Parks, Oregon.",
+  },
+  {
+    name: "Grand Fir in Laurelhurst Park",
+    species: "Abies grandis",
+    lat: 45.5205,
+    lng: -122.6271,
+    height: 43.6,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 43.6m Condition: Fair Native species As with all true firs, cones perch upright on the topmost branches. Portland Parks, Oregon.",
+  },
+  {
+    name: "Oregon White Oak in Albert Kelly Park",
+    species: "Quercus garryana",
+    lat: 45.4855,
+    lng: -122.7142,
+    height: 24.7,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 24.7m Condition: Fair Native species Look for galls on the underside of leaves, which are the home of little wasps. Portland Parks, Oregon.",
+  },
+  {
+    name: "Black Cottonwood in Sellwood Riverfront Park",
+    species: "Populus trichocarpa",
+    lat: 45.4666,
+    lng: -122.6642,
+    height: 25.9,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 25.9m Condition: Poor Native species Simple leaves are 3\" to 6\" long, green above and white below, sometimes with rusty markings. Portland Parks, Oregon.",
+  },
+  {
+    name: "Sweetgum in Washington Park",
+    species: "Liquidambar styraciflua",
+    lat: 45.521,
+    lng: -122.7022,
+    height: 4.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 4.0m Condition: Fair Fruits are sticky, spiky, spherical balls about 1\" in diameter nicknamed “gumballs.” Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in Cathedral Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5874,
+    lng: -122.7582,
+    height: 34.1,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 34.1m Condition: Good Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Norway Spruce in Colonel Summers Park",
+    species: "Picea abies",
+    lat: 45.5161,
+    lng: -122.6458,
+    height: 28.7,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 28.7m Condition: Fair Needles are prickly, four sided, and emerge from a woody bump on the stem. Portland Parks, Oregon.",
+  },
+  {
+    name: "Douglas-Fir in University Park",
+    species: "Pseudotsuga menziesii",
+    lat: 45.5885,
+    lng: -122.712,
+    height: 36.3,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 36.3m Condition: Fair Native species Bracts on cones look like a mouse's feet and tail. Portland Parks, Oregon.",
+  },
+  {
+    name: "Northern Red Oak in Laurelwood Park",
+    species: "Quercus rubra",
+    lat: 45.4901,
+    lng: -122.5971,
+    height: 29.3,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 29.3m Condition: Good Acorns take two years to mature and are an important food source for wildlife. Portland Parks, Oregon.",
+  },
+  {
+    name: "Blue Atlas Cedar in April Hill Park",
+    species: "Cedrus atlantica 'Glauca'",
+    lat: 45.4709,
+    lng: -122.7348,
+    height: 25.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (122cm) Height: 25.0m Condition: Fair Blue-green needles; light brown, rounded cones 3 ½” long sit atop branches and disintegrate while still attached. Portland Parks, Oregon.",
+  },
+  {
+    name: "Western Redcedar in Cathedral Park",
+    species: "Thuja plicata",
+    lat: 45.5877,
+    lng: -122.7576,
+    height: 22.3,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 48 inches (121cm) Height: 22.3m Condition: Good Native species The bark is dark brown, papery, and peels off easily in small strips. Portland Parks, Oregon.",
+  },
+
+  // === SAN FRANCISCO STREET TREES (DPW street tree inventory) ===
+  {
+    name: "Photinia: Chinese photinia on 1239 Ingalls St",
+    species: "Photinia fraseri",
+    lat: 37.7305,
+    lng: -122.3818,
+    height: null,
+    circumference: 6.4,
+    description:
+      "Trunk diameter: 80 inches (203cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Silver Dollar Eucalyptus on 1145X Ingalls St",
+    species: "Eucalyptus polyanthemos",
+    lat: 37.7304,
+    lng: -122.3806,
+    height: null,
+    circumference: 6.4,
+    description:
+      "Trunk diameter: 80 inches (203cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Weeping Bottlebrush on 1799 Lombard St",
+    species: "Callistemon viminalis",
+    lat: 37.8004,
+    lng: -122.4309,
+    height: null,
+    circumference: 5.6,
+    description:
+      "Trunk diameter: 70 inches (178cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "American Sweet Gum on 600X Columbus Ave",
+    species: "Liquidambar styraciflua",
+    lat: 37.8005,
+    lng: -122.4104,
+    height: null,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (152cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Brisbane Box on 2505X Lake St",
+    species: "Lophostemon confertus",
+    lat: 37.7856,
+    lng: -122.4863,
+    height: null,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (152cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Golden Wattle on 2255 Lake St",
+    species: "Acacia longifolia",
+    lat: 37.7857,
+    lng: -122.4839,
+    height: null,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 60 inches (152cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Laurel Fig on 1165X Steiner St",
+    species: "Ficus nitida",
+    lat: 37.7796,
+    lng: -122.4337,
+    height: null,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (127cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Australian Willow on 708 Guerrero St",
+    species: "Geijera parviflora",
+    lat: 37.7598,
+    lng: -122.4237,
+    height: null,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 50 inches (127cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Monterey Pine on 136 GONZALEZ DR",
+    species: "Pinus radiata",
+    lat: 37.7175,
+    lng: -122.4762,
+    height: null,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 45 inches (114cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Laurel Fig on 2408 Lombard St",
+    species: "Ficus nitida",
+    lat: 37.7995,
+    lng: -122.4412,
+    height: null,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 45 inches (114cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Shamel Ash: Evergreen Ash on 406 Arkansas St",
+    species: "Fraxinus uhdei",
+    lat: 37.7611,
+    lng: -122.3985,
+    height: null,
+    circumference: 3.4,
+    description:
+      "Trunk diameter: 43 inches (109cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Southern Magnolia on 1001X Potrero Ave",
+    species: "Magnolia grandiflora",
+    lat: 37.7562,
+    lng: -122.4065,
+    height: null,
+    circumference: 3.2,
+    description:
+      "Trunk diameter: 40 inches (102cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Yarwood Sycamore on 1098 HARRISON ST",
+    species: "Platanus x hispanica 'Yarwood'",
+    lat: 37.776,
+    lng: -122.4061,
+    height: null,
+    circumference: 3.2,
+    description:
+      "Trunk diameter: 40 inches (102cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Southern Magnolia on 109X POTRERO AVE",
+    species: "Magnolia grandiflora",
+    lat: 37.7682,
+    lng: -122.4077,
+    height: null,
+    circumference: 3.2,
+    description:
+      "Trunk diameter: 40 inches (102cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Heath Melaleuca on 2426 Vallejo St",
+    species: "Melaleuca ericifolia",
+    lat: 37.795,
+    lng: -122.4373,
+    height: null,
+    circumference: 3.0,
+    description:
+      "Trunk diameter: 38 inches (97cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Date Palm on 800X The Embarcadero",
+    species: "Phoenix canariensis",
+    lat: 37.8016,
+    lng: -122.3998,
+    height: null,
+    circumference: 2.9,
+    description:
+      "Trunk diameter: 36 inches (91cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Date Palm on 2200X Market St",
+    species: "Phoenix canariensis",
+    lat: 37.7652,
+    lng: -122.4318,
+    height: null,
+    circumference: 2.9,
+    description:
+      "Trunk diameter: 36 inches (91cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Date Palm on 2300X Market St",
+    species: "Phoenix canariensis",
+    lat: 37.7637,
+    lng: -122.4338,
+    height: null,
+    circumference: 2.9,
+    description:
+      "Trunk diameter: 36 inches (91cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Brisbane Box on 930 Columbus Ave",
+    species: "Lophostemon confertus",
+    lat: 37.8031,
+    lng: -122.414,
+    height: null,
+    circumference: 2.9,
+    description:
+      "Trunk diameter: 36 inches (91cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Date Palm on 1300X The Embarcadero",
+    species: "Phoenix canariensis",
+    lat: 37.8061,
+    lng: -122.4044,
+    height: null,
+    circumference: 2.9,
+    description:
+      "Trunk diameter: 36 inches (91cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Sycamore: London Plane on 540 Market St",
+    species: "Platanus x hispanica",
+    lat: 37.79,
+    lng: -122.4006,
+    height: null,
+    circumference: 2.8,
+    description:
+      "Trunk diameter: 35 inches (89cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Indian Laurel Fig Tree \'Green Gem\' on 683 McAllister St",
+    species: "Ficus microcarpa nitida 'Green Gem'",
+    lat: 37.7797,
+    lng: -122.4232,
+    height: null,
+    circumference: 2.8,
+    description:
+      "Trunk diameter: 35 inches (89cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Coast Redwood on 148 06th Ave",
+    species: "Sequoia sempervirens",
+    lat: 37.7859,
+    lng: -122.4646,
+    height: null,
+    circumference: 2.7,
+    description:
+      "Trunk diameter: 34 inches (86cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Blue Gum on 371 Madrid St",
+    species: "Eucalyptus globulus",
+    lat: 37.7236,
+    lng: -122.4312,
+    height: null,
+    circumference: 2.7,
+    description:
+      "Trunk diameter: 34 inches (86cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Red Flowering Gum on 1450 Broadway",
+    species: "Corymbia ficifolia",
+    lat: 37.7962,
+    lng: -122.421,
+    height: null,
+    circumference: 2.6,
+    description:
+      "Trunk diameter: 32 inches (81cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Date Palm on 977 Dolores St",
+    species: "Phoenix canariensis",
+    lat: 37.7538,
+    lng: -122.4252,
+    height: null,
+    circumference: 2.6,
+    description:
+      "Trunk diameter: 32 inches (81cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Victorian Box on 1916 Lake St",
+    species: "Pittosporum undulatum",
+    lat: 37.786,
+    lng: -122.4803,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Sycamore: London Plane on 4X Market St",
+    species: "Platanus x hispanica",
+    lat: 37.7945,
+    lng: -122.3948,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "English Oak on 130 Alpha St",
+    species: "Quercus robur",
+    lat: 37.7142,
+    lng: -122.4041,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Hybrid Strawberry Tree on 3610 Washington St",
+    species: "Arbutus 'Marina'",
+    lat: 37.7893,
+    lng: -122.4526,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Red Ironbark on 1199X Ingalls St",
+    species: "Eucalyptus sideroxylon",
+    lat: 37.7305,
+    lng: -122.3814,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Blackwood Acacia on 347 Dolores St",
+    species: "Acacia melanoxylon",
+    lat: 37.764,
+    lng: -122.4262,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Brisbane Box on 358 Haight St",
+    species: "Lophostemon confertus",
+    lat: 37.7729,
+    lng: -122.4281,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "New Zealand Xmas Tree on 300 Gold Mine Dr",
+    species: "Metrosideros excelsa",
+    lat: 37.7405,
+    lng: -122.4387,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Flaxleaf Paperbark on 1251 Turk St",
+    species: "Melaleuca linariifolia",
+    lat: 37.7807,
+    lng: -122.4299,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Bailey\'s Acacia on 3076 Market St",
+    species: "Acacia baileyana",
+    lat: 37.761,
+    lng: -122.4429,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Brisbane Box on 856 Webster St",
+    species: "Lophostemon confertus",
+    lat: 37.7785,
+    lng: -122.4298,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Tristania conferta :: on 1488 Lombard St",
+    species: "Tristania conferta ::",
+    lat: 37.8012,
+    lng: -122.426,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Kwanzan Flowering Cherry on 284 Amber Dr",
+    species: "Prunus serrulata 'Kwanzan'",
+    lat: 37.7442,
+    lng: -122.443,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Red Flowering Gum on 650X Miramar Ave",
+    species: "Corymbia ficifolia",
+    lat: 37.7285,
+    lng: -122.4581,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "American Sweet Gum on 500 Raymond Ave",
+    species: "Liquidambar styraciflua",
+    lat: 37.715,
+    lng: -122.4134,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Peppermint Willow on 867 Hampshire St",
+    species: "Agonis flexuosa",
+    lat: 37.7583,
+    lng: -122.4078,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Purple-Leaf Plum on 69 KEYSTONE WAY",
+    species: "Prunus cerasifera 'Atropurpurea'",
+    lat: 37.7273,
+    lng: -122.4627,
+    height: null,
+    circumference: 2.4,
+    description:
+      "Trunk diameter: 30 inches (76cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Red Flowering Gum on 570 Pennsylvania Ave",
+    species: "Corymbia ficifolia",
+    lat: 37.7593,
+    lng: -122.3934,
+    height: null,
+    circumference: 2.3,
+    description:
+      "Trunk diameter: 29 inches (74cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Peppermint Willow on 562 42nd Ave",
+    species: "Agonis flexuosa",
+    lat: 37.7781,
+    lng: -122.5028,
+    height: null,
+    circumference: 2.2,
+    description:
+      "Trunk diameter: 28 inches (71cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Australian Tea Tree on 1138X Alemany Blvd",
+    species: "Leptospermum laevigatum",
+    lat: 37.7311,
+    lng: -122.43,
+    height: null,
+    circumference: 2.2,
+    description:
+      "Trunk diameter: 28 inches (71cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Myoporum on 2324 Divisadero St",
+    species: "Myoporum laetum",
+    lat: 37.7912,
+    lng: -122.441,
+    height: null,
+    circumference: 2.2,
+    description:
+      "Trunk diameter: 27 inches (69cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Black Locust on 11 Hiliritas Ave",
+    species: "Robinia pseudoacacia",
+    lat: 37.7377,
+    lng: -122.437,
+    height: null,
+    circumference: 2.2,
+    description:
+      "Trunk diameter: 27 inches (69cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Southern Magnolia on 290x ARKANSAS ST",
+    species: "Magnolia grandiflora",
+    lat: 37.7631,
+    lng: -122.3985,
+    height: null,
+    circumference: 2.2,
+    description:
+      "Trunk diameter: 27 inches (69cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Lemon Bottlebrush on 385 08th St",
+    species: "Callistemon citrinus",
+    lat: 37.7741,
+    lng: -122.4088,
+    height: null,
+    circumference: 2.1,
+    description:
+      "Trunk diameter: 26 inches (66cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "American Sweet Gum on 2205 Bryant St",
+    species: "Liquidambar styraciflua",
+    lat: 37.759,
+    lng: -122.4096,
+    height: null,
+    circumference: 2.1,
+    description:
+      "Trunk diameter: 26 inches (66cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Eucalyptus on 327 Caselli Ave",
+    species: "Eucalyptus Spp",
+    lat: 37.7589,
+    lng: -122.4439,
+    height: null,
+    circumference: 2.1,
+    description:
+      "Trunk diameter: 26 inches (66cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Tristania conferta :: on 35 Kittredge Ter",
+    species: "Tristania conferta ::",
+    lat: 37.7776,
+    lng: -122.4506,
+    height: null,
+    circumference: 2.1,
+    description:
+      "Trunk diameter: 26 inches (66cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Cajeput on 2065 Oakdale Ave",
+    species: "Melaleuca quinquenervia",
+    lat: 37.7396,
+    lng: -122.3993,
+    height: null,
+    circumference: 2.1,
+    description:
+      "Trunk diameter: 26 inches (66cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Victorian Box on 301 FRANCISCO ST",
+    species: "Pittosporum undulatum",
+    lat: 37.8049,
+    lng: -122.4113,
+    height: null,
+    circumference: 2.1,
+    description:
+      "Trunk diameter: 26 inches (66cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Flaxleaf Paperbark on 660 Naples St",
+    species: "Melaleuca linariifolia",
+    lat: 37.7183,
+    lng: -122.4332,
+    height: null,
+    circumference: 2.1,
+    description:
+      "Trunk diameter: 26 inches (66cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Sycamore: London Plane on 2522 Gough St",
+    species: "Platanus x hispanica",
+    lat: 37.7968,
+    lng: -122.4269,
+    height: null,
+    circumference: 2.1,
+    description:
+      "Trunk diameter: 26 inches (66cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Brisbane Box on 1649X Webster St",
+    species: "Lophostemon confertus",
+    lat: 37.7858,
+    lng: -122.4316,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Southern Magnolia on 600X Dolores St",
+    species: "Magnolia grandiflora",
+    lat: 37.7594,
+    lng: -122.4261,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "New Zealand Xmas Tree on 2619X Alemany Blvd",
+    species: "Metrosideros excelsa",
+    lat: 37.7144,
+    lng: -122.4474,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Paperbark Tree on 449 Eureka St",
+    species: "Melaleuca styphelliodes",
+    lat: 37.7551,
+    lng: -122.4377,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Sycamore: London Plane on 1002 Clayton St",
+    species: "Platanus x hispanica",
+    lat: 37.7638,
+    lng: -122.4471,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Swamp Myrtle on 1550 O\'Farrell St",
+    species: "Tristaniopsis laurina",
+    lat: 37.7836,
+    lng: -122.4305,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Hybrid Strawberry Tree on 1217 Geneva Ave",
+    species: "Arbutus 'Marina'",
+    lat: 37.7142,
+    lng: -122.4358,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Juniper on 727 46th Ave",
+    species: "Juniperus chinensis",
+    lat: 37.7747,
+    lng: -122.507,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Mexican Fan Palm on 1001 Ocean Ave",
+    species: "Washingtonia robusta",
+    lat: 37.7232,
+    lng: -122.4534,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Flaxleaf Paperbark on 201 Santa Rosa Ave",
+    species: "Melaleuca linariifolia",
+    lat: 37.7279,
+    lng: -122.4383,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Eucalyptus on 400 Duboce Ave",
+    species: "Eucalyptus Spp",
+    lat: 37.7695,
+    lng: -122.4295,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Brisbane Box on 739 Valencia St",
+    species: "Lophostemon confertus",
+    lat: 37.761,
+    lng: -122.4213,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Chinese Elm on 2900 Alemany Blvd",
+    species: "Ulmus parvifolia",
+    lat: 37.7121,
+    lng: -122.4522,
+    height: null,
+    circumference: 2.0,
+    description:
+      "Trunk diameter: 25 inches (64cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Princeton Sentry Maidenhair on 1590X Vallejo St",
+    species: "Ginkgo biloba 'Princeton Sentry'",
+    lat: 37.797,
+    lng: -122.4233,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Laurel Fig on 147 Bartlett St",
+    species: "Ficus nitida",
+    lat: 37.7546,
+    lng: -122.4197,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Sweet Bay: Grecian Laurel on 85 Cleary Ct",
+    species: "Laurus nobilis",
+    lat: 37.7839,
+    lng: -122.4273,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "New Zealand Xmas Tree on 105 Escolta Way",
+    species: "Metrosideros excelsa",
+    lat: 37.7376,
+    lng: -122.4883,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Maidenhair Tree on 2980X 24th St",
+    species: "Ginkgo biloba",
+    lat: 37.7527,
+    lng: -122.4115,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Sycamore: London Plane on 900X The Embarcadero",
+    species: "Platanus x hispanica",
+    lat: 37.8029,
+    lng: -122.4006,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Mayten on 845 McAllister St",
+    species: "Maytenus boaria",
+    lat: 37.779,
+    lng: -122.4251,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Southern Magnolia on 2929 Washington St",
+    species: "Magnolia grandiflora",
+    lat: 37.7906,
+    lng: -122.4415,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Swamp Myrtle on 432 Cortland Ave",
+    species: "Tristaniopsis laurina",
+    lat: 37.739,
+    lng: -122.417,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Nichol\'s Willow-Leafed Peppermint on 1281X La Salle Ave",
+    species: "Eucalyptus nicholii",
+    lat: 37.7322,
+    lng: -122.3834,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "New Zealand Xmas Tree on 2882 Geary Blvd",
+    species: "Metrosideros excelsa",
+    lat: 37.7823,
+    lng: -122.4497,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Banyan Fig on 1599 Lombard St",
+    species: "Ficus retusa nitida",
+    lat: 37.8009,
+    lng: -122.4272,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Date Palm on 800 The Embarcadero",
+    species: "Phoenix canariensis",
+    lat: 37.7934,
+    lng: -122.3921,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Brazilian Pepper on 10 Sharon St",
+    species: "Schinus terebinthifolius",
+    lat: 37.7659,
+    lng: -122.43,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Nichol\'s Willow-Leafed Peppermint on 2000X Bay Shore Blvd",
+    species: "Eucalyptus nicholii",
+    lat: 37.7153,
+    lng: -122.3991,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Date Palm on 1745X Market St",
+    species: "Phoenix canariensis",
+    lat: 37.7724,
+    lng: -122.4228,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Pine on 1501@Ocean Sloat Blvd",
+    species: "Pinus canariensis",
+    lat: 37.7341,
+    lng: -122.489,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Blackwood Acacia on 1198 Turk St",
+    species: "Acacia melanoxylon",
+    lat: 37.7815,
+    lng: -122.4281,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Brisbane Box on 225 Gough St",
+    species: "Lophostemon confertus",
+    lat: 37.7754,
+    lng: -122.423,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Chinese Banyan on 1918 15th St",
+    species: "Ficus microcarpa",
+    lat: 37.7663,
+    lng: -122.427,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Silver Dollar Eucalyptus on 525 Precita Ave",
+    species: "Eucalyptus polyanthemos",
+    lat: 37.7475,
+    lng: -122.4099,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Date Palm on 100 The Embarcadero",
+    species: "Phoenix canariensis",
+    lat: 37.7961,
+    lng: -122.395,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
+  {
+    name: "Canary Island Pine on 1300 Geary Blvd",
+    species: "Pinus canariensis",
+    lat: 37.7854,
+    lng: -122.4247,
+    height: null,
+    circumference: 1.9,
+    description:
+      "Trunk diameter: 24 inches (61cm). San Francisco street tree inventory.",
+  },
 ];
 
 async function seed() {
