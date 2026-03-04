@@ -49,7 +49,7 @@ export default function Home() {
       `<div style="font-family:system-ui,sans-serif;">
         <div style="font-weight:700;font-size:15px;color:#1a1a1a;margin-bottom:4px;">🌳 ${displayName}</div>
         <div style="font-size:13px;color:#888;margin-bottom:6px;">${displaySpecies}</div>
-        ${stats.length ? `<div style="font-size:12px;color:#aaa;margin-bottom:6px;border-top:1px solid #eee;padding-top:6px;">${stats.join(" · ")}</div>` : ""}
+        ${stats.length ? `<div style="font-size:12px;color:#aaa;margin-bottom:6px;border-top:1px solid #eee;padding-top:6px;display:flex;flex-direction:column;gap:2px;">${stats.map(s => `<span>${s}</span>`).join("")}</div>` : ""}
         ${tree.description ? `<div style="font-size:13px;color:#444;line-height:1.5;margin-bottom:8px;">${tree.description}</div>` : ""}
         <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer"
            style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:#fff;background:#27ae60;padding:8px 14px;border-radius:6px;text-decoration:none;width:100%;justify-content:center;box-sizing:border-box;">
