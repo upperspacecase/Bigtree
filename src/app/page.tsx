@@ -134,8 +134,7 @@ export default function Home() {
   const [clickLngLat, setClickLngLat] = useState<[number, number] | null>(
     null
   );
-  const [manualLat, setManualLat] = useState("");
-  const [manualLng, setManualLng] = useState("");
+  const [coordsInput, setCoordsInput] = useState("");
   const [form, setForm] = useState({
     name: "",
     species: "",
@@ -278,8 +277,7 @@ export default function Home() {
 
         previewMarkerRef.current = marker;
         setClickLngLat([e.lngLat.lng, e.lngLat.lat]);
-        setManualLat(e.lngLat.lat.toFixed(6));
-        setManualLng(e.lngLat.lng.toFixed(6));
+        setCoordsInput(`${e.lngLat.lat.toFixed(6)}, ${e.lngLat.lng.toFixed(6)}`);
       }
     };
 
@@ -292,22 +290,23 @@ export default function Home() {
     };
   }, [adding]);
 
-  const parseCoord = (s: string): number | null => {
-    const trimmed = s.trim();
-    if (!trimmed) return null;
-    const n = Number(trimmed);
-    return Number.isFinite(n) ? n : null;
+  const parseCoordsPair = (s: string): { lat: number; lng: number } | null => {
+    // Accept "(lat, lng)" or "lat, lng" or "lat lng" with optional parens
+    const cleaned = s.replace(/[()]/g, "").trim();
+    if (!cleaned) return null;
+    const parts = cleaned.split(/[\s,]+/).filter(Boolean);
+    if (parts.length !== 2) return null;
+    const lat = Number(parts[0]);
+    const lng = Number(parts[1]);
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
+    if (lat < -90 || lat > 90 || lng < -180 || lng > 180) return null;
+    return { lat, lng };
   };
 
-  const parsedLat = parseCoord(manualLat);
-  const parsedLng = parseCoord(manualLng);
-  const hasValidCoords =
-    parsedLat !== null &&
-    parsedLng !== null &&
-    parsedLat >= -90 &&
-    parsedLat <= 90 &&
-    parsedLng >= -180 &&
-    parsedLng <= 180;
+  const parsedCoords = parseCoordsPair(coordsInput);
+  const parsedLat = parsedCoords?.lat ?? null;
+  const parsedLng = parsedCoords?.lng ?? null;
+  const hasValidCoords = parsedCoords !== null;
 
   const handleSubmit = async () => {
     if (!hasValidCoords) return;
@@ -335,8 +334,7 @@ export default function Home() {
       addTreeToSource(tree);
       setAdding(false);
       setClickLngLat(null);
-      setManualLat("");
-      setManualLng("");
+      setCoordsInput("");
       setForm({ name: "", species: "", description: "" });
       setDetailsOpen(false);
     }
@@ -369,8 +367,7 @@ export default function Home() {
   };
 
   const applyCoords = (lat: number, lng: number) => {
-    setManualLat(lat.toString());
-    setManualLng(lng.toString());
+    setCoordsInput(`${lat}, ${lng}`);
     setLinkError("");
     placePreviewAt(lat, lng);
   };
@@ -451,8 +448,7 @@ export default function Home() {
             }
             setAdding(!adding);
             setClickLngLat(null);
-            setManualLat("");
-            setManualLng("");
+            setCoordsInput("");
             setForm({ name: "", species: "", description: "" });
             setDetailsOpen(false);
           }}
@@ -527,27 +523,16 @@ export default function Home() {
             </div>
           )}
 
-          <div style={{ display: "flex", gap: 8, marginBottom: 8 }}>
-            <input
-              type="text"
-              inputMode="decimal"
-              placeholder="Latitude (e.g. -33.8688)"
-              value={manualLat}
-              onChange={(e) => setManualLat(e.target.value)}
-              style={{ ...inputStyle, marginBottom: 0, flex: 1 }}
-            />
-            <input
-              type="text"
-              inputMode="decimal"
-              placeholder="Longitude (e.g. 151.2093)"
-              value={manualLng}
-              onChange={(e) => setManualLng(e.target.value)}
-              style={{ ...inputStyle, marginBottom: 0, flex: 1 }}
-            />
-          </div>
-          {manualLat && manualLng && !hasValidCoords && (
-            <div style={{ color: "#e74c3c", fontSize: 12, marginBottom: 6 }}>
-              Enter valid coordinates (lat: -90 to 90, lng: -180 to 180)
+          <input
+            type="text"
+            placeholder="Coordinates (e.g. -8.4066, 115.1869)"
+            value={coordsInput}
+            onChange={(e) => setCoordsInput(e.target.value)}
+            style={{ ...inputStyle, marginBottom: 8 }}
+          />
+          {coordsInput && !hasValidCoords && (
+            <div style={{ color: "#e74c3c", fontSize: 12, marginBottom: 6, marginTop: -4 }}>
+              Enter as: lat, lng (e.g. -8.4066, 115.1869)
             </div>
           )}
 
@@ -574,11 +559,6 @@ export default function Home() {
           {!clickLngLat && !hasValidCoords && (
             <div style={{ fontSize: 13, color: "#888", textAlign: "center", marginBottom: 8 }}>
               or tap the map to place a tree
-            </div>
-          )}
-          {!clickLngLat && hasValidCoords && !manualLat && !manualLng && (
-            <div style={{ fontSize: 13, color: "#888", textAlign: "center", marginBottom: 8 }}>
-              or enter coordinates manually
             </div>
           )}
 
