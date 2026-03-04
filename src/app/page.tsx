@@ -5,13 +5,13 @@ import mapboxgl from "mapbox-gl";
 
 interface Tree {
   _id: string;
-  name: string;
-  species: string;
+  name?: string;
+  species?: string;
   lat: number;
   lng: number;
   height?: number | null;
   circumference?: number | null;
-  description: string;
+  description?: string;
 }
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!;
@@ -29,20 +29,23 @@ export default function Home() {
     species: "",
     description: "",
   });
+  const [detailsOpen, setDetailsOpen] = useState(false);
 
   const addMarker = useCallback((tree: Tree) => {
     if (!map.current) return;
 
+    const displayName = tree.name || "Unnamed Tree";
+    const displaySpecies = tree.species || "Unknown species";
     const stats: string[] = [];
     if (tree.height) stats.push(`${tree.height}m tall`);
     if (tree.circumference) stats.push(`${tree.circumference}m circumference`);
 
     const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
       `<div style="font-family:system-ui;max-width:220px">
-        <strong style="font-size:14px">${tree.name}</strong>
-        <div style="color:#666;font-size:12px;margin:2px 0">${tree.species}</div>
+        <strong style="font-size:14px">${displayName}</strong>
+        <div style="color:#666;font-size:12px;margin:2px 0">${displaySpecies}</div>
         ${stats.length ? `<div style="font-size:12px;color:#888">${stats.join(" · ")}</div>` : ""}
-        <div style="font-size:13px;margin-top:4px">${tree.description}</div>
+        ${tree.description ? `<div style="font-size:13px;margin-top:4px">${tree.description}</div>` : ""}
       </div>`
     );
 
@@ -97,16 +100,15 @@ export default function Home() {
   }, [adding]);
 
   const handleSubmit = async () => {
-    if (!clickLngLat || !form.name || !form.species || !form.description)
-      return;
+    if (!clickLngLat) return;
 
-    const body = {
-      name: form.name,
-      species: form.species,
+    const body: Record<string, unknown> = {
       lat: clickLngLat[1],
       lng: clickLngLat[0],
-      description: form.description,
     };
+    if (form.name.trim()) body.name = form.name.trim();
+    if (form.species.trim()) body.species = form.species.trim();
+    if (form.description.trim()) body.description = form.description.trim();
 
     const res = await fetch("/api/trees", {
       method: "POST",
@@ -120,6 +122,7 @@ export default function Home() {
       setAdding(false);
       setClickLngLat(null);
       setForm({ name: "", species: "", description: "" });
+      setDetailsOpen(false);
     }
   };
 
@@ -172,49 +175,72 @@ export default function Home() {
           }}
         >
           <div style={{ fontWeight: 700, marginBottom: 12, fontSize: 15 }}>
-            New tree at {clickLngLat[1].toFixed(4)},{" "}
+            📍 New tree at {clickLngLat[1].toFixed(4)},{" "}
             {clickLngLat[0].toFixed(4)}
           </div>
-          <input
-            placeholder="Name (e.g. General Sherman)"
-            value={form.name}
-            onChange={(e) => setForm({ ...form, name: e.target.value })}
-            style={inputStyle}
-          />
-          <input
-            placeholder="Species (e.g. Giant Sequoia)"
-            value={form.species}
-            onChange={(e) => setForm({ ...form, species: e.target.value })}
-            style={inputStyle}
-          />
-          <input
-            placeholder="Short description"
-            value={form.description}
-            onChange={(e) => setForm({ ...form, description: e.target.value })}
-            style={inputStyle}
-          />
+
+          <button
+            type="button"
+            onClick={() => setDetailsOpen(!detailsOpen)}
+            style={{
+              width: "100%",
+              padding: "8px 0",
+              background: "none",
+              border: "none",
+              borderTop: "1px solid #eee",
+              borderBottom: detailsOpen ? "1px solid #eee" : "none",
+              fontSize: 13,
+              color: "#666",
+              cursor: "pointer",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              fontFamily: "system-ui",
+              marginBottom: detailsOpen ? 8 : 12,
+            }}
+          >
+            <span>Details (optional)</span>
+            <span style={{ transform: detailsOpen ? "rotate(180deg)" : "rotate(0deg)", transition: "transform 0.2s" }}>▾</span>
+          </button>
+
+          {detailsOpen && (
+            <div>
+              <input
+                placeholder="Name (e.g. General Sherman)"
+                value={form.name}
+                onChange={(e) => setForm({ ...form, name: e.target.value })}
+                style={inputStyle}
+              />
+              <input
+                placeholder="Species (e.g. Giant Sequoia)"
+                value={form.species}
+                onChange={(e) => setForm({ ...form, species: e.target.value })}
+                style={inputStyle}
+              />
+              <input
+                placeholder="Short description"
+                value={form.description}
+                onChange={(e) => setForm({ ...form, description: e.target.value })}
+                style={inputStyle}
+              />
+            </div>
+          )}
+
           <button
             onClick={handleSubmit}
-            disabled={!form.name || !form.species || !form.description}
             style={{
               width: "100%",
               padding: 10,
-              background:
-                form.name && form.species && form.description
-                  ? "#27ae60"
-                  : "#ccc",
+              background: "#27ae60",
               color: "#fff",
               border: "none",
               borderRadius: 6,
               fontSize: 14,
               fontWeight: 600,
-              cursor:
-                form.name && form.species && form.description
-                  ? "pointer"
-                  : "default",
+              cursor: "pointer",
             }}
           >
-            Save Tree
+            🌳 Save Tree
           </button>
         </div>
       )}

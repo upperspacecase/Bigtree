@@ -2,24 +2,24 @@ import mongoose, { Schema, models } from "mongoose";
 
 export interface ITree {
   _id?: string;
-  name: string;
-  species: string;
+  name?: string;
+  species?: string;
   lat: number;
   lng: number;
   height?: number | null;
   circumference?: number | null;
-  description: string;
+  description?: string;
 }
 
 const TreeSchema = new Schema<ITree>(
   {
-    name: { type: String, required: true },
-    species: { type: String, required: true },
+    name: { type: String, default: "" },
+    species: { type: String, default: "" },
     lat: { type: Number, required: true },
     lng: { type: Number, required: true },
     height: { type: Number, default: null },
     circumference: { type: Number, default: null },
-    description: { type: String, required: true },
+    description: { type: String, default: "" },
   },
   { timestamps: true }
 );
