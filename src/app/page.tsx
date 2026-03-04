@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 
 interface Tree {
@@ -16,10 +16,91 @@ interface Tree {
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!;
 
+function buildPopupHTML(tree: Tree): string {
+  const displayName = tree.name || "Unnamed Tree";
+  const displaySpecies = tree.species || "Unknown species";
+  const stats: string[] = [];
+  if (tree.height) stats.push(`${tree.height}m tall`);
+  if (tree.circumference) stats.push(`${tree.circumference}m circumference`);
+
+  const desc = tree.description || "";
+  let family = "";
+  let location = "";
+  let cleanDesc = desc;
+
+  const familyMatch = cleanDesc.match(/Family:\s*([^.]+)\./);
+  if (familyMatch) {
+    family = familyMatch[1].trim();
+    cleanDesc = cleanDesc.replace(familyMatch[0], "");
+  }
+  const locationMatch = cleanDesc.match(/Location:\s*([^.]+)\./);
+  if (locationMatch) {
+    location = locationMatch[1].trim();
+    cleanDesc = cleanDesc.replace(locationMatch[0], "");
+  }
+  cleanDesc = cleanDesc.replace(/Trunk diameter:\s*[^.]+\./g, "");
+  cleanDesc = cleanDesc.replace(/Height:\s*[^.]+\./g, "");
+  cleanDesc = cleanDesc.replace(/\s{2,}/g, " ").trim();
+
+  const mapsUrl = `https://www.google.com/maps?q=${tree.lat},${tree.lng}`;
+  const infoLines: string[] = [];
+  if (family) infoLines.push(`<div>Family: ${family}</div>`);
+  if (location) infoLines.push(`<div>Location: ${location}</div>`);
+
+  const shareId = `share-btn-${tree._id}`;
+
+  return `<div style="font-family:system-ui,sans-serif;">
+    <div style="font-weight:700;font-size:15px;color:#1a1a1a;margin-bottom:4px;">${displayName}</div>
+    <div style="font-size:13px;color:#888;margin-bottom:6px;">${displaySpecies}</div>
+    ${stats.length ? `<div style="font-size:12px;color:#aaa;margin-bottom:6px;border-top:1px solid #eee;padding-top:6px;display:flex;flex-direction:column;gap:2px;">${stats.map(s => `<span>${s}</span>`).join("")}</div>` : ""}
+    ${infoLines.length ? `<div style="font-size:12px;color:#666;margin-bottom:6px;display:flex;flex-direction:column;gap:2px;">${infoLines.join("")}</div>` : ""}
+    ${cleanDesc ? `<div style="font-size:13px;color:#444;line-height:1.5;margin-bottom:8px;">${cleanDesc}</div>` : ""}
+    <div style="display:flex;gap:8px;">
+      <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer"
+         style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:#fff;background:#27ae60;padding:8px 14px;border-radius:6px;text-decoration:none;flex:1;justify-content:center;box-sizing:border-box;">
+        <svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+        </svg>
+        Maps
+      </a>
+      <button id="${shareId}"
+         style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:#fff;background:#3498db;padding:8px 14px;border-radius:6px;border:none;cursor:pointer;flex:1;justify-content:center;box-sizing:border-box;"
+         onclick="(function(btn){var url=window.location.origin+window.location.pathname+'?tree=${tree._id}';navigator.clipboard.writeText(url).then(function(){btn.innerHTML='<svg style=\\'width:14px;height:14px;\\' fill=\\'none\\' stroke=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' stroke-width=\\'2\\' d=\\'M5 13l4 4L19 7\\'/></svg> Copied!';btn.style.background='#27ae60';setTimeout(function(){btn.innerHTML='<svg style=\\'width:14px;height:14px;\\' fill=\\'none\\' stroke=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' stroke-width=\\'2\\' d=\\'M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z\\'/></svg> Share';btn.style.background='#3498db';},2000);});})(this)">
+        <svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
+        </svg>
+        Share
+      </button>
+    </div>
+  </div>`;
+}
+
+function treesToGeoJSON(trees: Tree[]): GeoJSON.FeatureCollection {
+  return {
+    type: "FeatureCollection",
+    features: trees.map((t) => ({
+      type: "Feature" as const,
+      geometry: { type: "Point" as const, coordinates: [t.lng, t.lat] },
+      properties: {
+        _id: t._id,
+        name: t.name || "",
+        species: t.species || "",
+        height: t.height ?? null,
+        circumference: t.circumference ?? null,
+        description: t.description || "",
+        lat: t.lat,
+        lng: t.lng,
+      },
+    })),
+  };
+}
+
 export default function Home() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
-  const markersRef = useRef<Map<string, mapboxgl.Marker>>(new Map());
+  const treesRef = useRef<Tree[]>([]);
+  const popupRef = useRef<mapboxgl.Popup | null>(null);
   const previewMarkerRef = useRef<mapboxgl.Marker | null>(null);
   const [adding, setAdding] = useState(false);
   const [clickLngLat, setClickLngLat] = useState<[number, number] | null>(
@@ -34,105 +115,25 @@ export default function Home() {
   });
   const [detailsOpen, setDetailsOpen] = useState(false);
 
-  const addMarker = useCallback((tree: Tree) => {
+  const showPopupForTree = (tree: Tree) => {
     if (!map.current) return;
+    if (popupRef.current) popupRef.current.remove();
 
-    const displayName = tree.name || "Unnamed Tree";
-    const displaySpecies = tree.species || "Unknown species";
-    const stats: string[] = [];
-    if (tree.height) stats.push(`${tree.height}m tall`);
-    if (tree.circumference) stats.push(`${tree.circumference}m circumference`);
-
-    // Parse structured info out of description
-    const desc = tree.description || "";
-    let family = "";
-    let location = "";
-    let cleanDesc = desc;
-
-    // Extract "Family: ..." segment
-    const familyMatch = cleanDesc.match(/Family:\s*([^.]+)\./);
-    if (familyMatch) {
-      family = familyMatch[1].trim();
-      cleanDesc = cleanDesc.replace(familyMatch[0], "");
-    }
-
-    // Extract "Location: ..." segment
-    const locationMatch = cleanDesc.match(/Location:\s*([^.]+)\./);
-    if (locationMatch) {
-      location = locationMatch[1].trim();
-      cleanDesc = cleanDesc.replace(locationMatch[0], "");
-    }
-
-    // Remove "Trunk diameter: ..." and "Height: ..." from description (shown in stats)
-    cleanDesc = cleanDesc.replace(/Trunk diameter:\s*[^.]+\./g, "");
-    cleanDesc = cleanDesc.replace(/Height:\s*[^.]+\./g, "");
-    cleanDesc = cleanDesc.replace(/\s{2,}/g, " ").trim();
-
-    const mapsUrl = `https://www.google.com/maps?q=${tree.lat},${tree.lng}`;
-
-    const infoLines: string[] = [];
-    if (family) infoLines.push(`<div>Family: ${family}</div>`);
-    if (location) infoLines.push(`<div>Location: ${location}</div>`);
-
-    const shareId = `share-btn-${tree._id}`;
-
-    const popup = new mapboxgl.Popup({ offset: 25, maxWidth: "300px", className: "tree-popup" }).setHTML(
-      `<div style="font-family:system-ui,sans-serif;">
-        <div style="font-weight:700;font-size:15px;color:#1a1a1a;margin-bottom:4px;">${displayName}</div>
-        <div style="font-size:13px;color:#888;margin-bottom:6px;">${displaySpecies}</div>
-        ${stats.length ? `<div style="font-size:12px;color:#aaa;margin-bottom:6px;border-top:1px solid #eee;padding-top:6px;display:flex;flex-direction:column;gap:2px;">${stats.map(s => `<span>${s}</span>`).join("")}</div>` : ""}
-        ${infoLines.length ? `<div style="font-size:12px;color:#666;margin-bottom:6px;display:flex;flex-direction:column;gap:2px;">${infoLines.join("")}</div>` : ""}
-        ${cleanDesc ? `<div style="font-size:13px;color:#444;line-height:1.5;margin-bottom:8px;">${cleanDesc}</div>` : ""}
-        <div style="display:flex;gap:8px;">
-          <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer"
-             style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:#fff;background:#27ae60;padding:8px 14px;border-radius:6px;text-decoration:none;flex:1;justify-content:center;box-sizing:border-box;">
-            <svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-            </svg>
-            Maps
-          </a>
-          <button id="${shareId}"
-             style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:#fff;background:#3498db;padding:8px 14px;border-radius:6px;border:none;cursor:pointer;flex:1;justify-content:center;box-sizing:border-box;">
-            <svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
-            </svg>
-            Share
-          </button>
-        </div>
-      </div>`
-    );
-
-    popup.on("open", () => {
-      const btn = document.getElementById(shareId);
-      if (btn) {
-        btn.onclick = () => {
-          const url = `${window.location.origin}${window.location.pathname}?tree=${tree._id}`;
-          navigator.clipboard.writeText(url).then(() => {
-            btn.innerHTML = `<svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Copied!`;
-            btn.style.background = "#27ae60";
-            setTimeout(() => {
-              btn.innerHTML = `<svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/></svg> Share`;
-              btn.style.background = "#3498db";
-            }, 2000);
-          });
-        };
-      }
-    });
-
-    const el = document.createElement("div");
-    el.style.cssText =
-      "width:28px;height:28px;font-size:24px;cursor:pointer;line-height:1;text-align:center";
-    el.textContent = "\u{1F333}";
-
-    const marker = new mapboxgl.Marker(el)
+    const popup = new mapboxgl.Popup({ offset: 25, maxWidth: "300px", className: "tree-popup" })
       .setLngLat([tree.lng, tree.lat])
-      .setPopup(popup)
+      .setHTML(buildPopupHTML(tree))
       .addTo(map.current);
 
-    markersRef.current.set(tree._id, marker);
-    return marker;
-  }, []);
+    popupRef.current = popup;
+  };
+
+  const addTreeToSource = (tree: Tree) => {
+    treesRef.current.push(tree);
+    const source = map.current?.getSource("trees") as mapboxgl.GeoJSONSource | undefined;
+    if (source) {
+      source.setData(treesToGeoJSON(treesRef.current));
+    }
+  };
 
   useEffect(() => {
     if (map.current) return;
@@ -147,36 +148,95 @@ export default function Home() {
     map.current.addControl(new mapboxgl.NavigationControl(), "top-left");
 
     map.current.on("load", async () => {
+      const m = map.current!;
+
+      // Create a canvas-based tree icon for the symbol layer
+      const size = 40;
+      const canvas = document.createElement("canvas");
+      canvas.width = size;
+      canvas.height = size;
+      const ctx = canvas.getContext("2d")!;
+      ctx.font = `${size - 4}px serif`;
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText("\u{1F333}", size / 2, size / 2);
+      const imageData = ctx.getImageData(0, 0, size, size);
+      m.addImage("tree-icon", imageData);
+
+      // Fetch trees and add as GeoJSON source
       const res = await fetch("/api/trees");
       const trees: Tree[] = await res.json();
-      trees.forEach(addMarker);
+      treesRef.current = trees;
 
-      // Deep link: ?tree=ID flies to that tree and opens its popup
+      m.addSource("trees", {
+        type: "geojson",
+        data: treesToGeoJSON(trees),
+      });
+
+      m.addLayer({
+        id: "trees-layer",
+        type: "symbol",
+        source: "trees",
+        layout: {
+          "icon-image": "tree-icon",
+          "icon-size": 0.7,
+          "icon-allow-overlap": true,
+        },
+      });
+
+      // Click on a tree feature -> show popup
+      m.on("click", "trees-layer", (e) => {
+        if (!e.features?.length) return;
+        const props = e.features[0].properties!;
+        const tree: Tree = {
+          _id: props._id,
+          name: props.name || undefined,
+          species: props.species || undefined,
+          lat: props.lat,
+          lng: props.lng,
+          height: props.height,
+          circumference: props.circumference,
+          description: props.description || undefined,
+        };
+        showPopupForTree(tree);
+      });
+
+      // Pointer cursor on hover
+      m.on("mouseenter", "trees-layer", () => {
+        m.getCanvas().style.cursor = "pointer";
+      });
+      m.on("mouseleave", "trees-layer", () => {
+        m.getCanvas().style.cursor = "";
+      });
+
+      // Deep link: ?tree=ID
       const params = new URLSearchParams(window.location.search);
       const treeId = params.get("tree");
       if (treeId) {
-        const marker = markersRef.current.get(treeId);
-        if (marker) {
-          const lngLat = marker.getLngLat();
-          map.current?.flyTo({ center: lngLat, zoom: 14, duration: 1500 });
-          setTimeout(() => marker.togglePopup(), 1600);
+        const target = trees.find((t) => t._id === treeId);
+        if (target) {
+          m.flyTo({ center: [target.lng, target.lat], zoom: 14, duration: 1500 });
+          setTimeout(() => showPopupForTree(target), 1600);
         }
       }
     });
-  }, [addMarker]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     if (!map.current) return;
 
     const handleClick = (e: mapboxgl.MapMouseEvent) => {
       if (adding) {
-        // Remove previous preview marker
+        // Don't place a preview if they clicked on an existing tree
+        const features = map.current!.queryRenderedFeatures(e.point, { layers: ["trees-layer"] });
+        if (features.length) return;
+
         if (previewMarkerRef.current) {
           previewMarkerRef.current.remove();
           previewMarkerRef.current = null;
         }
 
-        // Place a preview tree emoji at the clicked location
         const el = document.createElement("div");
         el.style.cssText =
           "width:28px;height:28px;font-size:24px;cursor:pointer;line-height:1;text-align:center;animation:dropIn 0.3s ease-out;";
@@ -238,12 +298,11 @@ export default function Home() {
 
     if (res.ok) {
       const tree = await res.json();
-      // Remove the preview marker since addMarker will place a permanent one
       if (previewMarkerRef.current) {
         previewMarkerRef.current.remove();
         previewMarkerRef.current = null;
       }
-      addMarker(tree);
+      addTreeToSource(tree);
       setAdding(false);
       setClickLngLat(null);
       setManualLat("");
@@ -256,13 +315,11 @@ export default function Home() {
   const placePreviewFromManual = () => {
     if (!hasValidCoords) return;
 
-    // Remove previous preview marker
     if (previewMarkerRef.current) {
       previewMarkerRef.current.remove();
       previewMarkerRef.current = null;
     }
 
-    // Place preview marker
     const el = document.createElement("div");
     el.style.cssText =
       "width:28px;height:28px;font-size:24px;cursor:pointer;line-height:1;text-align:center;animation:dropIn 0.3s ease-out;";
@@ -272,9 +329,7 @@ export default function Home() {
       .addTo(map.current!);
     previewMarkerRef.current = marker;
 
-    // Fly to location
     map.current?.flyTo({ center: [parsedLng!, parsedLat!], zoom: Math.max(map.current.getZoom(), 10) });
-
     setClickLngLat([parsedLng!, parsedLat!]);
   };
 
@@ -387,7 +442,6 @@ export default function Home() {
             </div>
           )}
 
-          {/* Show "Set Location" button when coords typed manually but not yet placed */}
           {hasValidCoords && !clickLngLat && (
             <button
               onClick={placePreviewFromManual}
@@ -408,7 +462,6 @@ export default function Home() {
             </button>
           )}
 
-          {/* Also allow tapping the map */}
           {!clickLngLat && !hasValidCoords && (
             <div style={{ fontSize: 13, color: "#888", textAlign: "center", marginBottom: 8 }}>
               or tap the map to place a tree
