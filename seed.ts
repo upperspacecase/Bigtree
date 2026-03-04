@@ -417,6 +417,48 @@ const trees = [
       "Third largest kauri in New Zealand. Located in the Waitakere Ranges near Auckland.",
   },
 
+  // === PORTUGUESE MONUMENTAL TREES ===
+  {
+    name: "Oliveira do Mouchão",
+    species: "European Olive (Olea europaea)",
+    lat: 39.4732,
+    lng: -8.0809,
+    height: 3.2,
+    circumference: 11.1,
+    description:
+      "~3,350 years old. Oldest tree in Portugal. Trunk perimeter of 11.1 m and height of 3.2 m to first branches. Still produces olives every year. Tree of Public Interest since 2007. Parish of Mouriscas, municipality of Abrantes.",
+  },
+  {
+    name: "Oliveira Bimilenária",
+    species: "European Olive (Olea europaea)",
+    lat: 37.09582,
+    lng: -7.67803,
+    height: 7.7,
+    circumference: null,
+    description:
+      "2,000+ year-old olive with a crown height of 7.70 m and larger diameter of 11.80 m. Tree of Public Interest since 1984. Located at Pedras d'El Rei, parish of Santa Luzia near Tavira.",
+  },
+  {
+    name: "Sobreiro Monumental (The Whistler Tree)",
+    species: "Cork Oak (Quercus suber)",
+    lat: 38.5866,
+    lng: -8.6909,
+    height: 16.2,
+    circumference: 4.15,
+    description:
+      "Planted in 1783–1784. Guinness World Record holder as the largest cork oak in the world. European Tree of the Year 2018. Located in Águas de Moura, Palmela.",
+  },
+  {
+    name: "Castanheiro de Vales",
+    species: "Sweet Chestnut (Castanea sativa)",
+    lat: 41.4624,
+    lng: -7.5205,
+    height: null,
+    circumference: null,
+    description:
+      "Over a thousand years old with a 4.5 m wide trunk. Portugal's Tree of the Year 2020. Located in the village of Vales, parish of Tresminas, Vila Pouca de Aguiar.",
+  },
+
   // === ITALIAN MONUMENTAL TREES (from Italian Ministry of Agriculture registry) ===
   {
     name: "Fico magnolioide di Palermo",
