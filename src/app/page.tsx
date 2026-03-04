@@ -30,6 +30,8 @@ export default function Home() {
     species: "",
     description: "",
   });
+  const [manualLat, setManualLat] = useState("");
+  const [manualLng, setManualLng] = useState("");
   const [detailsOpen, setDetailsOpen] = useState(false);
 
   const addMarker = useCallback((tree: Tree) => {
@@ -155,6 +157,8 @@ export default function Home() {
       setAdding(false);
       setClickLngLat(null);
       setForm({ name: "", species: "", description: "" });
+      setManualLat("");
+      setManualLng("");
       setDetailsOpen(false);
     }
   };
@@ -174,6 +178,8 @@ export default function Home() {
           setAdding(!adding);
           setClickLngLat(null);
           setForm({ name: "", species: "", description: "" });
+          setManualLat("");
+          setManualLng("");
         }}
         style={{
           position: "absolute",
@@ -283,7 +289,7 @@ export default function Home() {
         </div>
       )}
 
-      {/* Instruction banner when adding */}
+      {/* Instruction banner + manual lat/lng entry when adding */}
       {adding && !clickLngLat && (
         <div
           style={{
@@ -291,16 +297,75 @@ export default function Home() {
             bottom: 20,
             left: "50%",
             transform: "translateX(-50%)",
-            background: "rgba(0,0,0,.75)",
-            color: "#fff",
-            padding: "10px 24px",
-            borderRadius: 8,
-            fontSize: 14,
-            fontFamily: "system-ui",
+            background: "#fff",
+            borderRadius: 10,
+            padding: 20,
+            boxShadow: "0 4px 20px rgba(0,0,0,.3)",
             zIndex: 2,
+            fontFamily: "system-ui",
+            width: 320,
           }}
         >
-          Click on the map to place a tree
+          <div style={{ fontSize: 14, color: "#666", marginBottom: 14, textAlign: "center" }}>
+            Click the map to place a tree, or enter coordinates:
+          </div>
+          <div style={{ display: "flex", gap: 8, marginBottom: 10 }}>
+            <input
+              type="text"
+              placeholder="Latitude"
+              value={manualLat}
+              onChange={(e) => setManualLat(e.target.value)}
+              style={{ ...inputStyle, marginBottom: 0, flex: 1 }}
+            />
+            <input
+              type="text"
+              placeholder="Longitude"
+              value={manualLng}
+              onChange={(e) => setManualLng(e.target.value)}
+              style={{ ...inputStyle, marginBottom: 0, flex: 1 }}
+            />
+          </div>
+          <button
+            onClick={() => {
+              const lat = parseFloat(manualLat);
+              const lng = parseFloat(manualLng);
+              if (isNaN(lat) || isNaN(lng) || lat < -90 || lat > 90 || lng < -180 || lng > 180) return;
+
+              // Remove previous preview marker
+              if (previewMarkerRef.current) {
+                previewMarkerRef.current.remove();
+                previewMarkerRef.current = null;
+              }
+
+              // Place preview marker
+              const el = document.createElement("div");
+              el.style.cssText =
+                "width:28px;height:28px;font-size:24px;cursor:pointer;line-height:1;text-align:center;animation:dropIn 0.3s ease-out;";
+              el.textContent = "\u{1F333}";
+              const marker = new mapboxgl.Marker(el)
+                .setLngLat([lng, lat])
+                .addTo(map.current!);
+              previewMarkerRef.current = marker;
+
+              // Fly to location
+              map.current?.flyTo({ center: [lng, lat], zoom: Math.max(map.current.getZoom(), 10) });
+
+              setClickLngLat([lng, lat]);
+            }}
+            style={{
+              width: "100%",
+              padding: 10,
+              background: "#27ae60",
+              color: "#fff",
+              border: "none",
+              borderRadius: 6,
+              fontSize: 14,
+              fontWeight: 600,
+              cursor: "pointer",
+            }}
+          >
+            📍 Set Location
+          </button>
         </div>
       )}
     </div>
