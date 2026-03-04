@@ -143,6 +143,7 @@ export default function Home() {
   });
   const [detailsOpen, setDetailsOpen] = useState(false);
   const [linkLoading, setLinkLoading] = useState(false);
+  const [linkError, setLinkError] = useState("");
 
   const showPopupForTree = (tree: Tree) => {
     if (!map.current) return;
@@ -367,21 +368,27 @@ export default function Home() {
     placePreviewAt(parsedLat!, parsedLng!);
   };
 
+  const applyCoords = (lat: number, lng: number) => {
+    setManualLat(lat.toString());
+    setManualLng(lng.toString());
+    setLinkError("");
+    placePreviewAt(lat, lng);
+  };
+
   const handleMapsLink = async (value: string) => {
     const trimmed = value.trim();
     if (!trimmed) return;
+    setLinkError("");
 
     // Try parsing coords directly from the URL first
     const direct = parseMapsUrl(trimmed);
     if (direct) {
-      setManualLat(direct.lat.toString());
-      setManualLng(direct.lng.toString());
-      placePreviewAt(direct.lat, direct.lng);
+      applyCoords(direct.lat, direct.lng);
       return;
     }
 
-    // If it looks like a short link, resolve it server-side
-    if (trimmed.includes("goo.gl/") || trimmed.includes("maps.app")) {
+    // If it looks like a short/share link, resolve it server-side
+    if (trimmed.includes("goo.gl/") || trimmed.includes("maps.app") || trimmed.includes("google.com/maps")) {
       setLinkLoading(true);
       try {
         const res = await fetch("/api/resolve-url", {
@@ -393,11 +400,15 @@ export default function Home() {
           const { resolved } = await res.json();
           const result = parseMapsUrl(resolved);
           if (result) {
-            setManualLat(result.lat.toString());
-            setManualLng(result.lng.toString());
-            placePreviewAt(result.lat, result.lng);
+            applyCoords(result.lat, result.lng);
+          } else {
+            setLinkError("Could not extract coordinates from this link");
           }
+        } else {
+          setLinkError("Could not resolve this link");
         }
+      } catch {
+        setLinkError("Could not resolve this link");
       } finally {
         setLinkLoading(false);
       }
@@ -510,6 +521,11 @@ export default function Home() {
             }}
             style={{ ...inputStyle, marginBottom: 8, opacity: linkLoading ? 0.6 : 1 }}
           />
+          {linkError && (
+            <div style={{ color: "#e74c3c", fontSize: 12, marginBottom: 6, marginTop: -4 }}>
+              {linkError}
+            </div>
+          )}
 
           <div style={{ display: "flex", gap: 8, marginBottom: 8 }}>
             <input
