@@ -16,6 +16,31 @@ interface Tree {
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!;
 
+/** Extract lat/lng from various Google Maps URL formats */
+function parseMapsUrl(url: string): { lat: number; lng: number } | null {
+  try {
+    // Match @lat,lng or ?q=lat,lng or /lat,lng patterns
+    const patterns = [
+      /@(-?\d+\.?\d*),(-?\d+\.?\d*)/,           // @lat,lng
+      /[?&]q=(-?\d+\.?\d*),(-?\d+\.?\d*)/,       // ?q=lat,lng
+      /\/(-?\d+\.?\d*),(-?\d+\.?\d*)/,            // /lat,lng in path
+    ];
+    for (const re of patterns) {
+      const m = url.match(re);
+      if (m) {
+        const lat = parseFloat(m[1]);
+        const lng = parseFloat(m[2]);
+        if (lat >= -90 && lat <= 90 && lng >= -180 && lng <= 180) {
+          return { lat, lng };
+        }
+      }
+    }
+  } catch {
+    // ignore
+  }
+  return null;
+}
+
 function buildPopupHTML(tree: Tree): string {
   const displayName = tree.name || "Unnamed Tree";
   const displaySpecies = tree.species || "Unknown species";
@@ -33,11 +58,14 @@ function buildPopupHTML(tree: Tree): string {
     family = familyMatch[1].trim();
     cleanDesc = cleanDesc.replace(familyMatch[0], "");
   }
-  const locationMatch = cleanDesc.match(/Location:\s*([^.]+)\./);
+  // Location contains decimal coords, so match until the sentence-ending ". " or end of string
+  const locationMatch = cleanDesc.match(/Location:\s*(.+?)(?:\.\s*$|\.$|\.\s)/);
   if (locationMatch) {
     location = locationMatch[1].trim();
     cleanDesc = cleanDesc.replace(locationMatch[0], "");
   }
+  // Remove "Recorded in the Tallo global tree database." and similar
+  cleanDesc = cleanDesc.replace(/Recorded in the Tallo global tree database\./gi, "");
   cleanDesc = cleanDesc.replace(/Trunk diameter:\s*[^.]+\./g, "");
   cleanDesc = cleanDesc.replace(/Height:\s*[^.]+\./g, "");
   cleanDesc = cleanDesc.replace(/\s{2,}/g, " ").trim();
@@ -66,11 +94,11 @@ function buildPopupHTML(tree: Tree): string {
       </a>
       <button id="${shareId}"
          style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:#fff;background:#3498db;padding:8px 14px;border-radius:6px;border:none;cursor:pointer;flex:1;justify-content:center;box-sizing:border-box;"
-         onclick="(function(btn){var url=window.location.origin+window.location.pathname+'?tree=${tree._id}';navigator.clipboard.writeText(url).then(function(){btn.innerHTML='<svg style=\\'width:14px;height:14px;\\' fill=\\'none\\' stroke=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' stroke-width=\\'2\\' d=\\'M5 13l4 4L19 7\\'/></svg> Copied!';btn.style.background='#27ae60';setTimeout(function(){btn.innerHTML='<svg style=\\'width:14px;height:14px;\\' fill=\\'none\\' stroke=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' stroke-width=\\'2\\' d=\\'M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z\\'/></svg> Share';btn.style.background='#3498db';},2000);});})(this)">
+         onclick="(function(btn){var url=window.location.origin+window.location.pathname+'?tree=${tree._id}';navigator.clipboard.writeText(url).then(function(){btn.innerHTML='<svg style=\\'width:14px;height:14px;\\' fill=\\'none\\' stroke=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' stroke-width=\\'2\\' d=\\'M5 13l4 4L19 7\\'/></svg> Copied!';btn.style.background='#27ae60';setTimeout(function(){btn.innerHTML='<svg style=\\'width:14px;height:14px;\\' fill=\\'none\\' stroke=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' stroke-width=\\'2\\' d=\\'M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z\\'/></svg> Share tree';btn.style.background='#3498db';},2000);});})(this)">
         <svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"/>
         </svg>
-        Share
+        Share tree
       </button>
     </div>
   </div>`;
@@ -418,6 +446,20 @@ export default function Home() {
               : "📍 Place a new tree"}
           </div>
 
+          <input
+            type="text"
+            placeholder="Paste Google Maps link"
+            onChange={(e) => {
+              const result = parseMapsUrl(e.target.value);
+              if (result) {
+                setManualLat(result.lat.toString());
+                setManualLng(result.lng.toString());
+                e.target.value = "";
+              }
+            }}
+            style={{ ...inputStyle, marginBottom: 8 }}
+          />
+
           <div style={{ display: "flex", gap: 8, marginBottom: 8 }}>
             <input
               type="text"
@@ -465,6 +507,11 @@ export default function Home() {
           {!clickLngLat && !hasValidCoords && (
             <div style={{ fontSize: 13, color: "#888", textAlign: "center", marginBottom: 8 }}>
               or tap the map to place a tree
+            </div>
+          )}
+          {!clickLngLat && hasValidCoords && !manualLat && !manualLng && (
+            <div style={{ fontSize: 13, color: "#888", textAlign: "center", marginBottom: 8 }}>
+              or enter coordinates manually
             </div>
           )}
 
