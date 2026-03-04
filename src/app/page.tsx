@@ -43,14 +43,44 @@ export default function Home() {
     if (tree.height) stats.push(`${tree.height}m tall`);
     if (tree.circumference) stats.push(`${tree.circumference}m circumference`);
 
+    // Parse structured info out of description
+    const desc = tree.description || "";
+    let family = "";
+    let location = "";
+    let cleanDesc = desc;
+
+    // Extract "Family: ..." segment
+    const familyMatch = cleanDesc.match(/Family:\s*([^.]+)\./);
+    if (familyMatch) {
+      family = familyMatch[1].trim();
+      cleanDesc = cleanDesc.replace(familyMatch[0], "");
+    }
+
+    // Extract "Location: ..." segment
+    const locationMatch = cleanDesc.match(/Location:\s*([^.]+)\./);
+    if (locationMatch) {
+      location = locationMatch[1].trim();
+      cleanDesc = cleanDesc.replace(locationMatch[0], "");
+    }
+
+    // Remove "Trunk diameter: ..." and "Height: ..." from description (shown in stats)
+    cleanDesc = cleanDesc.replace(/Trunk diameter:\s*[^.]+\./g, "");
+    cleanDesc = cleanDesc.replace(/Height:\s*[^.]+\./g, "");
+    cleanDesc = cleanDesc.replace(/\s{2,}/g, " ").trim();
+
     const mapsUrl = `https://www.google.com/maps?q=${tree.lat},${tree.lng}`;
 
-    const popup = new mapboxgl.Popup({ offset: 25, maxWidth: "320px", className: "tree-popup" }).setHTML(
+    const infoLines: string[] = [];
+    if (family) infoLines.push(`<div>Family: ${family}</div>`);
+    if (location) infoLines.push(`<div>Location: ${location}</div>`);
+
+    const popup = new mapboxgl.Popup({ offset: 25, maxWidth: "300px", className: "tree-popup" }).setHTML(
       `<div style="font-family:system-ui,sans-serif;">
-        <div style="font-weight:700;font-size:15px;color:#1a1a1a;margin-bottom:4px;">🌳 ${displayName}</div>
+        <div style="font-weight:700;font-size:15px;color:#1a1a1a;margin-bottom:4px;">${displayName}</div>
         <div style="font-size:13px;color:#888;margin-bottom:6px;">${displaySpecies}</div>
         ${stats.length ? `<div style="font-size:12px;color:#aaa;margin-bottom:6px;border-top:1px solid #eee;padding-top:6px;display:flex;flex-direction:column;gap:2px;">${stats.map(s => `<span>${s}</span>`).join("")}</div>` : ""}
-        ${tree.description ? `<div style="font-size:13px;color:#444;line-height:1.5;margin-bottom:8px;">${tree.description}</div>` : ""}
+        ${infoLines.length ? `<div style="font-size:12px;color:#666;margin-bottom:6px;display:flex;flex-direction:column;gap:2px;">${infoLines.join("")}</div>` : ""}
+        ${cleanDesc ? `<div style="font-size:13px;color:#444;line-height:1.5;margin-bottom:8px;">${cleanDesc}</div>` : ""}
         <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer"
            style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:#fff;background:#27ae60;padding:8px 14px;border-radius:6px;text-decoration:none;width:100%;justify-content:center;box-sizing:border-box;">
           <svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
