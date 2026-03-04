@@ -25,13 +25,13 @@ export default function Home() {
   const [clickLngLat, setClickLngLat] = useState<[number, number] | null>(
     null
   );
+  const [manualLat, setManualLat] = useState("");
+  const [manualLng, setManualLng] = useState("");
   const [form, setForm] = useState({
     name: "",
     species: "",
     description: "",
   });
-  const [manualLat, setManualLat] = useState("");
-  const [manualLng, setManualLng] = useState("");
   const [detailsOpen, setDetailsOpen] = useState(false);
 
   const addMarker = useCallback((tree: Tree) => {
@@ -117,6 +117,8 @@ export default function Home() {
 
         previewMarkerRef.current = marker;
         setClickLngLat([e.lngLat.lng, e.lngLat.lat]);
+        setManualLat(e.lngLat.lat.toFixed(6));
+        setManualLng(e.lngLat.lng.toFixed(6));
       }
     };
 
@@ -129,12 +131,29 @@ export default function Home() {
     };
   }, [adding]);
 
+  const parseCoord = (s: string): number | null => {
+    const trimmed = s.trim();
+    if (!trimmed) return null;
+    const n = Number(trimmed);
+    return Number.isFinite(n) ? n : null;
+  };
+
+  const parsedLat = parseCoord(manualLat);
+  const parsedLng = parseCoord(manualLng);
+  const hasValidCoords =
+    parsedLat !== null &&
+    parsedLng !== null &&
+    parsedLat >= -90 &&
+    parsedLat <= 90 &&
+    parsedLng >= -180 &&
+    parsedLng <= 180;
+
   const handleSubmit = async () => {
-    if (!clickLngLat) return;
+    if (!hasValidCoords) return;
 
     const body: Record<string, unknown> = {
-      lat: clickLngLat[1],
-      lng: clickLngLat[0],
+      lat: parsedLat,
+      lng: parsedLng,
     };
     if (form.name.trim()) body.name = form.name.trim();
     if (form.species.trim()) body.species = form.species.trim();
@@ -156,11 +175,36 @@ export default function Home() {
       addMarker(tree);
       setAdding(false);
       setClickLngLat(null);
-      setForm({ name: "", species: "", description: "" });
       setManualLat("");
       setManualLng("");
+      setForm({ name: "", species: "", description: "" });
       setDetailsOpen(false);
     }
+  };
+
+  const placePreviewFromManual = () => {
+    if (!hasValidCoords) return;
+
+    // Remove previous preview marker
+    if (previewMarkerRef.current) {
+      previewMarkerRef.current.remove();
+      previewMarkerRef.current = null;
+    }
+
+    // Place preview marker
+    const el = document.createElement("div");
+    el.style.cssText =
+      "width:28px;height:28px;font-size:24px;cursor:pointer;line-height:1;text-align:center;animation:dropIn 0.3s ease-out;";
+    el.textContent = "\u{1F333}";
+    const marker = new mapboxgl.Marker(el)
+      .setLngLat([parsedLng!, parsedLat!])
+      .addTo(map.current!);
+    previewMarkerRef.current = marker;
+
+    // Fly to location
+    map.current?.flyTo({ center: [parsedLng!, parsedLat!], zoom: Math.max(map.current.getZoom(), 10) });
+
+    setClickLngLat([parsedLng!, parsedLat!]);
   };
 
   return (
@@ -199,9 +243,10 @@ export default function Home() {
             }
             setAdding(!adding);
             setClickLngLat(null);
-            setForm({ name: "", species: "", description: "" });
             setManualLat("");
             setManualLng("");
+            setForm({ name: "", species: "", description: "" });
+            setDetailsOpen(false);
           }}
           style={{
             padding: "8px 16px",
@@ -220,171 +265,152 @@ export default function Home() {
         </button>
       </div>
 
-      {/* Add-tree form after clicking map */}
-      {adding && clickLngLat && (
+      {/* Add-tree form */}
+      {adding && (
         <div
           style={{
             position: "absolute",
-            bottom: 20,
+            bottom: 0,
             left: "50%",
             transform: "translateX(-50%)",
             background: "#fff",
-            borderRadius: 10,
-            padding: 20,
+            borderRadius: "10px 10px 0 0",
+            padding: "16px 16px 20px",
             boxShadow: "0 4px 20px rgba(0,0,0,.3)",
             zIndex: 2,
             fontFamily: "system-ui",
-            width: 320,
+            width: "100%",
+            maxWidth: 360,
+            maxHeight: "70vh",
+            overflowY: "auto",
+            boxSizing: "border-box",
           }}
         >
-          <div style={{ fontWeight: 700, marginBottom: 12, fontSize: 15 }}>
-            📍 New tree at {clickLngLat[1].toFixed(4)},{" "}
-            {clickLngLat[0].toFixed(4)}
+          <div style={{ fontWeight: 700, marginBottom: 10, fontSize: 15 }}>
+            {clickLngLat
+              ? `📍 New tree at ${parsedLat?.toFixed(4)}, ${parsedLng?.toFixed(4)}`
+              : "📍 Place a new tree"}
           </div>
 
-          <button
-            type="button"
-            onClick={() => setDetailsOpen(!detailsOpen)}
-            style={{
-              width: "100%",
-              padding: "8px 0",
-              background: "none",
-              border: "none",
-              borderTop: "1px solid #eee",
-              borderBottom: detailsOpen ? "1px solid #eee" : "none",
-              fontSize: 13,
-              color: "#666",
-              cursor: "pointer",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-              fontFamily: "system-ui",
-              marginBottom: detailsOpen ? 8 : 12,
-            }}
-          >
-            <span>Details (optional)</span>
-            <span style={{ transform: detailsOpen ? "rotate(180deg)" : "rotate(0deg)", transition: "transform 0.2s" }}>▾</span>
-          </button>
-
-          {detailsOpen && (
-            <div>
-              <input
-                placeholder="Name (e.g. General Sherman)"
-                value={form.name}
-                onChange={(e) => setForm({ ...form, name: e.target.value })}
-                style={inputStyle}
-              />
-              <input
-                placeholder="Species (e.g. Giant Sequoia)"
-                value={form.species}
-                onChange={(e) => setForm({ ...form, species: e.target.value })}
-                style={inputStyle}
-              />
-              <input
-                placeholder="Short description"
-                value={form.description}
-                onChange={(e) => setForm({ ...form, description: e.target.value })}
-                style={inputStyle}
-              />
-            </div>
-          )}
-
-          <button
-            onClick={handleSubmit}
-            style={{
-              width: "100%",
-              padding: 10,
-              background: "#27ae60",
-              color: "#fff",
-              border: "none",
-              borderRadius: 6,
-              fontSize: 14,
-              fontWeight: 600,
-              cursor: "pointer",
-            }}
-          >
-            🌳 Save Tree
-          </button>
-        </div>
-      )}
-
-      {/* Instruction banner + manual lat/lng entry when adding */}
-      {adding && !clickLngLat && (
-        <div
-          style={{
-            position: "absolute",
-            bottom: 20,
-            left: "50%",
-            transform: "translateX(-50%)",
-            background: "#fff",
-            borderRadius: 10,
-            padding: 20,
-            boxShadow: "0 4px 20px rgba(0,0,0,.3)",
-            zIndex: 2,
-            fontFamily: "system-ui",
-            width: 320,
-          }}
-        >
-          <div style={{ fontSize: 14, color: "#666", marginBottom: 14, textAlign: "center" }}>
-            Click the map to place a tree, or enter coordinates:
-          </div>
-          <div style={{ display: "flex", gap: 8, marginBottom: 10 }}>
+          <div style={{ display: "flex", gap: 8, marginBottom: 8 }}>
             <input
               type="text"
-              placeholder="Latitude"
+              inputMode="decimal"
+              placeholder="Latitude (e.g. -33.8688)"
               value={manualLat}
               onChange={(e) => setManualLat(e.target.value)}
               style={{ ...inputStyle, marginBottom: 0, flex: 1 }}
             />
             <input
               type="text"
-              placeholder="Longitude"
+              inputMode="decimal"
+              placeholder="Longitude (e.g. 151.2093)"
               value={manualLng}
               onChange={(e) => setManualLng(e.target.value)}
               style={{ ...inputStyle, marginBottom: 0, flex: 1 }}
             />
           </div>
-          <button
-            onClick={() => {
-              const lat = parseFloat(manualLat);
-              const lng = parseFloat(manualLng);
-              if (isNaN(lat) || isNaN(lng) || lat < -90 || lat > 90 || lng < -180 || lng > 180) return;
+          {manualLat && manualLng && !hasValidCoords && (
+            <div style={{ color: "#e74c3c", fontSize: 12, marginBottom: 6 }}>
+              Enter valid coordinates (lat: -90 to 90, lng: -180 to 180)
+            </div>
+          )}
 
-              // Remove previous preview marker
-              if (previewMarkerRef.current) {
-                previewMarkerRef.current.remove();
-                previewMarkerRef.current = null;
-              }
+          {/* Show "Set Location" button when coords typed manually but not yet placed */}
+          {hasValidCoords && !clickLngLat && (
+            <button
+              onClick={placePreviewFromManual}
+              style={{
+                width: "100%",
+                padding: 10,
+                background: "#3498db",
+                color: "#fff",
+                border: "none",
+                borderRadius: 6,
+                fontSize: 16,
+                fontWeight: 600,
+                cursor: "pointer",
+                marginBottom: 8,
+              }}
+            >
+              📍 Set Location
+            </button>
+          )}
 
-              // Place preview marker
-              const el = document.createElement("div");
-              el.style.cssText =
-                "width:28px;height:28px;font-size:24px;cursor:pointer;line-height:1;text-align:center;animation:dropIn 0.3s ease-out;";
-              el.textContent = "\u{1F333}";
-              const marker = new mapboxgl.Marker(el)
-                .setLngLat([lng, lat])
-                .addTo(map.current!);
-              previewMarkerRef.current = marker;
+          {/* Also allow tapping the map */}
+          {!clickLngLat && !hasValidCoords && (
+            <div style={{ fontSize: 13, color: "#888", textAlign: "center", marginBottom: 8 }}>
+              or tap the map to place a tree
+            </div>
+          )}
 
-              // Fly to location
-              map.current?.flyTo({ center: [lng, lat], zoom: Math.max(map.current.getZoom(), 10) });
+          {clickLngLat && (
+            <>
+              <button
+                type="button"
+                onClick={() => setDetailsOpen(!detailsOpen)}
+                style={{
+                  width: "100%",
+                  padding: "8px 0",
+                  background: "none",
+                  border: "none",
+                  borderTop: "1px solid #eee",
+                  borderBottom: detailsOpen ? "1px solid #eee" : "none",
+                  fontSize: 13,
+                  color: "#666",
+                  cursor: "pointer",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  fontFamily: "system-ui",
+                  marginBottom: detailsOpen ? 8 : 12,
+                }}
+              >
+                <span>Details (optional)</span>
+                <span style={{ transform: detailsOpen ? "rotate(180deg)" : "rotate(0deg)", transition: "transform 0.2s" }}>▾</span>
+              </button>
 
-              setClickLngLat([lng, lat]);
-            }}
-            style={{
-              width: "100%",
-              padding: 10,
-              background: "#27ae60",
-              color: "#fff",
-              border: "none",
-              borderRadius: 6,
-              fontSize: 14,
-              fontWeight: 600,
-              cursor: "pointer",
-            }}
-          >
-            📍 Set Location
-          </button>
+              {detailsOpen && (
+                <div>
+                  <input
+                    placeholder="Name (e.g. General Sherman)"
+                    value={form.name}
+                    onChange={(e) => setForm({ ...form, name: e.target.value })}
+                    style={inputStyle}
+                  />
+                  <input
+                    placeholder="Species (e.g. Giant Sequoia)"
+                    value={form.species}
+                    onChange={(e) => setForm({ ...form, species: e.target.value })}
+                    style={inputStyle}
+                  />
+                  <input
+                    placeholder="Short description"
+                    value={form.description}
+                    onChange={(e) => setForm({ ...form, description: e.target.value })}
+                    style={inputStyle}
+                  />
+                </div>
+              )}
+
+              <button
+                onClick={handleSubmit}
+                style={{
+                  width: "100%",
+                  padding: 10,
+                  background: "#27ae60",
+                  color: "#fff",
+                  border: "none",
+                  borderRadius: 6,
+                  fontSize: 16,
+                  fontWeight: 600,
+                  cursor: "pointer",
+                }}
+              >
+                🌳 Save Tree
+              </button>
+            </>
+          )}
         </div>
       )}
     </div>
@@ -397,7 +423,7 @@ const inputStyle: React.CSSProperties = {
   marginBottom: 8,
   border: "1px solid #ddd",
   borderRadius: 6,
-  fontSize: 14,
+  fontSize: 16,
   fontFamily: "system-ui",
   boxSizing: "border-box",
 };
