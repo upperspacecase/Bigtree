@@ -20,6 +20,7 @@ export default function Home() {
   const mapContainer = useRef<HTMLDivElement>(null);
   const map = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
+  const previewMarkerRef = useRef<mapboxgl.Marker | null>(null);
   const [adding, setAdding] = useState(false);
   const [clickLngLat, setClickLngLat] = useState<[number, number] | null>(
     null
@@ -40,12 +41,22 @@ export default function Home() {
     if (tree.height) stats.push(`${tree.height}m tall`);
     if (tree.circumference) stats.push(`${tree.circumference}m circumference`);
 
-    const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
-      `<div style="font-family:system-ui;max-width:220px">
-        <strong style="font-size:14px">${displayName}</strong>
-        <div style="color:#666;font-size:12px;margin:2px 0">${displaySpecies}</div>
-        ${stats.length ? `<div style="font-size:12px;color:#888">${stats.join(" · ")}</div>` : ""}
-        ${tree.description ? `<div style="font-size:13px;margin-top:4px">${tree.description}</div>` : ""}
+    const mapsUrl = `https://www.google.com/maps?q=${tree.lat},${tree.lng}`;
+
+    const popup = new mapboxgl.Popup({ offset: 25, maxWidth: "320px", className: "tree-popup" }).setHTML(
+      `<div style="font-family:system-ui,sans-serif;">
+        <div style="font-weight:700;font-size:15px;color:#1a1a1a;margin-bottom:4px;">🌳 ${displayName}</div>
+        <div style="font-size:13px;color:#888;margin-bottom:6px;">${displaySpecies}</div>
+        ${stats.length ? `<div style="font-size:12px;color:#aaa;margin-bottom:6px;border-top:1px solid #eee;padding-top:6px;">${stats.join(" · ")}</div>` : ""}
+        ${tree.description ? `<div style="font-size:13px;color:#444;line-height:1.5;margin-bottom:8px;">${tree.description}</div>` : ""}
+        <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer"
+           style="display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:#fff;background:#27ae60;padding:8px 14px;border-radius:6px;text-decoration:none;width:100%;justify-content:center;box-sizing:border-box;">
+          <svg style="width:14px;height:14px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+          </svg>
+          Show on Maps
+        </a>
       </div>`
     );
 
@@ -86,6 +97,23 @@ export default function Home() {
 
     const handleClick = (e: mapboxgl.MapMouseEvent) => {
       if (adding) {
+        // Remove previous preview marker
+        if (previewMarkerRef.current) {
+          previewMarkerRef.current.remove();
+          previewMarkerRef.current = null;
+        }
+
+        // Place a preview tree emoji at the clicked location
+        const el = document.createElement("div");
+        el.style.cssText =
+          "width:28px;height:28px;font-size:24px;cursor:pointer;line-height:1;text-align:center;animation:dropIn 0.3s ease-out;";
+        el.textContent = "\u{1F333}";
+
+        const marker = new mapboxgl.Marker(el)
+          .setLngLat([e.lngLat.lng, e.lngLat.lat])
+          .addTo(map.current!);
+
+        previewMarkerRef.current = marker;
         setClickLngLat([e.lngLat.lng, e.lngLat.lat]);
       }
     };
@@ -118,6 +146,11 @@ export default function Home() {
 
     if (res.ok) {
       const tree = await res.json();
+      // Remove the preview marker since addMarker will place a permanent one
+      if (previewMarkerRef.current) {
+        previewMarkerRef.current.remove();
+        previewMarkerRef.current = null;
+      }
       addMarker(tree);
       setAdding(false);
       setClickLngLat(null);
@@ -133,6 +166,11 @@ export default function Home() {
       {/* Add tree button */}
       <button
         onClick={() => {
+          // Clean up preview marker when toggling
+          if (previewMarkerRef.current) {
+            previewMarkerRef.current.remove();
+            previewMarkerRef.current = null;
+          }
           setAdding(!adding);
           setClickLngLat(null);
           setForm({ name: "", species: "", description: "" });

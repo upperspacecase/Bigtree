@@ -10,12 +10,15 @@
     "postinstall": "echo 'export {}' > node_modules/@types/mapbox__point-geometry/index.d.ts 2>/dev/null || true"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
     "dotenv": "^17.3.1",
     "mapbox-gl": "^3.19.0",
     "mongoose": "^9.2.4",
     "next": "^16.1.6",
+    "postcss": "^8.5.8",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
     "@types/node": "^25.3.3",
