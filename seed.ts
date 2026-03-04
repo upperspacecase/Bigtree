@@ -5415,6 +5415,4959 @@ const trees = [
     description:
       "Cinnamomun camphora. Trunk circumference: 5.0m. Height: 25.0m. Notable for exceptional age and/or size. Located in Cimitero comunale, Caserta, Caserta, Italy.",
   },
+
+  // === TALLO GLOBAL TREE DATABASE (Jucker et al. 2022, CC-BY-4.0) ===
+  // Largest trees from 498,839 georeferenced records across 234 species worldwide
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -43.1511,
+    lng: 146.836,
+    height: 79.3,
+    circumference: 20.5,
+    description:
+      "Trunk diameter: 652cm. Height: 79m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -43.1511, 146.836 (Oceania).",
+  },
+  {
+    name: "Sequoia sempervirens (Cupressaceae)",
+    species: "Sequoia sempervirens",
+    lat: 40.0,
+    lng: -123.8,
+    height: 102.5,
+    circumference: 20.4,
+    description:
+      "Trunk diameter: 648cm. Height: 102m. Family: Cupressaceae. Recorded in the Tallo global tree database. Location: 40.0, -123.8 (North America).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -41.2273,
+    lng: 147.9892,
+    height: 59.0,
+    circumference: 19.0,
+    description:
+      "Trunk diameter: 605cm. Height: 59m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.2273, 147.9892 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.8132,
+    lng: 146.7073,
+    height: 75.3,
+    circumference: 18.2,
+    description:
+      "Trunk diameter: 580cm. Height: 75m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.8132, 146.7073 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.816,
+    lng: 146.6081,
+    height: 65.0,
+    circumference: 18.0,
+    description:
+      "Trunk diameter: 573cm. Height: 65m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.816, 146.6081 (Oceania).",
+  },
+  {
+    name: "Eucalyptus globulus (Myrtaceae)",
+    species: "Eucalyptus globulus",
+    lat: -43.2561,
+    lng: 146.919,
+    height: 82.3,
+    circumference: 17.4,
+    description:
+      "Trunk diameter: 554cm. Height: 82m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -43.2561, 146.919 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.495,
+    lng: 146.4292,
+    height: 70.0,
+    circumference: 17.1,
+    description:
+      "Trunk diameter: 544cm. Height: 70m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.495, 146.4292 (Oceania).",
+  },
+  {
+    name: "Eucalyptus delegatensis (Myrtaceae)",
+    species: "Eucalyptus delegatensis",
+    lat: -42.7888,
+    lng: 146.7066,
+    height: 72.0,
+    circumference: 17.0,
+    description:
+      "Trunk diameter: 541cm. Height: 72m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.7888, 146.7066 (Oceania).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -42.8166,
+    lng: 146.7052,
+    height: 53.0,
+    circumference: 16.9,
+    description:
+      "Trunk diameter: 539cm. Height: 53m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.8166, 146.7052 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -43.1309,
+    lng: 146.7332,
+    height: 67.0,
+    circumference: 16.9,
+    description:
+      "Trunk diameter: 538cm. Height: 67m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -43.1309, 146.7332 (Oceania).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -42.3869,
+    lng: 146.4619,
+    height: 78.0,
+    circumference: 16.4,
+    description:
+      "Trunk diameter: 521cm. Height: 78m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.3869, 146.4619 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.4232,
+    lng: 146.4777,
+    height: 80.0,
+    circumference: 16.2,
+    description:
+      "Trunk diameter: 516cm. Height: 80m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.4232, 146.4777 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.4834,
+    lng: 146.4507,
+    height: 82.0,
+    circumference: 16.2,
+    description:
+      "Trunk diameter: 515cm. Height: 82m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.4834, 146.4507 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 7.65,
+    lng: -10.89,
+    height: 53.0,
+    circumference: 14.9,
+    description:
+      "Trunk diameter: 475cm. Height: 53m. Family: NA. Recorded in the Tallo global tree database. Location: 7.65, -10.89 (Africa).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.7691,
+    lng: 146.5294,
+    height: 85.0,
+    circumference: 14.1,
+    description:
+      "Trunk diameter: 448cm. Height: 85m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.7691, 146.5294 (Oceania).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -43.3109,
+    lng: 146.8633,
+    height: 72.0,
+    circumference: 13.8,
+    description:
+      "Trunk diameter: 440cm. Height: 72m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -43.3109, 146.8633 (Oceania).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -42.3833,
+    lng: 146.4489,
+    height: 86.0,
+    circumference: 12.8,
+    description:
+      "Trunk diameter: 407cm. Height: 86m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.3833, 146.4489 (Oceania).",
+  },
+  {
+    name: "Eucalyptus jacksonii (Myrtaceae)",
+    species: "Eucalyptus jacksonii",
+    lat: -34.981,
+    lng: 116.879,
+    height: 48.5,
+    circumference: 12.7,
+    description:
+      "Trunk diameter: 403cm. Height: 48m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.981, 116.879 (Oceania).",
+  },
+  {
+    name: "Eucalyptus jacksonii (Myrtaceae)",
+    species: "Eucalyptus jacksonii",
+    lat: -34.996,
+    lng: 116.65,
+    height: 43.0,
+    circumference: 12.5,
+    description:
+      "Trunk diameter: 397cm. Height: 43m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.996, 116.65 (Oceania).",
+  },
+  {
+    name: "Eucalyptus globulus (Myrtaceae)",
+    species: "Eucalyptus globulus",
+    lat: -42.9639,
+    lng: 146.756,
+    height: 90.7,
+    circumference: 12.2,
+    description:
+      "Trunk diameter: 388cm. Height: 91m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.9639, 146.756 (Oceania).",
+  },
+  {
+    name: "Eucalyptus salmonophloia (Myrtaceae)",
+    species: "Eucalyptus salmonophloia",
+    lat: -30.186,
+    lng: 120.67,
+    height: 17.2,
+    circumference: 12.1,
+    description:
+      "Trunk diameter: 385cm. Height: 17m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.186, 120.67 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -37.421,
+    lng: 145.216,
+    height: 87.0,
+    circumference: 12.0,
+    description:
+      "Trunk diameter: 382cm. Height: 87m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.421, 145.216 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -30.191,
+    lng: 120.664,
+    height: 14.9,
+    circumference: 11.9,
+    description:
+      "Trunk diameter: 380cm. Height: 15m. Family: NA. Recorded in the Tallo global tree database. Location: -30.191, 120.664 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.6195,
+    lng: 146.4665,
+    height: 85.0,
+    circumference: 11.5,
+    description:
+      "Trunk diameter: 365cm. Height: 85m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.6195, 146.4665 (Oceania).",
+  },
+  {
+    name: "Pseudotsuga menziesii (Pinaceae)",
+    species: "Pseudotsuga menziesii",
+    lat: 43.18,
+    lng: -123.811,
+    height: 99.7,
+    circumference: 11.0,
+    description:
+      "Trunk diameter: 350cm. Height: 100m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 43.18, -123.811 (North America).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -35.676,
+    lng: 148.166,
+    height: 43.8,
+    circumference: 11.0,
+    description:
+      "Trunk diameter: 349cm. Height: 44m. Family: NA. Recorded in the Tallo global tree database. Location: -35.676, 148.166 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.7702,
+    lng: 146.7552,
+    height: 92.9,
+    circumference: 10.6,
+    description:
+      "Trunk diameter: 339cm. Height: 93m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.7702, 146.7552 (Oceania).",
+  },
+  {
+    name: "Eucalyptus viminalis (Myrtaceae)",
+    species: "Eucalyptus viminalis",
+    lat: -41.4023,
+    lng: 147.975,
+    height: 89.0,
+    circumference: 10.4,
+    description:
+      "Trunk diameter: 330cm. Height: 89m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.4023, 147.975 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -41.4565,
+    lng: 147.7316,
+    height: 88.7,
+    circumference: 10.1,
+    description:
+      "Trunk diameter: 320cm. Height: 89m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.4565, 147.7316 (Oceania).",
+  },
+  {
+    name: "Eucalyptus salubris (Myrtaceae)",
+    species: "Eucalyptus salubris",
+    lat: -30.192,
+    lng: 120.651,
+    height: 11.2,
+    circumference: 9.9,
+    description:
+      "Trunk diameter: 316cm. Height: 11m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.192, 120.651 (Oceania).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -40.952,
+    lng: 144.843,
+    height: 51.3,
+    circumference: 9.8,
+    description:
+      "Trunk diameter: 313cm. Height: 51m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -40.952, 144.843 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -37.0,
+    lng: 145.0,
+    height: 91.3,
+    circumference: 9.8,
+    description:
+      "Trunk diameter: 312cm. Height: 91m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.0, 145.0 (Oceania).",
+  },
+  {
+    name: "Eucalyptus delegatensis (Myrtaceae)",
+    species: "Eucalyptus delegatensis",
+    lat: -42.4846,
+    lng: 146.4081,
+    height: 87.9,
+    circumference: 9.6,
+    description:
+      "Trunk diameter: 307cm. Height: 88m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.4846, 146.4081 (Oceania).",
+  },
+  {
+    name: "Eucalyptus diversicolor (Myrtaceae)",
+    species: "Eucalyptus diversicolor",
+    lat: -34.546,
+    lng: 115.952,
+    height: 51.6,
+    circumference: 9.6,
+    description:
+      "Trunk diameter: 305cm. Height: 52m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.546, 115.952 (Oceania).",
+  },
+  {
+    name: "Picea sitchensis (Pinaceae)",
+    species: "Picea sitchensis",
+    lat: 48.616,
+    lng: -124.718,
+    height: 96.0,
+    circumference: 9.6,
+    description:
+      "Trunk diameter: 305cm. Height: 96m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 48.616, -124.718 (North America).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -43.089,
+    lng: 146.644,
+    height: 50.2,
+    circumference: 9.3,
+    description:
+      "Trunk diameter: 296cm. Height: 50m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -43.089, 146.644 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 5.3,
+    lng: -7.3,
+    height: 68.0,
+    circumference: 9.2,
+    description:
+      "Trunk diameter: 293cm. Height: 68m. Family: NA. Recorded in the Tallo global tree database. Location: 5.3, -7.3 (Africa).",
+  },
+  {
+    name: "Eucalyptus pilularis (Myrtaceae)",
+    species: "Eucalyptus pilularis",
+    lat: -31.686,
+    lng: 152.684,
+    height: 57.4,
+    circumference: 9.1,
+    description:
+      "Trunk diameter: 291cm. Height: 57m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -31.686, 152.684 (Oceania).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -41.034,
+    lng: 145.406,
+    height: 53.3,
+    circumference: 9.0,
+    description:
+      "Trunk diameter: 288cm. Height: 53m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.034, 145.406 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -35.64,
+    lng: 148.145,
+    height: 54.4,
+    circumference: 9.0,
+    description:
+      "Trunk diameter: 286cm. Height: 54m. Family: NA. Recorded in the Tallo global tree database. Location: -35.64, 148.145 (Oceania).",
+  },
+  {
+    name: "Eucalyptus microcorys (Myrtaceae)",
+    species: "Eucalyptus microcorys",
+    lat: -31.686,
+    lng: 152.684,
+    height: 66.5,
+    circumference: 9.0,
+    description:
+      "Trunk diameter: 285cm. Height: 66m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -31.686, 152.684 (Oceania).",
+  },
+  {
+    name: "Entandrophragma cylindricum (Meliaceae)",
+    species: "Entandrophragma cylindricum",
+    lat: 3.88,
+    lng: 14.39,
+    height: 50.9,
+    circumference: 8.8,
+    description:
+      "Trunk diameter: 280cm. Height: 51m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 3.88, 14.39 (Africa).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -37.693,
+    lng: 145.806,
+    height: 90.4,
+    circumference: 8.7,
+    description:
+      "Trunk diameter: 277cm. Height: 90m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.693, 145.806 (Oceania).",
+  },
+  {
+    name: "Eucalyptus delegatensis (Myrtaceae)",
+    species: "Eucalyptus delegatensis",
+    lat: -41.63,
+    lng: 146.259,
+    height: 51.2,
+    circumference: 8.4,
+    description:
+      "Trunk diameter: 269cm. Height: 51m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.63, 146.259 (Oceania).",
+  },
+  {
+    name: "Podocarpus totara (Podocarpaceae)",
+    species: "Podocarpus totara",
+    lat: -38.67,
+    lng: 176.72,
+    height: 37.4,
+    circumference: 8.4,
+    description:
+      "Trunk diameter: 266cm. Height: 37m. Family: Podocarpaceae. Recorded in the Tallo global tree database. Location: -38.67, 176.72 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -27.625,
+    lng: 153.087,
+    height: 30.3,
+    circumference: 8.0,
+    description:
+      "Trunk diameter: 256cm. Height: 30m. Family: NA. Recorded in the Tallo global tree database. Location: -27.625, 153.087 (Oceania).",
+  },
+  {
+    name: "Quercus marilandica (Fagaceae)",
+    species: "Quercus marilandica",
+    lat: 33.37,
+    lng: -97.595,
+    height: null,
+    circumference: 8.0,
+    description:
+      "Trunk diameter: 255cm. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 33.37, -97.595 (North America).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 0.29,
+    lng: 25.33,
+    height: 48.8,
+    circumference: 8.0,
+    description:
+      "Trunk diameter: 253cm. Height: 49m. Family: NA. Recorded in the Tallo global tree database. Location: 0.29, 25.33 (Africa).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -0.17,
+    lng: 11.57,
+    height: 44.2,
+    circumference: 7.9,
+    description:
+      "Trunk diameter: 251cm. Height: 44m. Family: NA. Recorded in the Tallo global tree database. Location: -0.17, 11.57 (Africa).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -35.671,
+    lng: 148.144,
+    height: 33.8,
+    circumference: 7.9,
+    description:
+      "Trunk diameter: 251cm. Height: 34m. Family: NA. Recorded in the Tallo global tree database. Location: -35.671, 148.144 (Oceania).",
+  },
+  {
+    name: "Dinizia excelsa (Fabaceae)",
+    species: "Dinizia excelsa",
+    lat: 0.694,
+    lng: -53.221,
+    height: 82.0,
+    circumference: 7.9,
+    description:
+      "Trunk diameter: 250cm. Height: 82m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 0.694, -53.221 (North America).",
+  },
+  {
+    name: "Cavanillesia platanifolia (Malvaceae)",
+    species: "Cavanillesia platanifolia",
+    lat: 9.151,
+    lng: -79.855,
+    height: 44.4,
+    circumference: 7.8,
+    description:
+      "Trunk diameter: 248cm. Height: 44m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Pachyelasma tessmannii (Fabaceae)",
+    species: "Pachyelasma tessmannii",
+    lat: 3.317,
+    lng: 17.267,
+    height: 30.2,
+    circumference: 7.7,
+    description:
+      "Trunk diameter: 246cm. Height: 30m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Eucalyptus salmonophloia (Myrtaceae)",
+    species: "Eucalyptus salmonophloia",
+    lat: -30.192,
+    lng: 120.642,
+    height: 21.8,
+    circumference: 7.7,
+    description:
+      "Trunk diameter: 245cm. Height: 22m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.192, 120.642 (Oceania).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -37.275,
+    lng: 143.241,
+    height: 27.5,
+    circumference: 7.7,
+    description:
+      "Trunk diameter: 244cm. Height: 28m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.275, 143.241 (Oceania).",
+  },
+  {
+    name: "Eucalyptus transcontinentalis (Myrtaceae)",
+    species: "Eucalyptus transcontinentalis",
+    lat: -30.192,
+    lng: 120.642,
+    height: 14.0,
+    circumference: 7.6,
+    description:
+      "Trunk diameter: 242cm. Height: 14m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.192, 120.642 (Oceania).",
+  },
+  {
+    name: "Eucalyptus pilularis (Myrtaceae)",
+    species: "Eucalyptus pilularis",
+    lat: -31.592,
+    lng: 152.62,
+    height: 36.6,
+    circumference: 7.6,
+    description:
+      "Trunk diameter: 242cm. Height: 37m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -31.592, 152.62 (Oceania).",
+  },
+  {
+    name: "Eucalyptus diversicolor (Myrtaceae)",
+    species: "Eucalyptus diversicolor",
+    lat: -34.508,
+    lng: 116.124,
+    height: 54.0,
+    circumference: 7.6,
+    description:
+      "Trunk diameter: 240cm. Height: 54m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.508, 116.124 (Oceania).",
+  },
+  {
+    name: "Cylicodiscus gabunensis (Fabaceae)",
+    species: "Cylicodiscus gabunensis",
+    lat: 2.916,
+    lng: 11.15,
+    height: 39.6,
+    circumference: 7.5,
+    description:
+      "Trunk diameter: 240cm. Height: 40m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.916, 11.15 (Africa).",
+  },
+  {
+    name: "Citronella moorei (Cardiopteridaceae)",
+    species: "Citronella moorei",
+    lat: -27.337,
+    lng: 152.766,
+    height: 28.0,
+    circumference: 7.5,
+    description:
+      "Trunk diameter: 239cm. Height: 28m. Family: Cardiopteridaceae. Recorded in the Tallo global tree database. Location: -27.337, 152.766 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -35.639,
+    lng: 148.17,
+    height: 34.5,
+    circumference: 7.3,
+    description:
+      "Trunk diameter: 233cm. Height: 34m. Family: NA. Recorded in the Tallo global tree database. Location: -35.639, 148.17 (Oceania).",
+  },
+  {
+    name: "Eucalyptus transcontinentalis (Myrtaceae)",
+    species: "Eucalyptus transcontinentalis",
+    lat: -30.199,
+    lng: 120.654,
+    height: 16.9,
+    circumference: 7.3,
+    description:
+      "Trunk diameter: 233cm. Height: 17m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.199, 120.654 (Oceania).",
+  },
+  {
+    name: "Eucalyptus pilularis (Myrtaceae)",
+    species: "Eucalyptus pilularis",
+    lat: -31.208,
+    lng: 152.526,
+    height: 56.4,
+    circumference: 7.3,
+    description:
+      "Trunk diameter: 233cm. Height: 56m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -31.208, 152.526 (Oceania).",
+  },
+  {
+    name: "Ceiba pentandra (Malvaceae)",
+    species: "Ceiba pentandra",
+    lat: 9.151,
+    lng: -79.855,
+    height: 33.8,
+    circumference: 7.2,
+    description:
+      "Trunk diameter: 230cm. Height: 34m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Ficus costaricana (Moraceae)",
+    species: "Ficus costaricana",
+    lat: 9.151,
+    lng: -79.855,
+    height: 36.2,
+    circumference: 7.2,
+    description:
+      "Trunk diameter: 228cm. Height: 36m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Eucalyptus diversicolor (Myrtaceae)",
+    species: "Eucalyptus diversicolor",
+    lat: -34.449,
+    lng: 116.249,
+    height: 55.9,
+    circumference: 7.2,
+    description:
+      "Trunk diameter: 228cm. Height: 56m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.449, 116.249 (Oceania).",
+  },
+  {
+    name: "Eucalyptus diversicolor (Myrtaceae)",
+    species: "Eucalyptus diversicolor",
+    lat: -34.825,
+    lng: 116.786,
+    height: 58.3,
+    circumference: 7.1,
+    description:
+      "Trunk diameter: 227cm. Height: 58m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.825, 116.786 (Oceania).",
+  },
+  {
+    name: "Eucalyptus diversicolor (Myrtaceae)",
+    species: "Eucalyptus diversicolor",
+    lat: -34.981,
+    lng: 116.879,
+    height: 52.8,
+    circumference: 7.1,
+    description:
+      "Trunk diameter: 225cm. Height: 53m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.981, 116.879 (Oceania).",
+  },
+  {
+    name: "Eucalyptus dalrympleana (Myrtaceae)",
+    species: "Eucalyptus dalrympleana",
+    lat: -41.311,
+    lng: 147.539,
+    height: 51.3,
+    circumference: 7.1,
+    description:
+      "Trunk diameter: 225cm. Height: 51m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.311, 147.539 (Oceania).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -36.997,
+    lng: 149.383,
+    height: 58.8,
+    circumference: 7.0,
+    description:
+      "Trunk diameter: 224cm. Height: 59m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.997, 149.383 (Oceania).",
+  },
+  {
+    name: "Dacrydium cupressinum (Podocarpaceae)",
+    species: "Dacrydium cupressinum",
+    lat: -38.62,
+    lng: 176.87,
+    height: 45.0,
+    circumference: 7.0,
+    description:
+      "Trunk diameter: 224cm. Height: 45m. Family: Podocarpaceae. Recorded in the Tallo global tree database. Location: -38.62, 176.87 (Oceania).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.568,
+    lng: -6.905,
+    height: 12.5,
+    circumference: 7.0,
+    description:
+      "Trunk diameter: 223cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.568, -6.905 (Europe).",
+  },
+  {
+    name: "Eucalyptus fastigata (Myrtaceae)",
+    species: "Eucalyptus fastigata",
+    lat: -36.997,
+    lng: 149.383,
+    height: 44.7,
+    circumference: 7.0,
+    description:
+      "Trunk diameter: 222cm. Height: 45m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.997, 149.383 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -37.683,
+    lng: 145.589,
+    height: 62.3,
+    circumference: 6.9,
+    description:
+      "Trunk diameter: 220cm. Height: 62m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.683, 145.589 (Oceania).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.176,
+    lng: -7.826,
+    height: 14.0,
+    circumference: 6.9,
+    description:
+      "Trunk diameter: 220cm. Height: 14m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.176, -7.826 (Europe).",
+  },
+  {
+    name: "Eucalyptus microcorys (Myrtaceae)",
+    species: "Eucalyptus microcorys",
+    lat: -31.592,
+    lng: 152.62,
+    height: 57.9,
+    circumference: 6.9,
+    description:
+      "Trunk diameter: 219cm. Height: 58m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -31.592, 152.62 (Oceania).",
+  },
+  {
+    name: "Eucalyptus diversicolor (Myrtaceae)",
+    species: "Eucalyptus diversicolor",
+    lat: -34.996,
+    lng: 116.65,
+    height: 47.9,
+    circumference: 6.9,
+    description:
+      "Trunk diameter: 218cm. Height: 48m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.996, 116.65 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 0.38,
+    lng: 13.11,
+    height: 58.3,
+    circumference: 6.8,
+    description:
+      "Trunk diameter: 217cm. Height: 58m. Family: NA. Recorded in the Tallo global tree database. Location: 0.38, 13.11 (Africa).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -37.841,
+    lng: 146.204,
+    height: 28.5,
+    circumference: 6.8,
+    description:
+      "Trunk diameter: 216cm. Height: 28m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.841, 146.204 (Oceania).",
+  },
+  {
+    name: "Eucalyptus pilularis (Myrtaceae)",
+    species: "Eucalyptus pilularis",
+    lat: -30.195,
+    lng: 120.633,
+    height: 13.5,
+    circumference: 6.7,
+    description:
+      "Trunk diameter: 213cm. Height: 14m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.195, 120.633 (Oceania).",
+  },
+  {
+    name: "Eucalyptus rubida (Myrtaceae)",
+    species: "Eucalyptus rubida",
+    lat: -37.264,
+    lng: 147.391,
+    height: 29.5,
+    circumference: 6.7,
+    description:
+      "Trunk diameter: 213cm. Height: 30m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.264, 147.391 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -2.85,
+    lng: -54.95,
+    height: 62.2,
+    circumference: 6.7,
+    description:
+      "Trunk diameter: 212cm. Height: 62m. Family: NA. Recorded in the Tallo global tree database. Location: -2.85, -54.95 (unknown).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 3.94,
+    lng: 14.81,
+    height: 52.7,
+    circumference: 6.7,
+    description:
+      "Trunk diameter: 212cm. Height: 53m. Family: NA. Recorded in the Tallo global tree database. Location: 3.94, 14.81 (Africa).",
+  },
+  {
+    name: "Triplochiton scleroxylon (Malvaceae)",
+    species: "Triplochiton scleroxylon",
+    lat: 4.7,
+    lng: 14.32,
+    height: 52.7,
+    circumference: 6.7,
+    description:
+      "Trunk diameter: 212cm. Height: 53m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 4.7, 14.32 (Africa).",
+  },
+  {
+    name: "Shorea faguetiana (Dipterocarpaceae)",
+    species: "Shorea faguetiana",
+    lat: 4.917,
+    lng: 117.667,
+    height: 100.8,
+    circumference: 6.7,
+    description:
+      "Trunk diameter: 212cm. Height: 101m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.917, 117.667 (Asia).",
+  },
+  {
+    name: "Eucalyptus andrewsii (Myrtaceae)",
+    species: "Eucalyptus andrewsii",
+    lat: -30.157,
+    lng: 152.727,
+    height: 50.9,
+    circumference: 6.6,
+    description:
+      "Trunk diameter: 209cm. Height: 51m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.157, 152.727 (Oceania).",
+  },
+  {
+    name: "Sterculia apetala (Malvaceae)",
+    species: "Sterculia apetala",
+    lat: 9.151,
+    lng: -79.855,
+    height: 40.9,
+    circumference: 6.5,
+    description:
+      "Trunk diameter: 208cm. Height: 41m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Nothofagus fusca (Nothofagaceae)",
+    species: "Nothofagus fusca",
+    lat: -42.36,
+    lng: 172.23,
+    height: 28.5,
+    circumference: 6.5,
+    description:
+      "Trunk diameter: 206cm. Height: 28m. Family: Nothofagaceae. Recorded in the Tallo global tree database. Location: -42.36, 172.23 (Oceania).",
+  },
+  {
+    name: "Ficus elasticoides (Moraceae)",
+    species: "Ficus elasticoides",
+    lat: 2.333,
+    lng: 17.533,
+    height: 38.8,
+    circumference: 6.4,
+    description:
+      "Trunk diameter: 204cm. Height: 39m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 43.187,
+    lng: -3.898,
+    height: 14.0,
+    circumference: 6.4,
+    description:
+      "Trunk diameter: 204cm. Height: 14m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.187, -3.898 (Europe).",
+  },
+  {
+    name: "Quercus petraea (Fagaceae)",
+    species: "Quercus petraea",
+    lat: 42.307,
+    lng: 2.454,
+    height: 21.0,
+    circumference: 6.4,
+    description:
+      "Trunk diameter: 204cm. Height: 21m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.307, 2.454 (Europe).",
+  },
+  {
+    name: "Dinizia excelsa (Fabaceae)",
+    species: "Dinizia excelsa",
+    lat: -3.75,
+    lng: -48.47,
+    height: 63.9,
+    circumference: 6.3,
+    description:
+      "Trunk diameter: 200cm. Height: 64m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -3.75, -48.47 (unknown).",
+  },
+  {
+    name: "Triplochiton scleroxylon (Malvaceae)",
+    species: "Triplochiton scleroxylon",
+    lat: 3.88,
+    lng: 14.39,
+    height: 53.7,
+    circumference: 6.3,
+    description:
+      "Trunk diameter: 200cm. Height: 54m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 3.88, 14.39 (Africa).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -0.116,
+    lng: 34.608,
+    height: 36.3,
+    circumference: 6.2,
+    description:
+      "Trunk diameter: 198cm. Height: 36m. Family: NA. Recorded in the Tallo global tree database. Location: -0.116, 34.608 (Africa).",
+  },
+  {
+    name: "Gilbertiodendron dewevrei (Fabaceae)",
+    species: "Gilbertiodendron dewevrei",
+    lat: 2.333,
+    lng: 17.533,
+    height: 22.5,
+    circumference: 6.2,
+    description:
+      "Trunk diameter: 198cm. Height: 22m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Anacardium excelsum (Anacardiaceae)",
+    species: "Anacardium excelsum",
+    lat: 9.151,
+    lng: -79.855,
+    height: 38.9,
+    circumference: 6.2,
+    description:
+      "Trunk diameter: 198cm. Height: 39m. Family: Anacardiaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Ocotea usambarensis (Lauraceae)",
+    species: "Ocotea usambarensis",
+    lat: -3.142,
+    lng: 37.242,
+    height: 29.5,
+    circumference: 6.1,
+    description:
+      "Trunk diameter: 195cm. Height: 30m. Family: Lauraceae. Recorded in the Tallo global tree database. Location: -3.142, 37.242 (Africa).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 4.18,
+    lng: 114.02,
+    height: 55.2,
+    circumference: 6.1,
+    description:
+      "Trunk diameter: 195cm. Height: 55m. Family: NA. Recorded in the Tallo global tree database. Location: 4.18, 114.02 (Asia).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 5.41,
+    lng: -7.63,
+    height: 60.5,
+    circumference: 6.1,
+    description:
+      "Trunk diameter: 195cm. Height: 60m. Family: NA. Recorded in the Tallo global tree database. Location: 5.41, -7.63 (Africa).",
+  },
+  {
+    name: "Prumnopitys taxifolia (Podocarpaceae)",
+    species: "Prumnopitys taxifolia",
+    lat: -38.62,
+    lng: 176.87,
+    height: 31.6,
+    circumference: 6.1,
+    description:
+      "Trunk diameter: 193cm. Height: 32m. Family: Podocarpaceae. Recorded in the Tallo global tree database. Location: -38.62, 176.87 (Oceania).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.063,
+    lng: -7.417,
+    height: 12.5,
+    circumference: 6.1,
+    description:
+      "Trunk diameter: 193cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.063, -7.417 (Europe).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 10.429,
+    lng: -84.016,
+    height: 36.9,
+    circumference: 6.0,
+    description:
+      "Trunk diameter: 192cm. Height: 37m. Family: NA. Recorded in the Tallo global tree database. Location: 10.429, -84.016 (North America).",
+  },
+  {
+    name: "Ocotea usambarensis (Lauraceae)",
+    species: "Ocotea usambarensis",
+    lat: -3.148,
+    lng: 37.289,
+    height: 23.2,
+    circumference: 6.0,
+    description:
+      "Trunk diameter: 191cm. Height: 23m. Family: Lauraceae. Recorded in the Tallo global tree database. Location: -3.148, 37.289 (Africa).",
+  },
+  {
+    name: "Terminalia superba (Combretaceae)",
+    species: "Terminalia superba",
+    lat: 3.89,
+    lng: 14.4,
+    height: 46.7,
+    circumference: 6.0,
+    description:
+      "Trunk diameter: 191cm. Height: 47m. Family: Combretaceae. Recorded in the Tallo global tree database. Location: 3.89, 14.4 (Africa).",
+  },
+  {
+    name: "Acer pensylvanicum (Sapindaceae)",
+    species: "Acer pensylvanicum",
+    lat: 42.542,
+    lng: -72.173,
+    height: 16.8,
+    circumference: 6.0,
+    description:
+      "Trunk diameter: 190cm. Height: 17m. Family: Sapindaceae. Recorded in the Tallo global tree database. Location: 42.542, -72.173 (North America).",
+  },
+  {
+    name: "Hopea sangal (Dipterocarpaceae)",
+    species: "Hopea sangal",
+    lat: 4.747,
+    lng: 116.97,
+    height: 51.0,
+    circumference: 6.0,
+    description:
+      "Trunk diameter: 190cm. Height: 51m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.747, 116.97 (Asia).",
+  },
+  {
+    name: "Syzygium resa (Myrtaceae)",
+    species: "Syzygium resa",
+    lat: -17.112,
+    lng: 145.565,
+    height: 44.0,
+    circumference: 5.9,
+    description:
+      "Trunk diameter: 189cm. Height: 44m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -17.112, 145.565 (Oceania).",
+  },
+  {
+    name: "Quercus petraea (Fagaceae)",
+    species: "Quercus petraea",
+    lat: 43.045,
+    lng: -5.136,
+    height: 13.5,
+    circumference: 5.9,
+    description:
+      "Trunk diameter: 188cm. Height: 14m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.045, -5.136 (Europe).",
+  },
+  {
+    name: "Dyera costulata (Apocynaceae)",
+    species: "Dyera costulata",
+    lat: 2.58,
+    lng: 102.18,
+    height: 40.3,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 186cm. Height: 40m. Family: Apocynaceae. Recorded in the Tallo global tree database. Location: 2.58, 102.18 (Asia).",
+  },
+  {
+    name: "Bertholletia excelsa (Lecythidaceae)",
+    species: "Bertholletia excelsa",
+    lat: -3.02,
+    lng: -54.96,
+    height: 60.2,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 186cm. Height: 60m. Family: Lecythidaceae. Recorded in the Tallo global tree database. Location: -3.02, -54.96 (unknown).",
+  },
+  {
+    name: "Pterocarpus mildbraedii (Fabaceae)",
+    species: "Pterocarpus mildbraedii",
+    lat: -0.82,
+    lng: 13.285,
+    height: 52.2,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 184cm. Height: 52m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Ctenolophon englerianus (Ctenolophonaceae)",
+    species: "Ctenolophon englerianus",
+    lat: -0.85,
+    lng: 9.46,
+    height: 43.8,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 184cm. Height: 44m. Family: Ctenolophonaceae. Recorded in the Tallo global tree database. Location: -0.85, 9.46 (Africa).",
+  },
+  {
+    name: "Syzygium canicortex (Myrtaceae)",
+    species: "Syzygium canicortex",
+    lat: -17.12,
+    lng: 145.632,
+    height: 38.0,
+    circumference: 5.8,
+    description:
+      "Trunk diameter: 184cm. Height: 38m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Ceiba pentandra (Malvaceae)",
+    species: "Ceiba pentandra",
+    lat: 16.898,
+    lng: -90.98,
+    height: 51.0,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 183cm. Height: 51m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 16.898, -90.98 (North America).",
+  },
+  {
+    name: "Ficus trigonata (Moraceae)",
+    species: "Ficus trigonata",
+    lat: 9.151,
+    lng: -79.855,
+    height: 39.1,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 183cm. Height: 39m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Entandrophragma cylindricum (Meliaceae)",
+    species: "Entandrophragma cylindricum",
+    lat: 3.551,
+    lng: 13.411,
+    height: 46.5,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 182cm. Height: 46m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 3.551, 13.411 (Africa).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.005,
+    lng: -7.117,
+    height: 15.5,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 181cm. Height: 16m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.005, -7.117 (Europe).",
+  },
+  {
+    name: "Entandrophragma excelsum (Meliaceae)",
+    species: "Entandrophragma excelsum",
+    lat: -3.246,
+    lng: 37.41,
+    height: 62.4,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 181cm. Height: 62m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: -3.246, 37.41 (Africa).",
+  },
+  {
+    name: "Cedrus deodara (Pinaceae)",
+    species: "Cedrus deodara",
+    lat: 35.65,
+    lng: 73.777,
+    height: 24.7,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 181cm. Height: 25m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.65, 73.777 (Asia).",
+  },
+  {
+    name: "Kibara macrophylla (Monimiaceae)",
+    species: "Kibara macrophylla",
+    lat: -27.337,
+    lng: 152.766,
+    height: 25.0,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 181cm. Height: 25m. Family: Monimiaceae. Recorded in the Tallo global tree database. Location: -27.337, 152.766 (Oceania).",
+  },
+  {
+    name: "Dipteryx oleifera (Fabaceae)",
+    species: "Dipteryx oleifera",
+    lat: 9.151,
+    lng: -79.855,
+    height: 46.9,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 180cm. Height: 47m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Tieghemella heckelii (Sapotaceae)",
+    species: "Tieghemella heckelii",
+    lat: 5.49,
+    lng: -2.64,
+    height: 61.0,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 180cm. Height: 61m. Family: Sapotaceae. Recorded in the Tallo global tree database. Location: 5.49, -2.64 (Africa).",
+  },
+  {
+    name: "Gironniera subaequalis (Cannabaceae)",
+    species: "Gironniera subaequalis",
+    lat: 5.28,
+    lng: -2.42,
+    height: 61.0,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 180cm. Height: 61m. Family: Cannabaceae. Recorded in the Tallo global tree database. Location: 5.28, -2.42 (Africa).",
+  },
+  {
+    name: "Pseudobombax ellipticum (Malvaceae)",
+    species: "Pseudobombax ellipticum",
+    lat: 16.898,
+    lng: -90.98,
+    height: 30.0,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 180cm. Height: 30m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 16.898, -90.98 (North America).",
+  },
+  {
+    name: "Acacia koa (Fabaceae)",
+    species: "Acacia koa",
+    lat: 19.554,
+    lng: -155.319,
+    height: 18.7,
+    circumference: 5.7,
+    description:
+      "Trunk diameter: 180cm. Height: 19m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 19.554, -155.319 (North America).",
+  },
+  {
+    name: "Aspidosperma excelsum (Apocynaceae)",
+    species: "Aspidosperma excelsum",
+    lat: -3.02,
+    lng: -54.96,
+    height: 54.6,
+    circumference: 5.6,
+    description:
+      "Trunk diameter: 179cm. Height: 55m. Family: Apocynaceae. Recorded in the Tallo global tree database. Location: -3.02, -54.96 (unknown).",
+  },
+  {
+    name: "Metrosideros robusta (Myrtaceae)",
+    species: "Metrosideros robusta",
+    lat: -38.61,
+    lng: 176.96,
+    height: 38.5,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 176cm. Height: 38m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -38.61, 176.96 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -13.17,
+    lng: 130.777,
+    height: 24.9,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 176cm. Height: 25m. Family: NA. Recorded in the Tallo global tree database. Location: -13.17, 130.777 (Oceania).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: -15.47,
+    lng: -62.55,
+    height: 45.8,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 175cm. Height: 46m. Family: NA. Recorded in the Tallo global tree database. Location: -15.47, -62.55 (South America).",
+  },
+  {
+    name: "Irvingia excelsa (Irvingiaceae)",
+    species: "Irvingia excelsa",
+    lat: 3.317,
+    lng: 17.267,
+    height: 32.1,
+    circumference: 5.5,
+    description:
+      "Trunk diameter: 174cm. Height: 32m. Family: Irvingiaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 42.906,
+    lng: -6.256,
+    height: 10.0,
+    circumference: 5.4,
+    description:
+      "Trunk diameter: 172cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.906, -6.256 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 42.906,
+    lng: -6.256,
+    height: 10.0,
+    circumference: 5.4,
+    description:
+      "Trunk diameter: 172cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.906, -6.256 (Europe).",
+  },
+  {
+    name: "Quercus robur (Fagaceae)",
+    species: "Quercus robur",
+    lat: 42.941,
+    lng: -7.811,
+    height: 19.0,
+    circumference: 5.4,
+    description:
+      "Trunk diameter: 172cm. Height: 19m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.941, -7.811 (Europe).",
+  },
+  {
+    name: "Cylicodiscus gabunensis (Fabaceae)",
+    species: "Cylicodiscus gabunensis",
+    lat: 3.551,
+    lng: 13.411,
+    height: 48.3,
+    circumference: 5.4,
+    description:
+      "Trunk diameter: 172cm. Height: 48m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 3.551, 13.411 (Africa).",
+  },
+  {
+    name: "Balanites wilsoniana (Zygophyllaceae)",
+    species: "Balanites wilsoniana",
+    lat: 2.333,
+    lng: 17.533,
+    height: 42.6,
+    circumference: 5.4,
+    description:
+      "Trunk diameter: 171cm. Height: 43m. Family: Zygophyllaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Ceiba pentandra (Malvaceae)",
+    species: "Ceiba pentandra",
+    lat: 5.49,
+    lng: -2.64,
+    height: 51.0,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 170cm. Height: 51m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 5.49, -2.64 (Africa).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 43.29,
+    lng: -6.141,
+    height: 18.0,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 170cm. Height: 18m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.29, -6.141 (Europe).",
+  },
+  {
+    name: "Choerospondias axillaris (Anacardiaceae)",
+    species: "Choerospondias axillaris",
+    lat: 5.28,
+    lng: -2.42,
+    height: 51.0,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 170cm. Height: 51m. Family: Anacardiaceae. Recorded in the Tallo global tree database. Location: 5.28, -2.42 (Africa).",
+  },
+  {
+    name: "Handroanthus guayacan (Bignoniaceae)",
+    species: "Handroanthus guayacan",
+    lat: 9.151,
+    lng: -79.855,
+    height: 38.0,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 170cm. Height: 38m. Family: Bignoniaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Eucalyptus saligna (Myrtaceae)",
+    species: "Eucalyptus saligna",
+    lat: -35.42,
+    lng: 150.3,
+    height: 49.1,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 169cm. Height: 49m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -35.42, 150.3 (Oceania).",
+  },
+  {
+    name: "Luehea cymulosa (Malvaceae)",
+    species: "Luehea cymulosa",
+    lat: -10.95,
+    lng: -69.58,
+    height: 41.3,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 169cm. Height: 41m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: -10.95, -69.58 (South America).",
+  },
+  {
+    name: "Quercus petraea (Fagaceae)",
+    species: "Quercus petraea",
+    lat: 43.137,
+    lng: -5.029,
+    height: null,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 169cm. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.137, -5.029 (Europe).",
+  },
+  {
+    name: "Triplochiton scleroxylon (Malvaceae)",
+    species: "Triplochiton scleroxylon",
+    lat: 3.92,
+    lng: 14.93,
+    height: 48.7,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 168cm. Height: 49m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 3.92, 14.93 (Africa).",
+  },
+  {
+    name: "NA (NA)",
+    species: "NA",
+    lat: 4.98,
+    lng: 117.8,
+    height: 65.0,
+    circumference: 5.3,
+    description:
+      "Trunk diameter: 167cm. Height: 65m. Family: NA. Recorded in the Tallo global tree database. Location: 4.98, 117.8 (Asia).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -43.2,
+    lng: 146.8,
+    height: 56.3,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 167cm. Height: 56m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -43.2, 146.8 (Oceania).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -42.5521,
+    lng: 146.3834,
+    height: 86.0,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 166cm. Height: 86m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -42.5521, 146.3834 (Oceania).",
+  },
+  {
+    name: "Tilia dasystyla (Malvaceae)",
+    species: "Tilia dasystyla",
+    lat: 37.644,
+    lng: 48.828,
+    height: 39.7,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 166cm. Height: 40m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 37.644, 48.828 (Africa).",
+  },
+  {
+    name: "Parashorea malaanonan (Dipterocarpaceae)",
+    species: "Parashorea malaanonan",
+    lat: 5.851,
+    lng: 117.951,
+    height: 53.3,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 165cm. Height: 53m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Piptadeniastrum africanum (Fabaceae)",
+    species: "Piptadeniastrum africanum",
+    lat: 3.92,
+    lng: 14.92,
+    height: 53.7,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 165cm. Height: 54m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 3.92, 14.92 (Africa).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 43.329,
+    lng: -4.196,
+    height: 10.5,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 165cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.329, -4.196 (Europe).",
+  },
+  {
+    name: "Eucalyptus diversicolor (Myrtaceae)",
+    species: "Eucalyptus diversicolor",
+    lat: -34.578,
+    lng: 115.983,
+    height: 54.2,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 164cm. Height: 54m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.578, 115.983 (Oceania).",
+  },
+  {
+    name: "Caryocar villosum (Caryocaraceae)",
+    species: "Caryocar villosum",
+    lat: -3.75,
+    lng: -48.47,
+    height: 41.2,
+    circumference: 5.2,
+    description:
+      "Trunk diameter: 164cm. Height: 41m. Family: Caryocaraceae. Recorded in the Tallo global tree database. Location: -3.75, -48.47 (unknown).",
+  },
+  {
+    name: "Eucalyptus pilularis (Myrtaceae)",
+    species: "Eucalyptus pilularis",
+    lat: -31.28,
+    lng: 152.537,
+    height: 45.9,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 164cm. Height: 46m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -31.28, 152.537 (Oceania).",
+  },
+  {
+    name: "Dipterocarpus acutangulus (Dipterocarpaceae)",
+    species: "Dipterocarpus acutangulus",
+    lat: 5.851,
+    lng: 117.951,
+    height: 52.8,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 163cm. Height: 53m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Quercus robur (Fagaceae)",
+    species: "Quercus robur",
+    lat: 43.177,
+    lng: -6.318,
+    height: 17.0,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 163cm. Height: 17m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.177, -6.318 (Europe).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -38.639,
+    lng: 143.703,
+    height: 80.7,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 163cm. Height: 81m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -38.639, 143.703 (Oceania).",
+  },
+  {
+    name: "Mammea africana (Calophyllaceae)",
+    species: "Mammea africana",
+    lat: 3.317,
+    lng: 17.267,
+    height: 35.5,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 163cm. Height: 36m. Family: Calophyllaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Nothofagus fusca (Nothofagaceae)",
+    species: "Nothofagus fusca",
+    lat: -42.34,
+    lng: 172.22,
+    height: 36.4,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 162cm. Height: 36m. Family: Nothofagaceae. Recorded in the Tallo global tree database. Location: -42.34, 172.22 (Oceania).",
+  },
+  {
+    name: "Entandrophragma cylindricum (Meliaceae)",
+    species: "Entandrophragma cylindricum",
+    lat: 2.333,
+    lng: 17.533,
+    height: 38.4,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 162cm. Height: 38m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Ocotea usambarensis (Lauraceae)",
+    species: "Ocotea usambarensis",
+    lat: -3.181,
+    lng: 37.357,
+    height: 21.4,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 162cm. Height: 21m. Family: Lauraceae. Recorded in the Tallo global tree database. Location: -3.181, 37.357 (Africa).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 51.767,
+    lng: -1.333,
+    height: 39.0,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 162cm. Height: 39m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 51.767, -1.333 (Europe).",
+  },
+  {
+    name: "Eucalyptus acmenoides (Myrtaceae)",
+    species: "Eucalyptus acmenoides",
+    lat: -27.311,
+    lng: 152.746,
+    height: 36.0,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 162cm. Height: 36m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -27.311, 152.746 (Oceania).",
+  },
+  {
+    name: "Eucalyptus tetrodonta (Myrtaceae)",
+    species: "Eucalyptus tetrodonta",
+    lat: -13.17,
+    lng: 130.777,
+    height: 21.3,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 162cm. Height: 21m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -13.17, 130.777 (Oceania).",
+  },
+  {
+    name: "Bikinia grisea (Fabaceae)",
+    species: "Bikinia grisea",
+    lat: -0.82,
+    lng: 13.285,
+    height: 55.9,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 162cm. Height: 56m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Quercus pagoda (Fagaceae)",
+    species: "Quercus pagoda",
+    lat: 31.826,
+    lng: -88.183,
+    height: 37.4,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 162cm. Height: 37m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 31.826, -88.183 (North America).",
+  },
+  {
+    name: "Eucalyptus fastigata (Myrtaceae)",
+    species: "Eucalyptus fastigata",
+    lat: -36.759,
+    lng: 149.436,
+    height: 42.2,
+    circumference: 5.1,
+    description:
+      "Trunk diameter: 161cm. Height: 42m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.759, 149.436 (Oceania).",
+  },
+  {
+    name: "Eucalyptus cypellocarpa (Myrtaceae)",
+    species: "Eucalyptus cypellocarpa",
+    lat: -36.903,
+    lng: 149.719,
+    height: 43.5,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 161cm. Height: 44m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.903, 149.719 (Oceania).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 36.592,
+    lng: -5.258,
+    height: 8.0,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 160cm. Height: 8m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.592, -5.258 (Europe).",
+  },
+  {
+    name: "Piptadeniastrum africanum (Fabaceae)",
+    species: "Piptadeniastrum africanum",
+    lat: 3.317,
+    lng: 17.267,
+    height: 36.2,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 160cm. Height: 36m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Quercus faginea (Fagaceae)",
+    species: "Quercus faginea",
+    lat: 36.806,
+    lng: -5.393,
+    height: 7.0,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 160cm. Height: 7m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.806, -5.393 (Europe).",
+  },
+  {
+    name: "Eucalyptus cypellocarpa (Myrtaceae)",
+    species: "Eucalyptus cypellocarpa",
+    lat: -36.863,
+    lng: 149.595,
+    height: 49.3,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 160cm. Height: 49m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.863, 149.595 (Oceania).",
+  },
+  {
+    name: "Marquesia macroura (Dipterocarpaceae)",
+    species: "Marquesia macroura",
+    lat: -11.483,
+    lng: 27.672,
+    height: 25.4,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 158cm. Height: 25m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: -11.483, 27.672 (Africa).",
+  },
+  {
+    name: "Dipteryx micrantha (Fabaceae)",
+    species: "Dipteryx micrantha",
+    lat: -10.95,
+    lng: -69.58,
+    height: 44.1,
+    circumference: 5.0,
+    description:
+      "Trunk diameter: 158cm. Height: 44m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -10.95, -69.58 (South America).",
+  },
+  {
+    name: "Dacrycarpus dacrydioides (Podocarpaceae)",
+    species: "Dacrycarpus dacrydioides",
+    lat: -38.62,
+    lng: 176.87,
+    height: 33.0,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 157cm. Height: 33m. Family: Podocarpaceae. Recorded in the Tallo global tree database. Location: -38.62, 176.87 (Oceania).",
+  },
+  {
+    name: "Ocotea usambarensis (Lauraceae)",
+    species: "Ocotea usambarensis",
+    lat: -3.219,
+    lng: 37.454,
+    height: 20.7,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 157cm. Height: 21m. Family: Lauraceae. Recorded in the Tallo global tree database. Location: -3.219, 37.454 (Africa).",
+  },
+  {
+    name: "Syzygium resa (Myrtaceae)",
+    species: "Syzygium resa",
+    lat: -21.235,
+    lng: 148.552,
+    height: 38.0,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 157cm. Height: 38m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -21.235, 148.552 (Oceania).",
+  },
+  {
+    name: "Entandrophragma cylindricum (Meliaceae)",
+    species: "Entandrophragma cylindricum",
+    lat: 3.37,
+    lng: 13.8,
+    height: 49.6,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 156cm. Height: 50m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 3.37, 13.8 (Africa).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.903,
+    lng: -6.979,
+    height: 19.0,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 156cm. Height: 19m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.903, -6.979 (Europe).",
+  },
+  {
+    name: "Dipterocarpus crinitus (Dipterocarpaceae)",
+    species: "Dipterocarpus crinitus",
+    lat: 2.58,
+    lng: 102.18,
+    height: 40.2,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 154cm. Height: 40m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 2.58, 102.18 (Asia).",
+  },
+  {
+    name: "Sloanea woollsii (Elaeocarpaceae)",
+    species: "Sloanea woollsii",
+    lat: -27.337,
+    lng: 152.766,
+    height: 25.0,
+    circumference: 4.9,
+    description:
+      "Trunk diameter: 154cm. Height: 25m. Family: Elaeocarpaceae. Recorded in the Tallo global tree database. Location: -27.337, 152.766 (Oceania).",
+  },
+  {
+    name: "Quercus robur (Fagaceae)",
+    species: "Quercus robur",
+    lat: 51.767,
+    lng: -1.333,
+    height: 35.5,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 154cm. Height: 36m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 51.767, -1.333 (Europe).",
+  },
+  {
+    name: "Shorea pauciflora (Dipterocarpaceae)",
+    species: "Shorea pauciflora",
+    lat: 4.957,
+    lng: 117.792,
+    height: null,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 154cm. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.957, 117.792 (Asia).",
+  },
+  {
+    name: "Pseudotsuga menziesii (Pinaceae)",
+    species: "Pseudotsuga menziesii",
+    lat: 42.41,
+    lng: -122.68,
+    height: 63.3,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 153cm. Height: 63m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 42.41, -122.68 (North America).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.311,
+    lng: -7.107,
+    height: 10.5,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 153cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.311, -7.107 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.648,
+    lng: -5.176,
+    height: 6.0,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 152cm. Height: 6m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.648, -5.176 (Europe).",
+  },
+  {
+    name: "Eucalyptus delegatensis (Myrtaceae)",
+    species: "Eucalyptus delegatensis",
+    lat: -41.367,
+    lng: 147.603,
+    height: 40.4,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 152cm. Height: 40m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.367, 147.603 (Oceania).",
+  },
+  {
+    name: "Pouteria altissima (Sapotaceae)",
+    species: "Pouteria altissima",
+    lat: 3.88,
+    lng: 14.39,
+    height: 38.7,
+    circumference: 4.8,
+    description:
+      "Trunk diameter: 151cm. Height: 39m. Family: Sapotaceae. Recorded in the Tallo global tree database. Location: 3.88, 14.39 (Africa).",
+  },
+  {
+    name: "Eucalyptus regnans (Myrtaceae)",
+    species: "Eucalyptus regnans",
+    lat: -37.429,
+    lng: 145.949,
+    height: 48.4,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 151cm. Height: 48m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.429, 145.949 (Oceania).",
+  },
+  {
+    name: "Autranella congolensis (Sapotaceae)",
+    species: "Autranella congolensis",
+    lat: 3.317,
+    lng: 17.267,
+    height: 34.2,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 151cm. Height: 34m. Family: Sapotaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.388,
+    lng: -7.433,
+    height: 9.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 151cm. Height: 9m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.388, -7.433 (Europe).",
+  },
+  {
+    name: "Shorea faguetiana (Dipterocarpaceae)",
+    species: "Shorea faguetiana",
+    lat: 4.747,
+    lng: 116.97,
+    height: 44.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 151cm. Height: 44m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.747, 116.97 (Asia).",
+  },
+  {
+    name: "Aucoumea klaineana (Burseraceae)",
+    species: "Aucoumea klaineana",
+    lat: -0.82,
+    lng: 13.285,
+    height: 60.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 151cm. Height: 60m. Family: Burseraceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Quercus petraea (Fagaceae)",
+    species: "Quercus petraea",
+    lat: 43.02,
+    lng: -5.872,
+    height: 21.5,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 150cm. Height: 22m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.02, -5.872 (Europe).",
+  },
+  {
+    name: "Quercus infectoria (Fagaceae)",
+    species: "Quercus infectoria",
+    lat: 36.425,
+    lng: 45.358,
+    height: null,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 150cm. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.425, 45.358 (Africa).",
+  },
+  {
+    name: "Shorea johorensis (Dipterocarpaceae)",
+    species: "Shorea johorensis",
+    lat: 4.957,
+    lng: 117.792,
+    height: 70.6,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 150cm. Height: 71m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.957, 117.792 (Asia).",
+  },
+  {
+    name: "Lecomtedoxa klaineana (Sapotaceae)",
+    species: "Lecomtedoxa klaineana",
+    lat: 5.06,
+    lng: 8.86,
+    height: 49.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 150cm. Height: 49m. Family: Sapotaceae. Recorded in the Tallo global tree database. Location: 5.06, 8.86 (Africa).",
+  },
+  {
+    name: "Dussia mexicana (Fabaceae)",
+    species: "Dussia mexicana",
+    lat: 18.57,
+    lng: -95.13,
+    height: 35.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 150cm. Height: 35m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 18.57, -95.13 (North America).",
+  },
+  {
+    name: "Quercus suber (Fagaceae)",
+    species: "Quercus suber",
+    lat: 36.513,
+    lng: -5.591,
+    height: 8.5,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 150cm. Height: 8m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.513, -5.591 (Europe).",
+  },
+  {
+    name: "Bertholletia excelsa (Lecythidaceae)",
+    species: "Bertholletia excelsa",
+    lat: -9.09,
+    lng: -63.07,
+    height: 56.5,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 149cm. Height: 56m. Family: Lecythidaceae. Recorded in the Tallo global tree database. Location: -9.09, -63.07 (unknown).",
+  },
+  {
+    name: "Agarista salicifolia (Ericaceae)",
+    species: "Agarista salicifolia",
+    lat: -3.226,
+    lng: 37.519,
+    height: 15.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 149cm. Height: 15m. Family: Ericaceae. Recorded in the Tallo global tree database. Location: -3.226, 37.519 (Africa).",
+  },
+  {
+    name: "Haldina cordifolia (Rubiaceae)",
+    species: "Haldina cordifolia",
+    lat: 7.194,
+    lng: 80.971,
+    height: 27.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 149cm. Height: 27m. Family: Rubiaceae. Recorded in the Tallo global tree database. Location: 7.194, 80.971 (Asia).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 43.188,
+    lng: -4.661,
+    height: 13.0,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 149cm. Height: 13m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.188, -4.661 (Europe).",
+  },
+  {
+    name: "Shorea johorensis (Dipterocarpaceae)",
+    species: "Shorea johorensis",
+    lat: 5.851,
+    lng: 117.951,
+    height: 68.8,
+    circumference: 4.7,
+    description:
+      "Trunk diameter: 148cm. Height: 69m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Grewia tiliifolia (Malvaceae)",
+    species: "Grewia tiliifolia",
+    lat: 7.202,
+    lng: 80.965,
+    height: null,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 148cm. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 7.202, 80.965 (Asia).",
+  },
+  {
+    name: "Blepharocarya involucrigera (Anacardiaceae)",
+    species: "Blepharocarya involucrigera",
+    lat: -17.12,
+    lng: 145.632,
+    height: 37.0,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 148cm. Height: 37m. Family: Anacardiaceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Eucalyptus cypellocarpa (Myrtaceae)",
+    species: "Eucalyptus cypellocarpa",
+    lat: -37.013,
+    lng: 149.382,
+    height: 47.3,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 148cm. Height: 47m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.013, 149.382 (Oceania).",
+  },
+  {
+    name: "Cedrus deodara (Pinaceae)",
+    species: "Cedrus deodara",
+    lat: 35.666,
+    lng: 73.676,
+    height: 41.7,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 147cm. Height: 42m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.666, 73.676 (Asia).",
+  },
+  {
+    name: "Irvingia grandifolia (Irvingiaceae)",
+    species: "Irvingia grandifolia",
+    lat: 3.31,
+    lng: 13.66,
+    height: 44.7,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 147cm. Height: 45m. Family: Irvingiaceae. Recorded in the Tallo global tree database. Location: 3.31, 13.66 (Africa).",
+  },
+  {
+    name: "Quercus faginea (Fagaceae)",
+    species: "Quercus faginea",
+    lat: 36.687,
+    lng: -4.998,
+    height: 11.0,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 146cm. Height: 11m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.687, -4.998 (Europe).",
+  },
+  {
+    name: "Quercus petraea (Fagaceae)",
+    species: "Quercus petraea",
+    lat: 43.162,
+    lng: -5.94,
+    height: 24.5,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 145cm. Height: 24m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.162, -5.94 (Europe).",
+  },
+  {
+    name: "Carpinus betulus (Betulaceae)",
+    species: "Carpinus betulus",
+    lat: 37.668,
+    lng: 48.735,
+    height: 25.0,
+    circumference: 4.6,
+    description:
+      "Trunk diameter: 145cm. Height: 25m. Family: Betulaceae. Recorded in the Tallo global tree database. Location: 37.668, 48.735 (Africa).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.116,
+    lng: -8.154,
+    height: 22.5,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 145cm. Height: 22m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.116, -8.154 (Europe).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 43.119,
+    lng: -6.149,
+    height: 16.0,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 144cm. Height: 16m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.119, -6.149 (Europe).",
+  },
+  {
+    name: "Albizia gummifera (Fabaceae)",
+    species: "Albizia gummifera",
+    lat: -3.245,
+    lng: 37.319,
+    height: 32.9,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 144cm. Height: 33m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -3.245, 37.319 (Africa).",
+  },
+  {
+    name: "Gilletiodendron pierreanum (Fabaceae)",
+    species: "Gilletiodendron pierreanum",
+    lat: -0.82,
+    lng: 13.285,
+    height: 42.1,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 144cm. Height: 42m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Ceratopetalum succirubrum (Cunoniaceae)",
+    species: "Ceratopetalum succirubrum",
+    lat: -17.12,
+    lng: 145.632,
+    height: 40.0,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 144cm. Height: 40m. Family: Cunoniaceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Irvingia smithii (Irvingiaceae)",
+    species: "Irvingia smithii",
+    lat: 3.31,
+    lng: 13.66,
+    height: 40.4,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 144cm. Height: 40m. Family: Irvingiaceae. Recorded in the Tallo global tree database. Location: 3.31, 13.66 (Africa).",
+  },
+  {
+    name: "Haldina cordifolia (Rubiaceae)",
+    species: "Haldina cordifolia",
+    lat: 28.786,
+    lng: 80.891,
+    height: 20.0,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 143cm. Height: 20m. Family: Rubiaceae. Recorded in the Tallo global tree database. Location: 28.786, 80.891 (Asia).",
+  },
+  {
+    name: "Piptadeniastrum africanum (Fabaceae)",
+    species: "Piptadeniastrum africanum",
+    lat: 2.484,
+    lng: 16.97,
+    height: 57.3,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 143cm. Height: 57m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.484, 16.97 (Africa).",
+  },
+  {
+    name: "Nothofagus menziesii (Nothofagaceae)",
+    species: "Nothofagus menziesii",
+    lat: -45.98,
+    lng: 167.56,
+    height: 34.9,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 143cm. Height: 35m. Family: Nothofagaceae. Recorded in the Tallo global tree database. Location: -45.98, 167.56 (Oceania).",
+  },
+  {
+    name: "Dipterocarpus caudiferus (Dipterocarpaceae)",
+    species: "Dipterocarpus caudiferus",
+    lat: 5.851,
+    lng: 117.951,
+    height: 43.5,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 143cm. Height: 44m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Couratari stellata (Lecythidaceae)",
+    species: "Couratari stellata",
+    lat: -3.02,
+    lng: -54.96,
+    height: 58.2,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 143cm. Height: 58m. Family: Lecythidaceae. Recorded in the Tallo global tree database. Location: -3.02, -54.96 (unknown).",
+  },
+  {
+    name: "Quercus robur (Fagaceae)",
+    species: "Quercus robur",
+    lat: 43.035,
+    lng: -4.633,
+    height: 12.0,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 142cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.035, -4.633 (Europe).",
+  },
+  {
+    name: "Copaifera mildbraedii (Fabaceae)",
+    species: "Copaifera mildbraedii",
+    lat: 2.333,
+    lng: 17.533,
+    height: 44.7,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 142cm. Height: 45m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Piptadeniastrum africanum (Fabaceae)",
+    species: "Piptadeniastrum africanum",
+    lat: 2.916,
+    lng: 11.15,
+    height: 36.3,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 142cm. Height: 36m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.916, 11.15 (Africa).",
+  },
+  {
+    name: "Shorea falciferoides (Dipterocarpaceae)",
+    species: "Shorea falciferoides",
+    lat: 5.851,
+    lng: 117.951,
+    height: 47.2,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 142cm. Height: 47m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Fillaeopsis discophora (Fabaceae)",
+    species: "Fillaeopsis discophora",
+    lat: -0.82,
+    lng: 13.285,
+    height: 50.7,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 142cm. Height: 51m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Eperua bijuga (Fabaceae)",
+    species: "Eperua bijuga",
+    lat: -2.55,
+    lng: -46.84,
+    height: null,
+    circumference: 4.5,
+    description:
+      "Trunk diameter: 142cm. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -2.55, -46.84 (unknown).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.588,
+    lng: -5.032,
+    height: 8.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 142cm. Height: 8m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.588, -5.032 (Europe).",
+  },
+  {
+    name: "Canarium muelleri (Burseraceae)",
+    species: "Canarium muelleri",
+    lat: -17.12,
+    lng: 145.632,
+    height: 36.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 141cm. Height: 36m. Family: Burseraceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Blighia welwitschii (Sapindaceae)",
+    species: "Blighia welwitschii",
+    lat: 2.333,
+    lng: 17.533,
+    height: 32.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 141cm. Height: 32m. Family: Sapindaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Eucalyptus salubris (Myrtaceae)",
+    species: "Eucalyptus salubris",
+    lat: -30.192,
+    lng: 120.642,
+    height: 11.4,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 141cm. Height: 11m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.192, 120.642 (Oceania).",
+  },
+  {
+    name: "Quercus suber (Fagaceae)",
+    species: "Quercus suber",
+    lat: 39.853,
+    lng: -0.265,
+    height: 9.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 141cm. Height: 9m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 39.853, -0.265 (Europe).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 43.298,
+    lng: -6.461,
+    height: 20.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 141cm. Height: 20m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.298, -6.461 (Europe).",
+  },
+  {
+    name: "Caryocar villosum (Caryocaraceae)",
+    species: "Caryocar villosum",
+    lat: -3.02,
+    lng: -54.96,
+    height: 40.5,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 140cm. Height: 40m. Family: Caryocaraceae. Recorded in the Tallo global tree database. Location: -3.02, -54.96 (unknown).",
+  },
+  {
+    name: "Prioria copaifera (Fabaceae)",
+    species: "Prioria copaifera",
+    lat: 9.151,
+    lng: -79.855,
+    height: 35.1,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 140cm. Height: 35m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Tetragastris altissima (Burseraceae)",
+    species: "Tetragastris altissima",
+    lat: -1.64,
+    lng: -56.27,
+    height: 46.3,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 140cm. Height: 46m. Family: Burseraceae. Recorded in the Tallo global tree database. Location: -1.64, -56.27 (unknown).",
+  },
+  {
+    name: "Shorea stipularis (Dipterocarpaceae)",
+    species: "Shorea stipularis",
+    lat: 6.407,
+    lng: 80.432,
+    height: 45.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 140cm. Height: 45m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 6.407, 80.432 (Asia).",
+  },
+  {
+    name: "Shorea stipularis (Dipterocarpaceae)",
+    species: "Shorea stipularis",
+    lat: 7.738,
+    lng: 80.517,
+    height: 65.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 140cm. Height: 65m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 7.738, 80.517 (Asia).",
+  },
+  {
+    name: "Acer velutinum (Sapindaceae)",
+    species: "Acer velutinum",
+    lat: 37.642,
+    lng: 48.863,
+    height: 39.5,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 140cm. Height: 40m. Family: Sapindaceae. Recorded in the Tallo global tree database. Location: 37.642, 48.863 (Africa).",
+  },
+  {
+    name: "Erythrophleum suaveolens (Fabaceae)",
+    species: "Erythrophleum suaveolens",
+    lat: 3.551,
+    lng: 13.411,
+    height: 43.8,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 140cm. Height: 44m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 3.551, 13.411 (Africa).",
+  },
+  {
+    name: "Corymbia maculata (Myrtaceae)",
+    species: "Corymbia maculata",
+    lat: -35.45,
+    lng: 150.2,
+    height: 26.1,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 140cm. Height: 26m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -35.45, 150.2 (Oceania).",
+  },
+  {
+    name: "Pseudotsuga menziesii (Pinaceae)",
+    species: "Pseudotsuga menziesii",
+    lat: 45.823,
+    lng: -121.963,
+    height: 52.4,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 139cm. Height: 52m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 45.823, -121.963 (North America).",
+  },
+  {
+    name: "Prioria oxyphylla (Fabaceae)",
+    species: "Prioria oxyphylla",
+    lat: 3.317,
+    lng: 17.267,
+    height: 33.3,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 139cm. Height: 33m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Flindersia pimenteliana (Rutaceae)",
+    species: "Flindersia pimenteliana",
+    lat: -17.12,
+    lng: 145.632,
+    height: 41.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 139cm. Height: 41m. Family: Rutaceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Cedrus deodara (Pinaceae)",
+    species: "Cedrus deodara",
+    lat: 35.672,
+    lng: 73.803,
+    height: 23.6,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 139cm. Height: 24m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.672, 73.803 (Asia).",
+  },
+  {
+    name: "Acer velutinum (Sapindaceae)",
+    species: "Acer velutinum",
+    lat: 37.658,
+    lng: 48.859,
+    height: 42.5,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 139cm. Height: 42m. Family: Sapindaceae. Recorded in the Tallo global tree database. Location: 37.658, 48.859 (Africa).",
+  },
+  {
+    name: "Lovoa trichilioides (Meliaceae)",
+    species: "Lovoa trichilioides",
+    lat: 2.916,
+    lng: 11.15,
+    height: 37.6,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 139cm. Height: 38m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 2.916, 11.15 (Africa).",
+  },
+  {
+    name: "Dacrydium cupressinum (Podocarpaceae)",
+    species: "Dacrydium cupressinum",
+    lat: -38.61,
+    lng: 176.96,
+    height: 43.0,
+    circumference: 4.4,
+    description:
+      "Trunk diameter: 138cm. Height: 43m. Family: Podocarpaceae. Recorded in the Tallo global tree database. Location: -38.61, 176.96 (Oceania).",
+  },
+  {
+    name: "Schefflera volkensii (Araliaceae)",
+    species: "Schefflera volkensii",
+    lat: -3.191,
+    lng: 37.441,
+    height: 27.4,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 138cm. Height: 27m. Family: Araliaceae. Recorded in the Tallo global tree database. Location: -3.191, 37.441 (Africa).",
+  },
+  {
+    name: "Schefflera volkensii (Araliaceae)",
+    species: "Schefflera volkensii",
+    lat: -3.226,
+    lng: 37.519,
+    height: 18.5,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 138cm. Height: 18m. Family: Araliaceae. Recorded in the Tallo global tree database. Location: -3.226, 37.519 (Africa).",
+  },
+  {
+    name: "Cardwellia sublimis (Proteaceae)",
+    species: "Cardwellia sublimis",
+    lat: -17.12,
+    lng: 145.632,
+    height: 30.0,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 138cm. Height: 30m. Family: Proteaceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Syncarpia glomulifera (Myrtaceae)",
+    species: "Syncarpia glomulifera",
+    lat: -31.208,
+    lng: 152.526,
+    height: 57.6,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 138cm. Height: 58m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -31.208, 152.526 (Oceania).",
+  },
+  {
+    name: "Manilkara mabokeensis (Sapotaceae)",
+    species: "Manilkara mabokeensis",
+    lat: 3.317,
+    lng: 17.267,
+    height: 31.4,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 138cm. Height: 31m. Family: Sapotaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Jacaranda copaia (Bignoniaceae)",
+    species: "Jacaranda copaia",
+    lat: 9.151,
+    lng: -79.855,
+    height: 30.1,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 137cm. Height: 30m. Family: Bignoniaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Elaeocarpus coriaceus (Elaeocarpaceae)",
+    species: "Elaeocarpus coriaceus",
+    lat: 6.913,
+    lng: 80.792,
+    height: null,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 137cm. Family: Elaeocarpaceae. Recorded in the Tallo global tree database. Location: 6.913, 80.792 (Asia).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.462,
+    lng: -6.531,
+    height: 12.5,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 137cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.462, -6.531 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.647,
+    lng: -5.271,
+    height: 10.5,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 137cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.647, -5.271 (Europe).",
+  },
+  {
+    name: "Pseudotsuga menziesii (Pinaceae)",
+    species: "Pseudotsuga menziesii",
+    lat: 43.29,
+    lng: -123.15,
+    height: 54.6,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 137cm. Height: 55m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 43.29, -123.15 (North America).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.418,
+    lng: -7.688,
+    height: 12.5,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 137cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.418, -7.688 (Europe).",
+  },
+  {
+    name: "Scyphocephalium mannii (Myristicaceae)",
+    species: "Scyphocephalium mannii",
+    lat: -0.82,
+    lng: 13.285,
+    height: 46.0,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 137cm. Height: 46m. Family: Myristicaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 42.875,
+    lng: -6.478,
+    height: 19.0,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 136cm. Height: 19m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.875, -6.478 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 42.875,
+    lng: -6.478,
+    height: 19.0,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 136cm. Height: 19m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.875, -6.478 (Europe).",
+  },
+  {
+    name: "Distemonanthus benthamianus (Fabaceae)",
+    species: "Distemonanthus benthamianus",
+    lat: 2.916,
+    lng: 11.15,
+    height: 35.5,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 136cm. Height: 36m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.916, 11.15 (Africa).",
+  },
+  {
+    name: "Dryobalanops lanceolata (Dipterocarpaceae)",
+    species: "Dryobalanops lanceolata",
+    lat: 4.747,
+    lng: 116.97,
+    height: 41.0,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 136cm. Height: 41m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.747, 116.97 (Asia).",
+  },
+  {
+    name: "Eucalyptus diversicolor (Myrtaceae)",
+    species: "Eucalyptus diversicolor",
+    lat: -34.85,
+    lng: 116.687,
+    height: 44.8,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 135cm. Height: 45m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.85, 116.687 (Oceania).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 43.259,
+    lng: -6.339,
+    height: 21.0,
+    circumference: 4.3,
+    description:
+      "Trunk diameter: 135cm. Height: 21m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.259, -6.339 (Europe).",
+  },
+  {
+    name: "Julbernardia pellegriniana (Fabaceae)",
+    species: "Julbernardia pellegriniana",
+    lat: -0.82,
+    lng: 13.285,
+    height: 52.8,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 135cm. Height: 53m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Shorea mecistopteryx (Dipterocarpaceae)",
+    species: "Shorea mecistopteryx",
+    lat: 5.851,
+    lng: 117.951,
+    height: 55.5,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 135cm. Height: 56m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Platypodium elegans (Fabaceae)",
+    species: "Platypodium elegans",
+    lat: 9.151,
+    lng: -79.855,
+    height: 35.4,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 134cm. Height: 35m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 42.101,
+    lng: -3.133,
+    height: 18.5,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 134cm. Height: 18m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.101, -3.133 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 42.101,
+    lng: -3.133,
+    height: 18.5,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 134cm. Height: 18m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.101, -3.133 (Europe).",
+  },
+  {
+    name: "Aspidosperma desmanthum (Apocynaceae)",
+    species: "Aspidosperma desmanthum",
+    lat: 9.151,
+    lng: -79.855,
+    height: 32.9,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 134cm. Height: 33m. Family: Apocynaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Eucalyptus pilularis (Myrtaceae)",
+    species: "Eucalyptus pilularis",
+    lat: -30.157,
+    lng: 152.727,
+    height: 56.8,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 134cm. Height: 57m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -30.157, 152.727 (Oceania).",
+  },
+  {
+    name: "Prioria oxyphylla (Fabaceae)",
+    species: "Prioria oxyphylla",
+    lat: -0.82,
+    lng: 13.285,
+    height: 56.3,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 133cm. Height: 56m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 48.2674,
+    lng: 23.6226,
+    height: 44.5,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 133cm. Height: 44m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 48.2674, 23.6226 (Europe).",
+  },
+  {
+    name: "Holoptelea integrifolia (Ulmaceae)",
+    species: "Holoptelea integrifolia",
+    lat: 8.157,
+    lng: 80.453,
+    height: 25.0,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 133cm. Height: 25m. Family: Ulmaceae. Recorded in the Tallo global tree database. Location: 8.157, 80.453 (Asia).",
+  },
+  {
+    name: "Eucalyptus viminalis (Myrtaceae)",
+    species: "Eucalyptus viminalis",
+    lat: -36.997,
+    lng: 149.383,
+    height: 48.7,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 133cm. Height: 49m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.997, 149.383 (Oceania).",
+  },
+  {
+    name: "Eucalyptus fastigata (Myrtaceae)",
+    species: "Eucalyptus fastigata",
+    lat: -36.903,
+    lng: 149.719,
+    height: 39.8,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 133cm. Height: 40m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.903, 149.719 (Oceania).",
+  },
+  {
+    name: "Karrabina biagiana (Cunoniaceae)",
+    species: "Karrabina biagiana",
+    lat: -17.35,
+    lng: 145.479,
+    height: 34.0,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 133cm. Height: 34m. Family: Cunoniaceae. Recorded in the Tallo global tree database. Location: -17.35, 145.479 (Oceania).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 42.128,
+    lng: -3.242,
+    height: 12.0,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 132cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.128, -3.242 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 42.128,
+    lng: -3.242,
+    height: 12.0,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 132cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.128, -3.242 (Europe).",
+  },
+  {
+    name: "Lophira alata (Ochnaceae)",
+    species: "Lophira alata",
+    lat: 3.551,
+    lng: 13.411,
+    height: 38.5,
+    circumference: 4.2,
+    description:
+      "Trunk diameter: 132cm. Height: 38m. Family: Ochnaceae. Recorded in the Tallo global tree database. Location: 3.551, 13.411 (Africa).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -36.863,
+    lng: 149.595,
+    height: 48.4,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 48m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.863, 149.595 (Oceania).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 43.079,
+    lng: -2.066,
+    height: 22.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 22m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.079, -2.066 (Europe).",
+  },
+  {
+    name: "Brosimum alicastrum (Moraceae)",
+    species: "Brosimum alicastrum",
+    lat: -10.95,
+    lng: -69.58,
+    height: 43.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 43m. Family: Moraceae. Recorded in the Tallo global tree database. Location: -10.95, -69.58 (South America).",
+  },
+  {
+    name: "Pouteria adolfi-friedericii (Sapotaceae)",
+    species: "Pouteria adolfi-friedericii",
+    lat: -3.246,
+    lng: 37.41,
+    height: 45.3,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 45m. Family: Sapotaceae. Recorded in the Tallo global tree database. Location: -3.246, 37.41 (Africa).",
+  },
+  {
+    name: "Phoebe tavoyana (Lauraceae)",
+    species: "Phoebe tavoyana",
+    lat: 5.28,
+    lng: -2.42,
+    height: 45.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 45m. Family: Lauraceae. Recorded in the Tallo global tree database. Location: 5.28, -2.42 (Africa).",
+  },
+  {
+    name: "Pinus wallichiana (Pinaceae)",
+    species: "Pinus wallichiana",
+    lat: 35.666,
+    lng: 73.676,
+    height: 43.1,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 43m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.666, 73.676 (Asia).",
+  },
+  {
+    name: "Fagus orientalis (Fagaceae)",
+    species: "Fagus orientalis",
+    lat: 37.67,
+    lng: 48.868,
+    height: 41.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 41m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 37.67, 48.868 (Africa).",
+  },
+  {
+    name: "Eucalyptus miniata (Myrtaceae)",
+    species: "Eucalyptus miniata",
+    lat: -13.17,
+    lng: 130.777,
+    height: 22.4,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 22m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -13.17, 130.777 (Oceania).",
+  },
+  {
+    name: "Entandrophragma cylindricum (Meliaceae)",
+    species: "Entandrophragma cylindricum",
+    lat: 3.317,
+    lng: 17.267,
+    height: 32.4,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 32m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Albizia schimperiana (Fabaceae)",
+    species: "Albizia schimperiana",
+    lat: -3.24,
+    lng: 37.25,
+    height: 27.8,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 28m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -3.24, 37.25 (Africa).",
+  },
+  {
+    name: "Dacrydium cupressinum (Podocarpaceae)",
+    species: "Dacrydium cupressinum",
+    lat: -42.6,
+    lng: 171.58,
+    height: 33.8,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 34m. Family: Podocarpaceae. Recorded in the Tallo global tree database. Location: -42.6, 171.58 (Oceania).",
+  },
+  {
+    name: "Dysoxylum fraserianum (Meliaceae)",
+    species: "Dysoxylum fraserianum",
+    lat: -27.337,
+    lng: 152.766,
+    height: 28.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 28m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: -27.337, 152.766 (Oceania).",
+  },
+  {
+    name: "Shorea parvifolia (Dipterocarpaceae)",
+    species: "Shorea parvifolia",
+    lat: 4.957,
+    lng: 117.792,
+    height: 43.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 132cm. Height: 44m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.957, 117.792 (Asia).",
+  },
+  {
+    name: "Pseudotsuga menziesii (Pinaceae)",
+    species: "Pseudotsuga menziesii",
+    lat: 42.47,
+    lng: -124.21,
+    height: 35.8,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 131cm. Height: 36m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 42.47, -124.21 (North America).",
+  },
+  {
+    name: "Cedrus deodara (Pinaceae)",
+    species: "Cedrus deodara",
+    lat: 35.721,
+    lng: 73.605,
+    height: 23.3,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 131cm. Height: 23m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.721, 73.605 (Asia).",
+  },
+  {
+    name: "Entandrophragma candollei (Meliaceae)",
+    species: "Entandrophragma candollei",
+    lat: 3.551,
+    lng: 13.411,
+    height: 48.9,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 131cm. Height: 49m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 3.551, 13.411 (Africa).",
+  },
+  {
+    name: "Quararibea asterolepis (Malvaceae)",
+    species: "Quararibea asterolepis",
+    lat: 9.151,
+    lng: -79.855,
+    height: 33.6,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 131cm. Height: 34m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.556,
+    lng: -4.807,
+    height: 9.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 9m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.556, -4.807 (Europe).",
+  },
+  {
+    name: "Dryobalanops lanceolata (Dipterocarpaceae)",
+    species: "Dryobalanops lanceolata",
+    lat: 4.754,
+    lng: 116.95,
+    height: 59.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 59m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.754, 116.95 (Asia).",
+  },
+  {
+    name: "Pseudobombax septenatum (Malvaceae)",
+    species: "Pseudobombax septenatum",
+    lat: 9.151,
+    lng: -79.855,
+    height: 35.6,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 36m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Shorea laevis (Dipterocarpaceae)",
+    species: "Shorea laevis",
+    lat: -1.08,
+    lng: 116.97,
+    height: 70.7,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 71m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: -1.08, 116.97 (Oceania).",
+  },
+  {
+    name: "Quercus canariensis (Fagaceae)",
+    species: "Quercus canariensis",
+    lat: 36.532,
+    lng: -5.58,
+    height: 10.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.532, -5.58 (Europe).",
+  },
+  {
+    name: "Pinus pinea (Pinaceae)",
+    species: "Pinus pinea",
+    lat: 40.355,
+    lng: -4.342,
+    height: 19.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 19m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 40.355, -4.342 (Europe).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 41.988,
+    lng: -7.214,
+    height: 12.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 41.988, -7.214 (Europe).",
+  },
+  {
+    name: "Flindersia brayleyana (Rutaceae)",
+    species: "Flindersia brayleyana",
+    lat: -17.12,
+    lng: 145.632,
+    height: 36.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 36m. Family: Rutaceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Dinizia excelsa (Fabaceae)",
+    species: "Dinizia excelsa",
+    lat: -9.17,
+    lng: -62.98,
+    height: 71.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 72m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -9.17, -62.98 (unknown).",
+  },
+  {
+    name: "Quercus faginea (Fagaceae)",
+    species: "Quercus faginea",
+    lat: 42.367,
+    lng: -0.328,
+    height: 11.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.367, -0.328 (Europe).",
+  },
+  {
+    name: "Acer velutinum (Sapindaceae)",
+    species: "Acer velutinum",
+    lat: 36.551,
+    lng: 51.627,
+    height: 35.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 35m. Family: Sapindaceae. Recorded in the Tallo global tree database. Location: 36.551, 51.627 (Africa).",
+  },
+  {
+    name: "Swietenia macrophylla (Meliaceae)",
+    species: "Swietenia macrophylla",
+    lat: -10.95,
+    lng: -69.58,
+    height: 46.7,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 47m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: -10.95, -69.58 (South America).",
+  },
+  {
+    name: "Picea smithiana (Pinaceae)",
+    species: "Picea smithiana",
+    lat: 36.262,
+    lng: 74.246,
+    height: 45.8,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 46m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 36.262, 74.246 (Asia).",
+  },
+  {
+    name: "Amphimas pterocarpoides (Fabaceae)",
+    species: "Amphimas pterocarpoides",
+    lat: 2.333,
+    lng: 17.533,
+    height: 44.6,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 45m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Dialium pachyphyllum (Fabaceae)",
+    species: "Dialium pachyphyllum",
+    lat: -0.82,
+    lng: 13.285,
+    height: 46.3,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 46m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Alstonia boonei (Apocynaceae)",
+    species: "Alstonia boonei",
+    lat: 3.08,
+    lng: 13.56,
+    height: 37.9,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 38m. Family: Apocynaceae. Recorded in the Tallo global tree database. Location: 3.08, 13.56 (Africa).",
+  },
+  {
+    name: "Parkia gigantocarpa (Fabaceae)",
+    species: "Parkia gigantocarpa",
+    lat: -6.41,
+    lng: -52.9,
+    height: 38.8,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 39m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -6.41, -52.9 (unknown).",
+  },
+  {
+    name: "Calophyllum polyanthum (Calophyllaceae)",
+    species: "Calophyllum polyanthum",
+    lat: 12.54,
+    lng: 75.66,
+    height: 28.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 28m. Family: Calophyllaceae. Recorded in the Tallo global tree database. Location: 12.54, 75.66 (Asia).",
+  },
+  {
+    name: "Ficus insipida (Moraceae)",
+    species: "Ficus insipida",
+    lat: -10.95,
+    lng: -69.58,
+    height: 42.1,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 42m. Family: Moraceae. Recorded in the Tallo global tree database. Location: -10.95, -69.58 (South America).",
+  },
+  {
+    name: "Eucalyptus delegatensis (Myrtaceae)",
+    species: "Eucalyptus delegatensis",
+    lat: -41.311,
+    lng: 147.539,
+    height: 40.4,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 40m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.311, 147.539 (Oceania).",
+  },
+  {
+    name: "Syzygium wesa (Myrtaceae)",
+    species: "Syzygium wesa",
+    lat: -16.523,
+    lng: 145.267,
+    height: 32.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 130cm. Height: 32m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -16.523, 145.267 (Oceania).",
+  },
+  {
+    name: "Eucalyptus dalrympleana (Myrtaceae)",
+    species: "Eucalyptus dalrympleana",
+    lat: -36.359,
+    lng: 147.585,
+    height: 55.2,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 129cm. Height: 55m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.359, 147.585 (Oceania).",
+  },
+  {
+    name: "Brosimum alicastrum (Moraceae)",
+    species: "Brosimum alicastrum",
+    lat: 9.151,
+    lng: -79.855,
+    height: 38.4,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 129cm. Height: 38m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Stemonocoleus micranthus (Fabaceae)",
+    species: "Stemonocoleus micranthus",
+    lat: 2.333,
+    lng: 17.533,
+    height: 39.2,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 129cm. Height: 39m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Castanea sativa (Fagaceae)",
+    species: "Castanea sativa",
+    lat: 42.358,
+    lng: -7.288,
+    height: 20.5,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 129cm. Height: 20m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.358, -7.288 (Europe).",
+  },
+  {
+    name: "Parashorea malaanonan (Dipterocarpaceae)",
+    species: "Parashorea malaanonan",
+    lat: 4.747,
+    lng: 116.97,
+    height: 37.0,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 129cm. Height: 37m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.747, 116.97 (Asia).",
+  },
+  {
+    name: "Entandrophragma cylindricum (Meliaceae)",
+    species: "Entandrophragma cylindricum",
+    lat: 4.7,
+    lng: 14.32,
+    height: 48.2,
+    circumference: 4.1,
+    description:
+      "Trunk diameter: 129cm. Height: 48m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 4.7, 14.32 (Africa).",
+  },
+  {
+    name: "Piptadeniastrum africanum (Fabaceae)",
+    species: "Piptadeniastrum africanum",
+    lat: 5.22,
+    lng: 13.41,
+    height: 43.2,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 128cm. Height: 43m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 5.22, 13.41 (Africa).",
+  },
+  {
+    name: "Terminalia tomentosa (Combretaceae)",
+    species: "Terminalia tomentosa",
+    lat: 28.799,
+    lng: 80.895,
+    height: 22.0,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 128cm. Height: 22m. Family: Combretaceae. Recorded in the Tallo global tree database. Location: 28.799, 80.895 (Asia).",
+  },
+  {
+    name: "Eucalyptus microcorys (Myrtaceae)",
+    species: "Eucalyptus microcorys",
+    lat: -27.414,
+    lng: 152.779,
+    height: 22.0,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 128cm. Height: 22m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -27.414, 152.779 (Oceania).",
+  },
+  {
+    name: "Quercus petraea (Fagaceae)",
+    species: "Quercus petraea",
+    lat: 43.01,
+    lng: -2.755,
+    height: 20.0,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 127cm. Height: 20m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.01, -2.755 (Europe).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 42.121,
+    lng: -7.065,
+    height: 19.5,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 127cm. Height: 20m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.121, -7.065 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 42.121,
+    lng: -7.065,
+    height: 19.5,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 127cm. Height: 20m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.121, -7.065 (Europe).",
+  },
+  {
+    name: "Erythrophleum ivorense (Fabaceae)",
+    species: "Erythrophleum ivorense",
+    lat: 2.916,
+    lng: 11.15,
+    height: 34.1,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 127cm. Height: 34m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.916, 11.15 (Africa).",
+  },
+  {
+    name: "Dipterocarpus crinitus (Dipterocarpaceae)",
+    species: "Dipterocarpus crinitus",
+    lat: -1.08,
+    lng: 116.97,
+    height: 46.5,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 127cm. Height: 46m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: -1.08, 116.97 (Oceania).",
+  },
+  {
+    name: "Dipterocarpus crinitus (Dipterocarpaceae)",
+    species: "Dipterocarpus crinitus",
+    lat: -1.4,
+    lng: 116.55,
+    height: 46.5,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 127cm. Height: 46m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: -1.4, 116.55 (Oceania).",
+  },
+  {
+    name: "Karrabina biagiana (Cunoniaceae)",
+    species: "Karrabina biagiana",
+    lat: -17.12,
+    lng: 145.632,
+    height: 28.0,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 127cm. Height: 28m. Family: Cunoniaceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Entandrophragma candollei (Meliaceae)",
+    species: "Entandrophragma candollei",
+    lat: 2.333,
+    lng: 17.533,
+    height: 37.6,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 127cm. Height: 38m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Dipterocarpus humeratus (Dipterocarpaceae)",
+    species: "Dipterocarpus humeratus",
+    lat: 5.851,
+    lng: 117.951,
+    height: 43.9,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 126cm. Height: 44m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Detarium macrocarpum (Fabaceae)",
+    species: "Detarium macrocarpum",
+    lat: 2.333,
+    lng: 17.533,
+    height: 32.9,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 126cm. Height: 33m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Afzelia africana (Fabaceae)",
+    species: "Afzelia africana",
+    lat: 5.22,
+    lng: 13.41,
+    height: 30.0,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 126cm. Height: 30m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 5.22, 13.41 (Africa).",
+  },
+  {
+    name: "Quercus robur (Fagaceae)",
+    species: "Quercus robur",
+    lat: 42.935,
+    lng: -2.081,
+    height: 13.0,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 126cm. Height: 13m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.935, -2.081 (Europe).",
+  },
+  {
+    name: "Milicia excelsa (Moraceae)",
+    species: "Milicia excelsa",
+    lat: 4.7,
+    lng: 14.32,
+    height: 55.6,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 126cm. Height: 56m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 4.7, 14.32 (Africa).",
+  },
+  {
+    name: "Isolona hexaloba (Annonaceae)",
+    species: "Isolona hexaloba",
+    lat: -0.82,
+    lng: 9.46,
+    height: null,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 126cm. Family: Annonaceae. Recorded in the Tallo global tree database. Location: -0.82, 9.46 (Africa).",
+  },
+  {
+    name: "Dipterocarpus confertus (Dipterocarpaceae)",
+    species: "Dipterocarpus confertus",
+    lat: 5.851,
+    lng: 117.951,
+    height: 52.4,
+    circumference: 4.0,
+    description:
+      "Trunk diameter: 126cm. Height: 52m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 42.108,
+    lng: -2.286,
+    height: 15.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 126cm. Height: 15m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.108, -2.286 (Europe).",
+  },
+  {
+    name: "Erismadelphus exsul (Vochysiaceae)",
+    species: "Erismadelphus exsul",
+    lat: 3.09,
+    lng: 13.56,
+    height: 37.2,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 126cm. Height: 37m. Family: Vochysiaceae. Recorded in the Tallo global tree database. Location: 3.09, 13.56 (Africa).",
+  },
+  {
+    name: "Quercus robur (Fagaceae)",
+    species: "Quercus robur",
+    lat: 42.911,
+    lng: -7.481,
+    height: 19.5,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 20m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.911, -7.481 (Europe).",
+  },
+  {
+    name: "Aspidosperma parvifolium (Apocynaceae)",
+    species: "Aspidosperma parvifolium",
+    lat: -6.41,
+    lng: -52.9,
+    height: 41.1,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 41m. Family: Apocynaceae. Recorded in the Tallo global tree database. Location: -6.41, -52.9 (unknown).",
+  },
+  {
+    name: "Fagus orientalis (Fagaceae)",
+    species: "Fagus orientalis",
+    lat: 36.549,
+    lng: 51.625,
+    height: 37.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 37m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.549, 51.625 (Africa).",
+  },
+  {
+    name: "Fagus orientalis (Fagaceae)",
+    species: "Fagus orientalis",
+    lat: 36.552,
+    lng: 51.627,
+    height: 30.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 30m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.552, 51.627 (Africa).",
+  },
+  {
+    name: "Fagus orientalis (Fagaceae)",
+    species: "Fagus orientalis",
+    lat: 37.741,
+    lng: 48.848,
+    height: 33.8,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 34m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 37.741, 48.848 (Africa).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.835,
+    lng: -6.272,
+    height: 9.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 9m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.835, -6.272 (Europe).",
+  },
+  {
+    name: "Dipteryx odorata (Fabaceae)",
+    species: "Dipteryx odorata",
+    lat: -1.64,
+    lng: -56.27,
+    height: 46.1,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 46m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -1.64, -56.27 (unknown).",
+  },
+  {
+    name: "Sloanea terniflora (Elaeocarpaceae)",
+    species: "Sloanea terniflora",
+    lat: 9.151,
+    lng: -79.855,
+    height: 36.4,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 36m. Family: Elaeocarpaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Eucalyptus polyanthemos (Myrtaceae)",
+    species: "Eucalyptus polyanthemos",
+    lat: -36.0,
+    lng: 147.0,
+    height: 17.9,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 125cm. Height: 18m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.0, 147.0 (Oceania).",
+  },
+  {
+    name: "Parashorea malaanonan (Dipterocarpaceae)",
+    species: "Parashorea malaanonan",
+    lat: 4.957,
+    lng: 117.792,
+    height: 54.8,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 55m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.957, 117.792 (Asia).",
+  },
+  {
+    name: "Terminalia superba (Combretaceae)",
+    species: "Terminalia superba",
+    lat: 3.93,
+    lng: 14.92,
+    height: 52.7,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 53m. Family: Combretaceae. Recorded in the Tallo global tree database. Location: 3.93, 14.92 (Africa).",
+  },
+  {
+    name: "Pycnanthus angolensis (Myristicaceae)",
+    species: "Pycnanthus angolensis",
+    lat: 4.7,
+    lng: 14.32,
+    height: 34.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 34m. Family: Myristicaceae. Recorded in the Tallo global tree database. Location: 4.7, 14.32 (Africa).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 40.596,
+    lng: -5.104,
+    height: 4.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 4m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.596, -5.104 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 40.596,
+    lng: -5.104,
+    height: 4.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 4m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.596, -5.104 (Europe).",
+  },
+  {
+    name: "Quercus faginea (Fagaceae)",
+    species: "Quercus faginea",
+    lat: 36.785,
+    lng: -5.533,
+    height: 10.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.785, -5.533 (Europe).",
+  },
+  {
+    name: "Shorea stenoptera (Dipterocarpaceae)",
+    species: "Shorea stenoptera",
+    lat: 0.13,
+    lng: 110.6,
+    height: 27.3,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 27m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 0.13, 110.6 (Asia).",
+  },
+  {
+    name: "Aspidosperma excelsum (Apocynaceae)",
+    species: "Aspidosperma excelsum",
+    lat: -3.75,
+    lng: -48.47,
+    height: 42.5,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 42m. Family: Apocynaceae. Recorded in the Tallo global tree database. Location: -3.75, -48.47 (unknown).",
+  },
+  {
+    name: "Tilia dasystyla (Malvaceae)",
+    species: "Tilia dasystyla",
+    lat: 37.658,
+    lng: 48.859,
+    height: 35.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 35m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 37.658, 48.859 (Africa).",
+  },
+  {
+    name: "Picea smithiana (Pinaceae)",
+    species: "Picea smithiana",
+    lat: 35.536,
+    lng: 74.308,
+    height: 60.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 60m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.536, 74.308 (Asia).",
+  },
+  {
+    name: "Picea smithiana (Pinaceae)",
+    species: "Picea smithiana",
+    lat: 35.692,
+    lng: 73.796,
+    height: 45.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 45m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.692, 73.796 (Asia).",
+  },
+  {
+    name: "Xanthophyllum octandrum (Polygalaceae)",
+    species: "Xanthophyllum octandrum",
+    lat: -17.12,
+    lng: 145.632,
+    height: 37.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 37m. Family: Polygalaceae. Recorded in the Tallo global tree database. Location: -17.12, 145.632 (Oceania).",
+  },
+  {
+    name: "Bertholletia excelsa (Lecythidaceae)",
+    species: "Bertholletia excelsa",
+    lat: -12.838,
+    lng: -69.296,
+    height: 34.1,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 34m. Family: Lecythidaceae. Recorded in the Tallo global tree database. Location: -12.838, -69.296 (South America).",
+  },
+  {
+    name: "Quercus canariensis (Fagaceae)",
+    species: "Quercus canariensis",
+    lat: 36.561,
+    lng: -5.481,
+    height: 13.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 124cm. Height: 13m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.561, -5.481 (Europe).",
+  },
+  {
+    name: "Lophira alata (Ochnaceae)",
+    species: "Lophira alata",
+    lat: 2.916,
+    lng: 11.15,
+    height: 37.8,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 123cm. Height: 38m. Family: Ochnaceae. Recorded in the Tallo global tree database. Location: 2.916, 11.15 (Africa).",
+  },
+  {
+    name: "Quercus suber (Fagaceae)",
+    species: "Quercus suber",
+    lat: 41.176,
+    lng: -5.766,
+    height: 6.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 123cm. Height: 6m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 41.176, -5.766 (Europe).",
+  },
+  {
+    name: "Cedrus deodara (Pinaceae)",
+    species: "Cedrus deodara",
+    lat: 35.812,
+    lng: 73.682,
+    height: 27.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 123cm. Height: 27m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.812, 73.682 (Asia).",
+  },
+  {
+    name: "Albizia schimperiana (Fabaceae)",
+    species: "Albizia schimperiana",
+    lat: -3.266,
+    lng: 37.307,
+    height: 25.8,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 123cm. Height: 26m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -3.266, 37.307 (Africa).",
+  },
+  {
+    name: "Canarium schweinfurtii (Burseraceae)",
+    species: "Canarium schweinfurtii",
+    lat: 3.551,
+    lng: 13.411,
+    height: 49.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 123cm. Height: 49m. Family: Burseraceae. Recorded in the Tallo global tree database. Location: 3.551, 13.411 (Africa).",
+  },
+  {
+    name: "Aucoumea klaineana (Burseraceae)",
+    species: "Aucoumea klaineana",
+    lat: -0.84,
+    lng: 9.45,
+    height: 39.2,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 123cm. Height: 39m. Family: Burseraceae. Recorded in the Tallo global tree database. Location: -0.84, 9.45 (Africa).",
+  },
+  {
+    name: "Ficus insipida (Moraceae)",
+    species: "Ficus insipida",
+    lat: 18.57,
+    lng: -95.13,
+    height: 35.0,
+    circumference: 3.9,
+    description:
+      "Trunk diameter: 123cm. Height: 35m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 18.57, -95.13 (North America).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 43.097,
+    lng: -6.776,
+    height: 22.5,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 122cm. Height: 22m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.097, -6.776 (Europe).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 43.144,
+    lng: -2.299,
+    height: 28.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 122cm. Height: 28m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.144, -2.299 (Europe).",
+  },
+  {
+    name: "Trilepisium madagascariense (Moraceae)",
+    species: "Trilepisium madagascariense",
+    lat: 3.93,
+    lng: 14.92,
+    height: 46.7,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 122cm. Height: 47m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 3.93, 14.92 (Africa).",
+  },
+  {
+    name: "Cylicodiscus gabunensis (Fabaceae)",
+    species: "Cylicodiscus gabunensis",
+    lat: 4.7,
+    lng: 14.32,
+    height: 45.9,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 122cm. Height: 46m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 4.7, 14.32 (Africa).",
+  },
+  {
+    name: "Cedrus deodara (Pinaceae)",
+    species: "Cedrus deodara",
+    lat: 35.303,
+    lng: 74.076,
+    height: 19.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 122cm. Height: 19m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.303, 74.076 (Asia).",
+  },
+  {
+    name: "Eucalyptus viminalis (Myrtaceae)",
+    species: "Eucalyptus viminalis",
+    lat: -37.64,
+    lng: 146.496,
+    height: 42.1,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 42m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.64, 146.496 (Oceania).",
+  },
+  {
+    name: "Quercus faginea (Fagaceae)",
+    species: "Quercus faginea",
+    lat: 42.988,
+    lng: -1.246,
+    height: 15.5,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 16m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.988, -1.246 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 37.109,
+    lng: -2.854,
+    height: 18.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 18m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 37.109, -2.854 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.176,
+    lng: -4.867,
+    height: 8.5,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 8m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.176, -4.867 (Europe).",
+  },
+  {
+    name: "Quercus suber (Fagaceae)",
+    species: "Quercus suber",
+    lat: 37.928,
+    lng: -5.606,
+    height: 12.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 37.928, -5.606 (Europe).",
+  },
+  {
+    name: "Acer velutinum (Sapindaceae)",
+    species: "Acer velutinum",
+    lat: 37.689,
+    lng: 48.746,
+    height: 30.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 30m. Family: Sapindaceae. Recorded in the Tallo global tree database. Location: 37.689, 48.746 (Africa).",
+  },
+  {
+    name: "Pinus pinea (Pinaceae)",
+    species: "Pinus pinea",
+    lat: 40.508,
+    lng: -4.357,
+    height: 21.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 21m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 40.508, -4.357 (Europe).",
+  },
+  {
+    name: "Alstonia boonei (Apocynaceae)",
+    species: "Alstonia boonei",
+    lat: 3.317,
+    lng: 17.267,
+    height: 38.9,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 39m. Family: Apocynaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Eucalyptus muelleriana (Myrtaceae)",
+    species: "Eucalyptus muelleriana",
+    lat: -37.565,
+    lng: 146.675,
+    height: 27.5,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 28m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.565, 146.675 (Oceania).",
+  },
+  {
+    name: "Vateria indica (Dipterocarpaceae)",
+    species: "Vateria indica",
+    lat: 12.54,
+    lng: 75.66,
+    height: 36.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 121cm. Height: 36m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 12.54, 75.66 (Asia).",
+  },
+  {
+    name: "Eucalyptus delegatensis (Myrtaceae)",
+    species: "Eucalyptus delegatensis",
+    lat: -37.252,
+    lng: 147.931,
+    height: 43.2,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 43m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.252, 147.931 (Oceania).",
+  },
+  {
+    name: "Parashorea tomentella (Dipterocarpaceae)",
+    species: "Parashorea tomentella",
+    lat: 5.851,
+    lng: 117.951,
+    height: 65.3,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 65m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 5.851, 117.951 (Asia).",
+  },
+  {
+    name: "Caryocar glabrum (Caryocaraceae)",
+    species: "Caryocar glabrum",
+    lat: -3.75,
+    lng: -48.47,
+    height: 27.3,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 27m. Family: Caryocaraceae. Recorded in the Tallo global tree database. Location: -3.75, -48.47 (unknown).",
+  },
+  {
+    name: "Argyrodendron peralatum (Malvaceae)",
+    species: "Argyrodendron peralatum",
+    lat: -17.409,
+    lng: 145.771,
+    height: 44.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 44m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: -17.409, 145.771 (Oceania).",
+  },
+  {
+    name: "Terminalia superba (Combretaceae)",
+    species: "Terminalia superba",
+    lat: 4.7,
+    lng: 14.32,
+    height: 42.4,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 42m. Family: Combretaceae. Recorded in the Tallo global tree database. Location: 4.7, 14.32 (Africa).",
+  },
+  {
+    name: "Carpinus betulus (Betulaceae)",
+    species: "Carpinus betulus",
+    lat: 36.552,
+    lng: 51.627,
+    height: 27.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 27m. Family: Betulaceae. Recorded in the Tallo global tree database. Location: 36.552, 51.627 (Africa).",
+  },
+  {
+    name: "Couratari stellata (Lecythidaceae)",
+    species: "Couratari stellata",
+    lat: -9.17,
+    lng: -62.98,
+    height: 60.4,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 60m. Family: Lecythidaceae. Recorded in the Tallo global tree database. Location: -9.17, -62.98 (unknown).",
+  },
+  {
+    name: "Corymbia maculata (Myrtaceae)",
+    species: "Corymbia maculata",
+    lat: -35.42,
+    lng: 150.3,
+    height: 44.4,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 44m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -35.42, 150.3 (Oceania).",
+  },
+  {
+    name: "Calophyllum longifolium (Calophyllaceae)",
+    species: "Calophyllum longifolium",
+    lat: 9.151,
+    lng: -79.855,
+    height: 29.9,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 30m. Family: Calophyllaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Euxylophora paraensis (Rutaceae)",
+    species: "Euxylophora paraensis",
+    lat: -3.75,
+    lng: -48.47,
+    height: 38.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 38m. Family: Rutaceae. Recorded in the Tallo global tree database. Location: -3.75, -48.47 (unknown).",
+  },
+  {
+    name: "Retrophyllum rospigliosii (Podocarpaceae)",
+    species: "Retrophyllum rospigliosii",
+    lat: -13.047,
+    lng: -71.542,
+    height: 34.3,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 34m. Family: Podocarpaceae. Recorded in the Tallo global tree database. Location: -13.047, -71.542 (South America).",
+  },
+  {
+    name: "Petersianthus macrocarpus (Lecythidaceae)",
+    species: "Petersianthus macrocarpus",
+    lat: 2.333,
+    lng: 17.533,
+    height: 42.2,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 42m. Family: Lecythidaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Eucalyptus obliqua (Myrtaceae)",
+    species: "Eucalyptus obliqua",
+    lat: -41.045,
+    lng: 145.567,
+    height: 43.0,
+    circumference: 3.8,
+    description:
+      "Trunk diameter: 120cm. Height: 43m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.045, 145.567 (Oceania).",
+  },
+  {
+    name: "Pterocarpus soyauxii (Fabaceae)",
+    species: "Pterocarpus soyauxii",
+    lat: 2.916,
+    lng: 11.15,
+    height: 37.8,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 119cm. Height: 38m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.916, 11.15 (Africa).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 40.632,
+    lng: -5.909,
+    height: 13.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 119cm. Height: 14m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.632, -5.909 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 40.632,
+    lng: -5.909,
+    height: 13.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 119cm. Height: 14m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.632, -5.909 (Europe).",
+  },
+  {
+    name: "Cedrus deodara (Pinaceae)",
+    species: "Cedrus deodara",
+    lat: 35.642,
+    lng: 73.991,
+    height: 24.8,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 25m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.642, 73.991 (Asia).",
+  },
+  {
+    name: "Piptadeniastrum africanum (Fabaceae)",
+    species: "Piptadeniastrum africanum",
+    lat: 2.333,
+    lng: 17.533,
+    height: 34.8,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 35m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 41.912,
+    lng: -3.205,
+    height: 18.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 18m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 41.912, -3.205 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 41.912,
+    lng: -3.205,
+    height: 18.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 18m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 41.912, -3.205 (Europe).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 42.443,
+    lng: -0.106,
+    height: 15.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 15m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.443, -0.106 (Europe).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 43.327,
+    lng: -4.973,
+    height: 25.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 26m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.327, -4.973 (Europe).",
+  },
+  {
+    name: "Shorea parvifolia (Dipterocarpaceae)",
+    species: "Shorea parvifolia",
+    lat: 4.747,
+    lng: 116.97,
+    height: 47.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 47m. Family: Dipterocarpaceae. Recorded in the Tallo global tree database. Location: 4.747, 116.97 (Asia).",
+  },
+  {
+    name: "Xanthostemon chrysanthus (Myrtaceae)",
+    species: "Xanthostemon chrysanthus",
+    lat: -13.739,
+    lng: 143.348,
+    height: 23.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 23m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -13.739, 143.348 (Oceania).",
+  },
+  {
+    name: "Abies pindrow (Pinaceae)",
+    species: "Abies pindrow",
+    lat: 35.69,
+    lng: 73.79,
+    height: 33.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 33m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.69, 73.79 (Asia).",
+  },
+  {
+    name: "Duboscia macrocarpa (Malvaceae)",
+    species: "Duboscia macrocarpa",
+    lat: 3.92,
+    lng: 14.93,
+    height: 30.7,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 31m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 3.92, 14.93 (Africa).",
+  },
+  {
+    name: "Couratari guianensis (Lecythidaceae)",
+    species: "Couratari guianensis",
+    lat: -9.17,
+    lng: -62.98,
+    height: 52.3,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 52m. Family: Lecythidaceae. Recorded in the Tallo global tree database. Location: -9.17, -62.98 (unknown).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 41.423,
+    lng: -6.009,
+    height: 7.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 7m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 41.423, -6.009 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.193,
+    lng: -4.328,
+    height: 7.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 8m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.193, -4.328 (Europe).",
+  },
+  {
+    name: "Flindersia pimenteliana (Rutaceae)",
+    species: "Flindersia pimenteliana",
+    lat: -17.309,
+    lng: 145.437,
+    height: 25.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 25m. Family: Rutaceae. Recorded in the Tallo global tree database. Location: -17.309, 145.437 (Oceania).",
+  },
+  {
+    name: "Pinus pinea (Pinaceae)",
+    species: "Pinus pinea",
+    lat: 40.404,
+    lng: -3.943,
+    height: 22.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 22m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 40.404, -3.943 (Europe).",
+  },
+  {
+    name: "Caryocar glabrum (Caryocaraceae)",
+    species: "Caryocar glabrum",
+    lat: -5.3,
+    lng: -53.5,
+    height: 38.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 38m. Family: Caryocaraceae. Recorded in the Tallo global tree database. Location: -5.3, -53.5 (unknown).",
+  },
+  {
+    name: "Ficus colubrinae (Moraceae)",
+    species: "Ficus colubrinae",
+    lat: 18.57,
+    lng: -95.13,
+    height: 29.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 118cm. Height: 29m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 18.57, -95.13 (North America).",
+  },
+  {
+    name: "Manilkara mabokeensis (Sapotaceae)",
+    species: "Manilkara mabokeensis",
+    lat: 2.333,
+    lng: 17.533,
+    height: 37.2,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 37m. Family: Sapotaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Copaifera reticulata (Fabaceae)",
+    species: "Copaifera reticulata",
+    lat: -10.95,
+    lng: -69.58,
+    height: 33.8,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 34m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -10.95, -69.58 (South America).",
+  },
+  {
+    name: "Hymenaea courbaril (Fabaceae)",
+    species: "Hymenaea courbaril",
+    lat: -3.75,
+    lng: -48.47,
+    height: 47.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 47m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -3.75, -48.47 (unknown).",
+  },
+  {
+    name: "Quercus stellata (Fagaceae)",
+    species: "Quercus stellata",
+    lat: 33.404,
+    lng: -97.571,
+    height: null,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 33.404, -97.571 (North America).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 41.92,
+    lng: -2.578,
+    height: 12.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 41.92, -2.578 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 41.92,
+    lng: -2.578,
+    height: 12.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 41.92, -2.578 (Europe).",
+  },
+  {
+    name: "Quercus canariensis (Fagaceae)",
+    species: "Quercus canariensis",
+    lat: 36.502,
+    lng: -5.278,
+    height: 13.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 13m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.502, -5.278 (Europe).",
+  },
+  {
+    name: "Ricinodendron heudelotii (Euphorbiaceae)",
+    species: "Ricinodendron heudelotii",
+    lat: 3.92,
+    lng: 14.93,
+    height: 41.6,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 42m. Family: Euphorbiaceae. Recorded in the Tallo global tree database. Location: 3.92, 14.93 (Africa).",
+  },
+  {
+    name: "Eucalyptus populnea (Myrtaceae)",
+    species: "Eucalyptus populnea",
+    lat: -25.4,
+    lng: 148.6,
+    height: 23.2,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 23m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -25.4, 148.6 (Oceania).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 42.974,
+    lng: -2.571,
+    height: 18.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 18m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.974, -2.571 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 38.43,
+    lng: -6.732,
+    height: 7.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 7m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 38.43, -6.732 (Europe).",
+  },
+  {
+    name: "Eucalyptus falciformis (Myrtaceae)",
+    species: "Eucalyptus falciformis",
+    lat: -37.92,
+    lng: 141.405,
+    height: 17.2,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 117cm. Height: 17m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -37.92, 141.405 (Oceania).",
+  },
+  {
+    name: "Eucalyptus camaldulensis (Myrtaceae)",
+    species: "Eucalyptus camaldulensis",
+    lat: -36.063,
+    lng: 144.867,
+    height: 19.6,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 116cm. Height: 20m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.063, 144.867 (Oceania).",
+  },
+  {
+    name: "Eucalyptus delegatensis (Myrtaceae)",
+    species: "Eucalyptus delegatensis",
+    lat: -41.67,
+    lng: 146.502,
+    height: 36.1,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 116cm. Height: 36m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -41.67, 146.502 (Oceania).",
+  },
+  {
+    name: "Ganophyllum giganteum (Sapindaceae)",
+    species: "Ganophyllum giganteum",
+    lat: 3.317,
+    lng: 17.267,
+    height: 28.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 116cm. Height: 28m. Family: Sapindaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Fagus sylvatica (Fagaceae)",
+    species: "Fagus sylvatica",
+    lat: 43.292,
+    lng: -4.282,
+    height: 28.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 116cm. Height: 28m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 43.292, -4.282 (Europe).",
+  },
+  {
+    name: "Quercus faginea (Fagaceae)",
+    species: "Quercus faginea",
+    lat: 40.414,
+    lng: -2.21,
+    height: 8.0,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 116cm. Height: 8m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.414, -2.21 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 39.838,
+    lng: -5.162,
+    height: 6.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 116cm. Height: 6m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 39.838, -5.162 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.907,
+    lng: -6.27,
+    height: 9.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 116cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.907, -6.27 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 39.078,
+    lng: -6.665,
+    height: 7.5,
+    circumference: 3.7,
+    description:
+      "Trunk diameter: 116cm. Height: 8m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 39.078, -6.665 (Europe).",
+  },
+  {
+    name: "Eucalyptus dalrympleana (Myrtaceae)",
+    species: "Eucalyptus dalrympleana",
+    lat: -36.602,
+    lng: 147.996,
+    height: 34.3,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 34m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.602, 147.996 (Oceania).",
+  },
+  {
+    name: "Acer velutinum (Sapindaceae)",
+    species: "Acer velutinum",
+    lat: 37.644,
+    lng: 48.828,
+    height: 42.4,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 42m. Family: Sapindaceae. Recorded in the Tallo global tree database. Location: 37.644, 48.828 (Africa).",
+  },
+  {
+    name: "Picea smithiana (Pinaceae)",
+    species: "Picea smithiana",
+    lat: 36.259,
+    lng: 74.254,
+    height: 36.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 36m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 36.259, 74.254 (Asia).",
+  },
+  {
+    name: "Klainedoxa gabonensis (Irvingiaceae)",
+    species: "Klainedoxa gabonensis",
+    lat: 3.317,
+    lng: 17.267,
+    height: 31.6,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 32m. Family: Irvingiaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Eucalyptus guilfoylei (Myrtaceae)",
+    species: "Eucalyptus guilfoylei",
+    lat: -34.996,
+    lng: 116.65,
+    height: 44.6,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 45m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.996, 116.65 (Oceania).",
+  },
+  {
+    name: "Taxodium distichum (Cupressaceae)",
+    species: "Taxodium distichum",
+    lat: 32.542,
+    lng: -87.802,
+    height: 22.9,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 23m. Family: Cupressaceae. Recorded in the Tallo global tree database. Location: 32.542, -87.802 (North America).",
+  },
+  {
+    name: "Milicia excelsa (Moraceae)",
+    species: "Milicia excelsa",
+    lat: 3.551,
+    lng: 13.411,
+    height: 44.5,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 44m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 3.551, 13.411 (Africa).",
+  },
+  {
+    name: "Picea smithiana (Pinaceae)",
+    species: "Picea smithiana",
+    lat: 35.462,
+    lng: 74.769,
+    height: 31.1,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 31m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.462, 74.769 (Asia).",
+  },
+  {
+    name: "Caryocar glabrum (Caryocaraceae)",
+    species: "Caryocar glabrum",
+    lat: -2.95,
+    lng: -59.97,
+    height: 59.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 59m. Family: Caryocaraceae. Recorded in the Tallo global tree database. Location: -2.95, -59.97 (unknown).",
+  },
+  {
+    name: "Agathis atropurpurea (Araucariaceae)",
+    species: "Agathis atropurpurea",
+    lat: -17.088,
+    lng: 145.592,
+    height: 38.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 38m. Family: Araucariaceae. Recorded in the Tallo global tree database. Location: -17.088, 145.592 (Oceania).",
+  },
+  {
+    name: "Pentaclethra macrophylla (Fabaceae)",
+    species: "Pentaclethra macrophylla",
+    lat: 3.3,
+    lng: 13.81,
+    height: 36.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 36m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 3.3, 13.81 (Africa).",
+  },
+  {
+    name: "Apuleia leiocarpa (Fabaceae)",
+    species: "Apuleia leiocarpa",
+    lat: -3.02,
+    lng: -54.96,
+    height: 51.4,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 116cm. Height: 51m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -3.02, -54.96 (unknown).",
+  },
+  {
+    name: "Eucalyptus cypellocarpa (Myrtaceae)",
+    species: "Eucalyptus cypellocarpa",
+    lat: -36.759,
+    lng: 149.436,
+    height: 34.2,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 34m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.759, 149.436 (Oceania).",
+  },
+  {
+    name: "Quercus canariensis (Fagaceae)",
+    species: "Quercus canariensis",
+    lat: 36.38,
+    lng: -5.508,
+    height: 16.5,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 16m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.38, -5.508 (Europe).",
+  },
+  {
+    name: "Fagus orientalis (Fagaceae)",
+    species: "Fagus orientalis",
+    lat: 37.692,
+    lng: 48.69,
+    height: 32.5,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 32m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 37.692, 48.69 (Africa).",
+  },
+  {
+    name: "Pterocarpus soyauxii (Fabaceae)",
+    species: "Pterocarpus soyauxii",
+    lat: 3.317,
+    lng: 17.267,
+    height: 32.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 32m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 3.317, 17.267 (Africa).",
+  },
+  {
+    name: "Cavanillesia umbellata (Malvaceae)",
+    species: "Cavanillesia umbellata",
+    lat: -10.95,
+    lng: -69.58,
+    height: 27.7,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 28m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: -10.95, -69.58 (South America).",
+  },
+  {
+    name: "Quercus castaneifolia (Fagaceae)",
+    species: "Quercus castaneifolia",
+    lat: 36.548,
+    lng: 51.626,
+    height: 32.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 32m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 36.548, 51.626 (Africa).",
+  },
+  {
+    name: "Ficus fergusonii (Moraceae)",
+    species: "Ficus fergusonii",
+    lat: 8.326,
+    lng: 80.514,
+    height: 18.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 18m. Family: Moraceae. Recorded in the Tallo global tree database. Location: 8.326, 80.514 (Asia).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 42.272,
+    lng: -3.315,
+    height: 17.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 17m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.272, -3.315 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 42.272,
+    lng: -3.315,
+    height: 17.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 17m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.272, -3.315 (Europe).",
+  },
+  {
+    name: "Luehea seemannii (Malvaceae)",
+    species: "Luehea seemannii",
+    lat: 9.151,
+    lng: -79.855,
+    height: 34.1,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 34m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Lophira alata (Ochnaceae)",
+    species: "Lophira alata",
+    lat: -0.79,
+    lng: 10.6,
+    height: 46.6,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 47m. Family: Ochnaceae. Recorded in the Tallo global tree database. Location: -0.79, 10.6 (Africa).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 37.966,
+    lng: -6.109,
+    height: 13.5,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 14m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 37.966, -6.109 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 38.658,
+    lng: -5.597,
+    height: 6.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 6m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 38.658, -5.597 (Europe).",
+  },
+  {
+    name: "Apeiba membranacea (Malvaceae)",
+    species: "Apeiba membranacea",
+    lat: 9.151,
+    lng: -79.855,
+    height: 32.4,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 115cm. Height: 32m. Family: Malvaceae. Recorded in the Tallo global tree database. Location: 9.151, -79.855 (North America).",
+  },
+  {
+    name: "Dysoxylum pettigrewianum (Meliaceae)",
+    species: "Dysoxylum pettigrewianum",
+    lat: -17.286,
+    lng: 145.572,
+    height: 41.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 41m. Family: Meliaceae. Recorded in the Tallo global tree database. Location: -17.286, 145.572 (Oceania).",
+  },
+  {
+    name: "Flindersia brayleyana (Rutaceae)",
+    species: "Flindersia brayleyana",
+    lat: -17.35,
+    lng: 145.479,
+    height: 26.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 26m. Family: Rutaceae. Recorded in the Tallo global tree database. Location: -17.35, 145.479 (Oceania).",
+  },
+  {
+    name: "Cedrelinga cateniformis (Fabaceae)",
+    species: "Cedrelinga cateniformis",
+    lat: -12.838,
+    lng: -69.296,
+    height: 40.3,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 40m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -12.838, -69.296 (South America).",
+  },
+  {
+    name: "Fagus orientalis (Fagaceae)",
+    species: "Fagus orientalis",
+    lat: 37.642,
+    lng: 48.863,
+    height: 36.2,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 36m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 37.642, 48.863 (Africa).",
+  },
+  {
+    name: "Stemonocoleus micranthus (Fabaceae)",
+    species: "Stemonocoleus micranthus",
+    lat: -0.82,
+    lng: 13.285,
+    height: 43.1,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 43m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -0.82, 13.285 (Africa).",
+  },
+  {
+    name: "Newtonia buchananii (Fabaceae)",
+    species: "Newtonia buchananii",
+    lat: -3.249,
+    lng: 37.408,
+    height: 45.3,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 45m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: -3.249, 37.408 (Africa).",
+  },
+  {
+    name: "Angophora costata (Myrtaceae)",
+    species: "Angophora costata",
+    lat: -34.086,
+    lng: 151.138,
+    height: 22.4,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 22m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -34.086, 151.138 (Oceania).",
+  },
+  {
+    name: "Eucalyptus resinifera (Myrtaceae)",
+    species: "Eucalyptus resinifera",
+    lat: -17.108,
+    lng: 145.553,
+    height: 26.4,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 26m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -17.108, 145.553 (Oceania).",
+  },
+  {
+    name: "Pterocarpus soyauxii (Fabaceae)",
+    species: "Pterocarpus soyauxii",
+    lat: 2.333,
+    lng: 17.533,
+    height: 35.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 35m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Agathis robusta (Araucariaceae)",
+    species: "Agathis robusta",
+    lat: -16.28,
+    lng: 145.102,
+    height: 40.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 114cm. Height: 40m. Family: Araucariaceae. Recorded in the Tallo global tree database. Location: -16.28, 145.102 (Oceania).",
+  },
+  {
+    name: "Anopyxis klaineana (Rhizophoraceae)",
+    species: "Anopyxis klaineana",
+    lat: 2.333,
+    lng: 17.533,
+    height: 43.6,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 113cm. Height: 44m. Family: Rhizophoraceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Eucalyptus delegatensis (Myrtaceae)",
+    species: "Eucalyptus delegatensis",
+    lat: -36.781,
+    lng: 148.026,
+    height: 43.8,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 113cm. Height: 44m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -36.781, 148.026 (Oceania).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.724,
+    lng: -6.159,
+    height: 9.5,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 113cm. Height: 10m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.724, -6.159 (Europe).",
+  },
+  {
+    name: "Aspidosperma excelsum (Apocynaceae)",
+    species: "Aspidosperma excelsum",
+    lat: -1.64,
+    lng: -56.27,
+    height: 38.9,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 113cm. Height: 39m. Family: Apocynaceae. Recorded in the Tallo global tree database. Location: -1.64, -56.27 (unknown).",
+  },
+  {
+    name: "Flindersia brayleyana (Rutaceae)",
+    species: "Flindersia brayleyana",
+    lat: -16.523,
+    lng: 145.267,
+    height: 35.0,
+    circumference: 3.6,
+    description:
+      "Trunk diameter: 113cm. Height: 35m. Family: Rutaceae. Recorded in the Tallo global tree database. Location: -16.523, 145.267 (Oceania).",
+  },
+  {
+    name: "Eucalyptus dalrympleana (Myrtaceae)",
+    species: "Eucalyptus dalrympleana",
+    lat: -35.1,
+    lng: 148.7,
+    height: 47.6,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 113cm. Height: 48m. Family: Myrtaceae. Recorded in the Tallo global tree database. Location: -35.1, 148.7 (Oceania).",
+  },
+  {
+    name: "Quercus pyrenaica (Fagaceae)",
+    species: "Quercus pyrenaica",
+    lat: 42.974,
+    lng: -2.779,
+    height: 20.5,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 113cm. Height: 20m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.974, -2.779 (Europe).",
+  },
+  {
+    name: "Quercus pubescens (Fagaceae)",
+    species: "Quercus pubescens",
+    lat: 42.974,
+    lng: -2.779,
+    height: 20.5,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 113cm. Height: 20m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 42.974, -2.779 (Europe).",
+  },
+  {
+    name: "Quercus ilex (Fagaceae)",
+    species: "Quercus ilex",
+    lat: 40.216,
+    lng: -4.657,
+    height: 12.0,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 113cm. Height: 12m. Family: Fagaceae. Recorded in the Tallo global tree database. Location: 40.216, -4.657 (Europe).",
+  },
+  {
+    name: "Pinus wallichiana (Pinaceae)",
+    species: "Pinus wallichiana",
+    lat: 35.343,
+    lng: 74.791,
+    height: 20.0,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 113cm. Height: 20m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 35.343, 74.791 (Asia).",
+  },
+  {
+    name: "Pinus pinaster (Pinaceae)",
+    species: "Pinus pinaster",
+    lat: 40.554,
+    lng: -4.276,
+    height: 23.0,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 113cm. Height: 23m. Family: Pinaceae. Recorded in the Tallo global tree database. Location: 40.554, -4.276 (Europe).",
+  },
+  {
+    name: "Albizia ferruginea (Fabaceae)",
+    species: "Albizia ferruginea",
+    lat: 2.333,
+    lng: 17.533,
+    height: 38.0,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 113cm. Height: 38m. Family: Fabaceae. Recorded in the Tallo global tree database. Location: 2.333, 17.533 (Africa).",
+  },
+  {
+    name: "Liriodendron tulipifera (Magnoliaceae)",
+    species: "Liriodendron tulipifera",
+    lat: 38.893,
+    lng: -78.136,
+    height: 31.4,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 113cm. Height: 31m. Family: Magnoliaceae. Recorded in the Tallo global tree database. Location: 38.893, -78.136 (North America).",
+  },
+  {
+    name: "Fraxinus excelsior (Oleaceae)",
+    species: "Fraxinus excelsior",
+    lat: 48.2674,
+    lng: 23.6226,
+    height: 46.9,
+    circumference: 3.5,
+    description:
+      "Trunk diameter: 112cm. Height: 47m. Family: Oleaceae. Recorded in the Tallo global tree database. Location: 48.2674, 23.6226 (Europe).",
+  },
 ];
 
 async function seed() {
