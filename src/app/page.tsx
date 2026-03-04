@@ -167,39 +167,58 @@ export default function Home() {
     <div style={{ width: "100vw", height: "100vh", position: "relative" }}>
       <div ref={mapContainer} style={{ width: "100%", height: "100%" }} />
 
-      {/* Add tree button */}
-      <button
-        onClick={() => {
-          // Clean up preview marker when toggling
-          if (previewMarkerRef.current) {
-            previewMarkerRef.current.remove();
-            previewMarkerRef.current = null;
-          }
-          setAdding(!adding);
-          setClickLngLat(null);
-          setForm({ name: "", species: "", description: "" });
-          setManualLat("");
-          setManualLng("");
-        }}
-        style={{
-          position: "absolute",
-          top: 10,
-          right: 10,
-          padding: "8px 16px",
-          background: adding ? "#e74c3c" : "#27ae60",
-          color: "#fff",
-          border: "none",
-          borderRadius: 6,
-          fontSize: 14,
-          fontWeight: 600,
-          cursor: "pointer",
-          boxShadow: "0 2px 8px rgba(0,0,0,.25)",
-          fontFamily: "system-ui",
-          zIndex: 1,
-        }}
-      >
-        {adding ? "Cancel" : "+ Add Tree"}
-      </button>
+      {/* Top-right buttons */}
+      <div style={{ position: "absolute", top: 10, right: 10, display: "flex", gap: 8, zIndex: 1 }}>
+        <a
+          href="https://www.s33d.life/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            padding: "8px 16px",
+            background: "rgba(255,255,255,0.9)",
+            color: "#444",
+            border: "none",
+            borderRadius: 6,
+            fontSize: 13,
+            fontWeight: 500,
+            cursor: "pointer",
+            boxShadow: "0 2px 8px rgba(0,0,0,.25)",
+            fontFamily: "system-ui",
+            textDecoration: "none",
+            display: "inline-flex",
+            alignItems: "center",
+          }}
+        >
+          Inspired by S33D.life
+        </a>
+        <button
+          onClick={() => {
+            if (previewMarkerRef.current) {
+              previewMarkerRef.current.remove();
+              previewMarkerRef.current = null;
+            }
+            setAdding(!adding);
+            setClickLngLat(null);
+            setForm({ name: "", species: "", description: "" });
+            setManualLat("");
+            setManualLng("");
+          }}
+          style={{
+            padding: "8px 16px",
+            background: adding ? "#e74c3c" : "#27ae60",
+            color: "#fff",
+            border: "none",
+            borderRadius: 6,
+            fontSize: 14,
+            fontWeight: 600,
+            cursor: "pointer",
+            boxShadow: "0 2px 8px rgba(0,0,0,.25)",
+            fontFamily: "system-ui",
+          }}
+        >
+          {adding ? "Cancel" : "+ Add Tree"}
+        </button>
+      </div>
 
       {/* Add-tree form after clicking map */}
       {adding && clickLngLat && (
