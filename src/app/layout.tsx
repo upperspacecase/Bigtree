@@ -4,6 +4,24 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Big Tree",
   description: "The biggest trees in the world",
+  openGraph: {
+    title: "Big Tree",
+    description: "The biggest trees in the world",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 600,
+        height: 1067,
+        alt: "Big Tree - Interactive globe showing trees around the world",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Big Tree",
+    description: "The biggest trees in the world",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
